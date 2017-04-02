@@ -73,7 +73,7 @@ function getTypeOfCode(){
 }
 
 for ($i=1; $i<=$amount_to_insert;$i++) {
-    $postal_code = $i+1000;
+    $postal_code = $i+999;
     $city = getCity();
     $type = getTypeOfCode();
 
@@ -133,7 +133,7 @@ function getStreet(){
 }
 
 for ($i=1; $i<=$amount_to_insert;$i++) {
-             $postal_code = rand(1000,1000+$amount_to_insert);  
+             $postal_code = rand(1000,999+$amount_to_insert);  
              $street = getStreet();
              $flat = rand(1,100);
              $hause = rand(1,50);
@@ -157,7 +157,7 @@ $types = array("ACTIVE","INACTIVE");
 }
 
 for ($i=1; $i<=$amount_to_insert;$i++) {
-             $postal_code = rand(1000,1000+$amount_to_insert);  
+             $postal_code = rand(1000,999+$amount_to_insert);  
              $customer_id = rand(1,$amount_to_insert);
              $faciluty_type = getFacilitiesType();
              $facility_name = addBrackets("Local Facility " . $i . " " . "GMBH");
@@ -272,5 +272,4 @@ for ($i=1; $i<=$amount_to_insert;$i++) {
           pg_query($db_connection, "INSERT INTO symptom VALUES ($i,$symptom_type,$symptom_description,$caused_by,$assumption,$symption_from)");
 }
 
-echo $result . PHP_EOL;
 ?>

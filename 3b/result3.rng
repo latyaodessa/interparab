@@ -1,0 +1,234 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+   
+   <start>
+   	      	<element name="appointment_data">
+			         <oneOrMore>
+			         	<ref name="appointment_data"/>
+        			 </oneOrMore>
+          	</element>
+	 </start>
+
+	 <!-- DEFINE -->
+	 <define name="appointment_data">
+	 	<element name="appointment">
+	 		<attribute name="appointment_id">
+	 			<ref name="only_numbers_validation"/>
+	 		</attribute>
+	 		<element name="appointment_type">
+	 			<ref name="appointment_type_validator"/>
+	 		</element>
+	 		<element name="special_handling">
+	 			<ref name="only_string_validation"/>
+	 		</element>
+			 	<element name="appointment_details">
+			 		<element name="customer_info">
+			 			<element name="customer_details">
+			 				<ref name="customer_details_attr"/>
+			 				<element name="customer_to_export">
+			 					<element name="customer_data">
+			 						<ref name="customer_info"/>
+			 					</element>
+			 				</element>
+			 			</element>
+			 		</element>
+			 		<element name="appointment_date">
+			 			<attribute name="appointment_id">
+			 				<ref name="only_numbers_validation"/>
+			 			</attribute>
+			 			<element name="real_date">
+			 				<ref name="only_string_validation"/>
+			 			</element>
+			 			<element name="estimated_date">
+			 				<data type="string"/>
+			 			</element>
+			 		</element>
+			 		<element name="status">
+			 			<ref name="status_data"/>
+			 		</element>
+			 	</element>
+	 	</element>
+	 </define>
+
+<define name="status_data">
+	<element name="symptom">
+		<attribute name="symptom_type">
+		<ref name="only_string_validation"/>
+	</attribute>
+	<element name="symptom_description">
+		<ref name="only_string_validation"/>
+	</element>
+		<element name="caused_by">
+		<ref name="only_string_validation"/>
+	</element>
+		<element name="assumption">
+		<ref name="only_string_validation"/>
+	</element>
+	<element name="symptom_from">
+		<ref name="only_string_validation"/>
+	</element>
+				<element name="status">
+						<attribute name="status">
+							<ref name="only_string_validation"/>
+						</attribute>
+						<attribute name="status_type">
+							<ref name="only_string_validation"/>
+						</attribute>
+						<element name="repared">
+							<ref name="reapred_validation"/>
+						</element>
+						<element name="spendet_time">
+							<ref name="time_validator"/>
+						</element>
+						<element name="estimated_time">
+							<ref name="time_validator"/>
+						</element>
+			</element>
+</element>
+</define>
+
+	 <define name="customer_info">
+	 		<element name="customer">
+	 			<interleave>
+				 				<element name="customer_id">
+				 					<ref name="only_numbers_validation"/>
+				 				</element>
+				 				<element name="fridge_id">
+				 					<ref name="only_numbers_validation"/>
+				 				</element>
+	 							<element name="last_name">
+				 						<ref name="only_string_validation"/>
+				 			   	</element>
+				 			     <element name="first_name">
+				 						<ref name="only_string_validation"/>
+				 			     </element>
+				 			     <element name="age">
+				 					<ref name="only_numbers_validation"/>
+				 				</element>
+				 			      <element name="gender">
+				 						<ref name="gender_validation"/>
+				 			     </element>
+				 			      <element name="title">
+				 						<ref name="title_validation"/>
+				 			     </element>
+				 			      <element name="phone">
+				 						<ref name="only_string_validation"/>
+				 			     </element>
+				 			     <element name="email">
+								<data type="string"/>
+			 					</element>
+			 					<element name="customer_address">
+			 					<ref name="customer_address"/>
+			 				</element>
+	 			</interleave>
+	 		</element>
+	 </define>
+
+	 <define name="customer_address">
+	 	<interleave>
+					<element name="street">
+						<list>
+							<data type="string"/>
+							<data type="string"/>
+						</list>
+					 </element>
+					 <element name="hause">
+						<ref name="only_numbers_validation"/>
+					 </element>
+					 <element name="flat">
+						<ref name="only_numbers_validation"/>
+					 </element>
+ 			   		  <element name="porch">
+						<ref name="only_numbers_validation"/>
+					 </element>
+					 <element name="postal_code">
+					 <ref name="postal_code"/>
+					</element>
+			</interleave>
+	 </define>
+
+	 <define name="postal_code">
+	 		<interleave>
+	 			<element name="postal_code">
+						<ref name="only_numbers_validation"/>
+				</element>
+				<element name="country">
+					<ref name="only_string_validation"/>
+				</element>
+				<element name="city">
+					<ref name="only_string_validation"/>
+				</element>
+				<element name="continent">
+					<ref name="only_string_validation"/>
+				</element>
+				<element name="type">
+					<choice>
+						<value>commercial</value>
+						<value>private</value>
+					</choice>
+				</element>
+			</interleave>
+	 </define>
+
+
+<!-- ATTR -->
+<define name="customer_details_attr">
+	<attribute name="customer_id">
+		<ref name="only_numbers_validation"/>
+	</attribute>
+	<attribute name="age">
+		<ref name="only_numbers_validation"/>
+	</attribute>
+	</define>
+
+<!-- VALIDATORS -->
+
+	<define name="appointment_type_validator">
+			<choice>
+					 <value>CORPORATE</value>
+					 <value>PRIVATE</value>
+			 </choice>
+		</define>
+	
+	<define name="only_numbers_validation">
+		<data type="string">
+		 <param name="pattern">[0-9]*</param>
+		</data>
+     </define> 
+
+	<define name="only_string_validation">
+		<data type="string">
+		 <param name="pattern">.*</param>
+		</data>
+     </define> 
+
+     	<define name="gender_validation">
+			 <choice>
+					 <value>female</value>
+					 <value>male</value>
+			 </choice>
+     </define> 
+
+          	<define name="title_validation">
+			 <choice>
+			 		<value>mrs</value>
+					 <value>ms</value>
+					 <value>mr</value>
+			 </choice>
+     </define> 
+
+     <define name="time_validator">
+     	<data type="string">
+		 <param name="pattern">[0-9][0-9]:[0-9][0-9]:[0-9][0-9]</param>
+		</data>
+     </define>
+
+     <define name="reapred_validation">
+     			<choice>
+					 <value>NEED TO TAKE FRIDGE</value>
+					 <value>ALL OK</value>
+					 <value>NEED TOOLS</value>
+					 <value>NEED HELP</value>
+			 	</choice>
+     </define>
+
+</grammar>

@@ -9,11 +9,10 @@ for ($i=1; $i<=$amount_to_insert;$i++) {
     									join customer_address AS cp ON c.customer_id = cp.customer_id 
     									join postal_code as pc ON cp.postal_code = pc.postal_code
     									where c.customer_id = $i");
-
+  
   if(pg_fetch_all($result)){
 
 $res = pg_fetch_all($result)[0];
-
 
 
 
@@ -46,11 +45,15 @@ $postal_code -> addChild("continent",trim($res['continent']));
 $postal_code -> addChild("type",trim($res['type']));
 
 $asXml = '\'' . $xml->asXML() . '\'';
+$dom = dom_import_simplexml($xml);
+$xmlParesed = '\'' .  $dom->ownerDocument->saveXML($dom->ownerDocument->documentElement) . '\'';
 
-pg_query($db_connection, "UPDATE customer SET customer_to_export = $asXml where customer_id = $i");
+pg_query($db_connection, "UPDATE customer SET customer_to_export = $xmlParesed where customer_id = $i");
 
   }
+  
 }
+
 
     for ($i=1; $i<=$amount_to_insert;$i++) {
 
@@ -58,7 +61,9 @@ pg_query($db_connection, "UPDATE customer SET customer_to_export = $asXml where 
   $result = pg_query($db_connection, "select * from appointment as a 
   										join local_facility as lf ON a.facility_id = lf.facility_id
   										join repair_status as rp ON a.appointment_id = rp.appointment_id
-  										where a.appointment_id = 1");
+  										join symptom as s ON a.appointment_id = s.appointment_id
+  										where a.appointment_id = $i");
+
 
     if(pg_fetch_all($result)){
 
@@ -87,12 +92,23 @@ pg_query($db_connection, "UPDATE customer SET customer_to_export = $asXml where 
 		$repair -> addChild('spendet_time',trim($res['spendet_time']));
 		$repair -> addChild('esitmated_time',trim($res['esitmated_time']));
 
+		$symptom = $repair -> addChild('symptom');
+		$symptom -> addChild('symptom_type',trim($res['symptom_type']));
+		$symptom -> addChild('symptom_description',trim($res['symptom_description']));
+		$symptom -> addChild('caused_by',trim($res['caused_by']));
+		$symptom -> addChild('assumption',trim($res['assumption']));
+		$symptom -> addChild('symptom_from',trim($res['symptom_from']));
+
+
 		$asXml = '\'' . $xml->asXML() . '\'';
 
-		pg_query($db_connection, "UPDATE appointment SET appointment_data_to_export = $asXml where customer_id = $i");
+		$dom = dom_import_simplexml($xml);
+		$xmlParesed = '\'' .  $dom->ownerDocument->saveXML($dom->ownerDocument->documentElement) . '\'';
 
+		pg_query($db_connection, "UPDATE appointment SET appointment_data_to_export = $xmlParesed where customer_id = $i");
 
 }
+
 
 }
 

@@ -1,0 +1,2395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rates_and_facilities>
+   <rates_of_particular_facility>
+      <facility_data facility_id="610" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 610 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="30">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>299</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2010-09-13</esimated_date>
+                        <real_date>2014-07-18</real_date>
+                        <customer_id>302</customer_id>
+                        <facility>
+                           <facility_id>105</facility_id>
+                           <local_facility_name>Local Facility 105 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED HELP</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED HELP</repared>
+                              <spendet_time>01:30:28</spendet_time>
+                              <esitmated_time>12:42:36</esitmated_time>
+                              <symptom>
+                                 <symptom_type>FREEZING</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>Cat</caused_by>
+                                 <assumption>Too many beer there</assumption>
+                                 <symptom_from>2017-07-26</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="787">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>872</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2013-12-21</esimated_date>
+                        <real_date>2015-10-15</real_date>
+                        <customer_id>184</customer_id>
+                        <facility>
+                           <facility_id>333</facility_id>
+                           <local_facility_name>Local Facility 333 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>ALL OK</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>ALL OK</repared>
+                              <spendet_time>11:47:39</spendet_time>
+                              <esitmated_time>03:53:12</esitmated_time>
+                              <symptom>
+                                 <symptom_type>FREEZING</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2010-09-29</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="1" rate_type="POSITIVE            ">
+                  <rate_description>Was cool</rate_description>
+                  <recommend>MORE NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="713" facility_type="Mixed                                             ">
+         <local_facility_name>Local Facility 713 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="976">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>536</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2014-11-04</esimated_date>
+                        <real_date>2011-01-20</real_date>
+                        <customer_id>934</customer_id>
+                        <facility>
+                           <facility_id>378</facility_id>
+                           <local_facility_name>Local Facility 378 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>05:48:17</spendet_time>
+                              <esitmated_time>10:16:35</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>Cat</caused_by>
+                                 <assumption>Too many beer there</assumption>
+                                 <symptom_from>2014-01-03</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="581">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>625</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2010-08-10</esimated_date>
+                        <real_date>2010-09-21</real_date>
+                        <customer_id>49</customer_id>
+                        <facility>
+                           <facility_id>97</facility_id>
+                           <local_facility_name>Local Facility 97 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>ALL OK</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>ALL OK</repared>
+                              <spendet_time>04:24:24</spendet_time>
+                              <esitmated_time>09:27:20</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>Dog</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2012-04-26</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="482">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>525</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2015-11-05</esimated_date>
+                        <real_date>2011-09-02</real_date>
+                        <customer_id>718</customer_id>
+                        <facility>
+                           <facility_id>949</facility_id>
+                           <local_facility_name>Local Facility 949 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>00:25:15</spendet_time>
+                              <esitmated_time>05:17:44</esitmated_time>
+                              <symptom>
+                                 <symptom_type>FREEZING</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>Baby</caused_by>
+                                 <assumption>Too many beer there</assumption>
+                                 <symptom_from>2017-10-21</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="4" rate_type="NEGATIVE            ">
+                  <rate_description>Pretty Quick</rate_description>
+                  <recommend>NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="622" facility_type="Mixed                                             ">
+         <local_facility_name>Local Facility 622 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="530">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>313</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2016-08-18</esimated_date>
+                        <real_date>2017-03-11</real_date>
+                        <customer_id>869</customer_id>
+                        <facility>
+                           <facility_id>473</facility_id>
+                           <local_facility_name>Local Facility 473 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED HELP</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED HELP</repared>
+                              <spendet_time>09:48:17</spendet_time>
+                              <esitmated_time>09:38:17</esitmated_time>
+                              <symptom>
+                                 <symptom_type>FREEZING</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>Dog</caused_by>
+                                 <assumption>Drop fridge</assumption>
+                                 <symptom_from>2014-07-09</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="680">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>378</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2015-04-21</esimated_date>
+                        <real_date>2012-10-04</real_date>
+                        <customer_id>983</customer_id>
+                        <facility>
+                           <facility_id>146</facility_id>
+                           <local_facility_name>Local Facility 146 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>03:01:01</spendet_time>
+                              <esitmated_time>03:39:20</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>Doesnt really work</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>Drop fridge</assumption>
+                                 <symptom_from>2011-07-05</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="152">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>497</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2016-05-15</esimated_date>
+                        <real_date>2017-10-17</real_date>
+                        <customer_id>251</customer_id>
+                        <facility>
+                           <facility_id>249</facility_id>
+                           <local_facility_name>Local Facility 249 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>05:05:58</spendet_time>
+                              <esitmated_time>07:15:11</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>Dance on Fridge</assumption>
+                                 <symptom_from>2015-04-15</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="1" rate_type="NEGATIVE            ">
+                  <rate_description>Pretty Quick</rate_description>
+                  <recommend>YES</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="773" facility_type="Private                                           ">
+         <local_facility_name>Local Facility 773 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="431">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>139</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2011-02-25</esimated_date>
+                        <real_date>2016-12-28</real_date>
+                        <customer_id>51</customer_id>
+                        <facility>
+                           <facility_id>299</facility_id>
+                           <local_facility_name>Local Facility 299 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>09:42:49</spendet_time>
+                              <esitmated_time>09:13:56</esitmated_time>
+                              <symptom>
+                                 <symptom_type>FREEZING</symptom_type>
+                                 <symptom_description>Doesnt really work</symptom_description>
+                                 <caused_by>Dog</caused_by>
+                                 <assumption>Drop fridge</assumption>
+                                 <symptom_from>2011-05-06</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="240">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>200</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2016-11-19</esimated_date>
+                        <real_date>2016-05-21</real_date>
+                        <customer_id>780</customer_id>
+                        <facility>
+                           <facility_id>715</facility_id>
+                           <local_facility_name>Local Facility 715 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>08:45:17</spendet_time>
+                              <esitmated_time>12:16:45</esitmated_time>
+                              <symptom>
+                                 <symptom_type>FREEZING</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2017-11-06</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="3" rate_type="NEGATIVE            ">
+                  <rate_description>OMG SO BAD FUUUU</rate_description>
+                  <recommend>MORE NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="859" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 859 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="764">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>157</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2010-05-21</esimated_date>
+                        <real_date>2010-01-23</real_date>
+                        <customer_id>758</customer_id>
+                        <facility>
+                           <facility_id>545</facility_id>
+                           <local_facility_name>Local Facility 545 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>ALL OK</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>ALL OK</repared>
+                              <spendet_time>07:38:40</spendet_time>
+                              <esitmated_time>03:57:22</esitmated_time>
+                              <symptom>
+                                 <symptom_type>COOL_FREEZEIN</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>Dance on Fridge</assumption>
+                                 <symptom_from>2012-05-05</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="529">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>348</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2010-01-18</esimated_date>
+                        <real_date>2015-12-15</real_date>
+                        <customer_id>932</customer_id>
+                        <facility>
+                           <facility_id>232</facility_id>
+                           <local_facility_name>Local Facility 232 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>06:09:32</spendet_time>
+                              <esitmated_time>11:56:08</esitmated_time>
+                              <symptom>
+                                 <symptom_type>FREEZING</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>Dance on Fridge</assumption>
+                                 <symptom_from>2017-10-30</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="637">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>736</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2017-03-23</esimated_date>
+                        <real_date>2014-02-11</real_date>
+                        <customer_id>80</customer_id>
+                        <facility>
+                           <facility_id>560</facility_id>
+                           <local_facility_name>Local Facility 560 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>11:13:18</spendet_time>
+                              <esitmated_time>10:31:15</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>Dance on Fridge</assumption>
+                                 <symptom_from>2017-09-25</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="2" rate_type="POSITIVE            ">
+                  <rate_description>Pretty Quick</rate_description>
+                  <recommend>NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="533" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 533 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="823">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>52</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2017-06-19</esimated_date>
+                        <real_date>2010-04-01</real_date>
+                        <customer_id>428</customer_id>
+                        <facility>
+                           <facility_id>208</facility_id>
+                           <local_facility_name>Local Facility 208 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>06:47:01</spendet_time>
+                              <esitmated_time>10:01:06</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>Cat</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2017-08-04</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="655">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>441</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2015-02-08</esimated_date>
+                        <real_date>2010-06-29</real_date>
+                        <customer_id>727</customer_id>
+                        <facility>
+                           <facility_id>937</facility_id>
+                           <local_facility_name>Local Facility 937 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>05:18:47</spendet_time>
+                              <esitmated_time>08:42:15</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>Cat</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2010-04-03</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="2" rate_type="POSITIVE            ">
+                  <rate_description>Was cool</rate_description>
+                  <recommend>YES</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="203" facility_type="Mixed                                             ">
+         <local_facility_name>Local Facility 203 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="836">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>64</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2016-04-21</esimated_date>
+                        <real_date>2016-11-01</real_date>
+                        <customer_id>905</customer_id>
+                        <facility>
+                           <facility_id>56</facility_id>
+                           <local_facility_name>Local Facility 56 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>ALL OK</status>
+                              <status_type>WARNING</status_type>
+                              <repared>ALL OK</repared>
+                              <spendet_time>12:37:45</spendet_time>
+                              <esitmated_time>12:22:33</esitmated_time>
+                              <symptom>
+                                 <symptom_type>COOL_FREEZEIN</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>Baby</caused_by>
+                                 <assumption>Dance on Fridge</assumption>
+                                 <symptom_from>2015-12-20</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="853">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>658</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2016-06-08</esimated_date>
+                        <real_date>2013-11-27</real_date>
+                        <customer_id>779</customer_id>
+                        <facility>
+                           <facility_id>260</facility_id>
+                           <local_facility_name>Local Facility 260 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>ALL OK</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>ALL OK</repared>
+                              <spendet_time>06:16:37</spendet_time>
+                              <esitmated_time>00:53:02</esitmated_time>
+                              <symptom>
+                                 <symptom_type>COOL_FREEZEIN</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2010-07-01</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="4" rate_type="NEGATIVE            ">
+                  <rate_description>Liked it</rate_description>
+                  <recommend>MORE YES</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="956" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 956 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="587">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>183</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2013-04-27</esimated_date>
+                        <real_date>2010-10-05</real_date>
+                        <customer_id>889</customer_id>
+                        <facility>
+                           <facility_id>613</facility_id>
+                           <local_facility_name>Local Facility 613 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>ALL OK</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>ALL OK</repared>
+                              <spendet_time>10:15:31</spendet_time>
+                              <esitmated_time>05:23:07</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ELECTRONICAL</symptom_type>
+                                 <symptom_description>Doesnt really work</symptom_description>
+                                 <caused_by>Dog</caused_by>
+                                 <assumption>Dance on Fridge</assumption>
+                                 <symptom_from>2014-12-18</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="2" rate_type="POSITIVE            ">
+                  <rate_description>Funny Guy</rate_description>
+                  <recommend>NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="455" facility_type="Private                                           ">
+         <local_facility_name>Local Facility 455 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="356">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>550</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2013-03-12</esimated_date>
+                        <real_date>2014-03-26</real_date>
+                        <customer_id>642</customer_id>
+                        <facility>
+                           <facility_id>908</facility_id>
+                           <local_facility_name>Local Facility 908 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>01:38:06</spendet_time>
+                              <esitmated_time>03:13:40</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2010-05-20</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="547">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>708</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2015-09-15</esimated_date>
+                        <real_date>2012-03-04</real_date>
+                        <customer_id>71</customer_id>
+                        <facility>
+                           <facility_id>12</facility_id>
+                           <local_facility_name>Local Facility 12 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>02:50:20</spendet_time>
+                              <esitmated_time>02:04:27</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ELECTRONICAL</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2012-03-01</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="4" rate_type="NEGATIVE            ">
+                  <rate_description>Funny Guy</rate_description>
+                  <recommend>NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="346" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 346 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="963">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>660</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2012-07-26</esimated_date>
+                        <real_date>2014-10-26</real_date>
+                        <customer_id>838</customer_id>
+                        <facility>
+                           <facility_id>377</facility_id>
+                           <local_facility_name>Local Facility 377 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>11:24:26</spendet_time>
+                              <esitmated_time>12:39:20</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2016-01-27</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="447">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>726</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2017-04-24</esimated_date>
+                        <real_date>2011-07-18</real_date>
+                        <customer_id>651</customer_id>
+                        <facility>
+                           <facility_id>542</facility_id>
+                           <local_facility_name>Local Facility 542 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>ALL OK</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>ALL OK</repared>
+                              <spendet_time>03:10:25</spendet_time>
+                              <esitmated_time>12:59:17</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>Cat</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2017-06-04</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="945">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>798</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2016-10-21</esimated_date>
+                        <real_date>2015-07-07</real_date>
+                        <customer_id>816</customer_id>
+                        <facility>
+                           <facility_id>498</facility_id>
+                           <local_facility_name>Local Facility 498 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>02:22:41</spendet_time>
+                              <esitmated_time>04:57:32</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2015-06-14</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="2" rate_type="POSITIVE            ">
+                  <rate_description>Pretty Quick</rate_description>
+                  <recommend>NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="197" facility_type="Mixed                                             ">
+         <local_facility_name>Local Facility 197 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="163">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>575</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2010-12-24</esimated_date>
+                        <real_date>2016-05-14</real_date>
+                        <customer_id>802</customer_id>
+                        <facility>
+                           <facility_id>261</facility_id>
+                           <local_facility_name>Local Facility 261 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED HELP</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED HELP</repared>
+                              <spendet_time>02:55:46</spendet_time>
+                              <esitmated_time>03:37:38</esitmated_time>
+                              <symptom>
+                                 <symptom_type>FREEZING</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>Baby</caused_by>
+                                 <assumption>Drop fridge</assumption>
+                                 <symptom_from>2016-11-22</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="952">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>497</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2016-05-15</esimated_date>
+                        <real_date>2017-10-17</real_date>
+                        <customer_id>251</customer_id>
+                        <facility>
+                           <facility_id>249</facility_id>
+                           <local_facility_name>Local Facility 249 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>05:05:58</spendet_time>
+                              <esitmated_time>07:15:11</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>Dance on Fridge</assumption>
+                                 <symptom_from>2015-04-15</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="92">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>779</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2011-08-08</esimated_date>
+                        <real_date>2011-05-26</real_date>
+                        <customer_id>874</customer_id>
+                        <facility>
+                           <facility_id>930</facility_id>
+                           <local_facility_name>Local Facility 930 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>06:38:56</spendet_time>
+                              <esitmated_time>07:11:20</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2013-01-11</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="4" rate_type="POSITIVE            ">
+                  <rate_description>OMG SO BAD FUUUU</rate_description>
+                  <recommend>MORE NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="823" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 823 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="426">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>394</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2015-08-11</esimated_date>
+                        <real_date>2016-11-29</real_date>
+                        <customer_id>994</customer_id>
+                        <facility>
+                           <facility_id>517</facility_id>
+                           <local_facility_name>Local Facility 517 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>00:42:35</spendet_time>
+                              <esitmated_time>01:28:07</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ELECTRONICAL</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>Baby</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2016-05-24</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="3" rate_type="NEGATIVE            ">
+                  <rate_description>NOT GOOD</rate_description>
+                  <recommend>YES</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="88" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 88 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="653">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>99</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2017-04-10</esimated_date>
+                        <real_date>2014-05-23</real_date>
+                        <customer_id>51</customer_id>
+                        <facility>
+                           <facility_id>700</facility_id>
+                           <local_facility_name>Local Facility 700 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>ALL OK</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>ALL OK</repared>
+                              <spendet_time>10:35:58</spendet_time>
+                              <esitmated_time>06:26:40</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>Cat</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2014-04-30</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="179">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>961</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2010-09-08</esimated_date>
+                        <real_date>2015-03-15</real_date>
+                        <customer_id>940</customer_id>
+                        <facility>
+                           <facility_id>54</facility_id>
+                           <local_facility_name>Local Facility 54 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>ALL OK</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>ALL OK</repared>
+                              <spendet_time>06:47:13</spendet_time>
+                              <esitmated_time>03:58:54</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2012-04-15</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="4" rate_type="POSITIVE            ">
+                  <rate_description>Pretty Quick</rate_description>
+                  <recommend>MORE NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="583" facility_type="Mixed                                             ">
+         <local_facility_name>Local Facility 583 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="294">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>690</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2013-12-25</esimated_date>
+                        <real_date>2012-05-10</real_date>
+                        <customer_id>974</customer_id>
+                        <facility>
+                           <facility_id>39</facility_id>
+                           <local_facility_name>Local Facility 39 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>07:31:01</spendet_time>
+                              <esitmated_time>07:30:32</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ELECTRONICAL</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>Baby</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2013-02-28</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="4" rate_type="NEGATIVE            ">
+                  <rate_description>GOOD</rate_description>
+                  <recommend>NOT SURE</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="969" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 969 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="310">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>317</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2010-04-25</esimated_date>
+                        <real_date>2011-10-10</real_date>
+                        <customer_id>588</customer_id>
+                        <facility>
+                           <facility_id>768</facility_id>
+                           <local_facility_name>Local Facility 768 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED HELP</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED HELP</repared>
+                              <spendet_time>01:49:09</spendet_time>
+                              <esitmated_time>12:23:20</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>Dog</caused_by>
+                                 <assumption>Drop fridge</assumption>
+                                 <symptom_from>2016-06-20</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="3" rate_type="POSITIVE            ">
+                  <rate_description>Was cool</rate_description>
+                  <recommend>MORE YES</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="422" facility_type="Private                                           ">
+         <local_facility_name>Local Facility 422 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="656">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>633</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2011-01-26</esimated_date>
+                        <real_date>2010-07-09</real_date>
+                        <customer_id>968</customer_id>
+                        <facility>
+                           <facility_id>929</facility_id>
+                           <local_facility_name>Local Facility 929 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>01:36:44</spendet_time>
+                              <esitmated_time>08:14:54</esitmated_time>
+                              <symptom>
+                                 <symptom_type>COOL_FREEZEIN</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>Cat</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2010-07-21</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="4" rate_type="POSITIVE            ">
+                  <rate_description>Was cool</rate_description>
+                  <recommend>MORE YES</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="389" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 389 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="445">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>386</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2016-03-20</esimated_date>
+                        <real_date>2014-06-25</real_date>
+                        <customer_id>699</customer_id>
+                        <facility>
+                           <facility_id>665</facility_id>
+                           <local_facility_name>Local Facility 665 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>06:44:41</spendet_time>
+                              <esitmated_time>09:39:39</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ELECTRONICAL</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>Cat</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2011-06-24</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="5" rate_type="POSITIVE            ">
+                  <rate_description>NOT GOOD</rate_description>
+                  <recommend>MORE NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="582" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 582 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="855">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>226</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2017-02-28</esimated_date>
+                        <real_date>2015-10-26</real_date>
+                        <customer_id>164</customer_id>
+                        <facility>
+                           <facility_id>68</facility_id>
+                           <local_facility_name>Local Facility 68 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>01:00:47</spendet_time>
+                              <esitmated_time>06:20:10</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>Too many beer there</assumption>
+                                 <symptom_from>2012-02-16</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="592">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>318</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2014-07-24</esimated_date>
+                        <real_date>2010-04-26</real_date>
+                        <customer_id>179</customer_id>
+                        <facility>
+                           <facility_id>323</facility_id>
+                           <local_facility_name>Local Facility 323 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>02:33:20</spendet_time>
+                              <esitmated_time>09:37:36</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2014-09-26</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="217">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>550</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2013-03-12</esimated_date>
+                        <real_date>2014-03-26</real_date>
+                        <customer_id>642</customer_id>
+                        <facility>
+                           <facility_id>908</facility_id>
+                           <local_facility_name>Local Facility 908 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>01:38:06</spendet_time>
+                              <esitmated_time>03:13:40</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2010-05-20</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="4" rate_type="POSITIVE            ">
+                  <rate_description>Funny Guy</rate_description>
+                  <recommend>YES</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="453" facility_type="Mixed                                             ">
+         <local_facility_name>Local Facility 453 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="15">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>458</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2015-03-15</esimated_date>
+                        <real_date>2015-05-21</real_date>
+                        <customer_id>323</customer_id>
+                        <facility>
+                           <facility_id>160</facility_id>
+                           <local_facility_name>Local Facility 160 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>12:14:11</spendet_time>
+                              <esitmated_time>02:55:28</esitmated_time>
+                              <symptom>
+                                 <symptom_type>FREEZING</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>Dog</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2010-07-27</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="3" rate_type="POSITIVE            ">
+                  <rate_description>Liked it</rate_description>
+                  <recommend>MORE YES</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="55" facility_type="Private                                           ">
+         <local_facility_name>Local Facility 55 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="601">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>11</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2011-05-07</esimated_date>
+                        <real_date>2017-03-27</real_date>
+                        <customer_id>949</customer_id>
+                        <facility>
+                           <facility_id>30</facility_id>
+                           <local_facility_name>Local Facility 30 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>ALL OK</status>
+                              <status_type>WARNING</status_type>
+                              <repared>ALL OK</repared>
+                              <spendet_time>11:23:10</spendet_time>
+                              <esitmated_time>02:08:31</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>Cat</caused_by>
+                                 <assumption>Too many beer there</assumption>
+                                 <symptom_from>2012-09-11</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="897">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>671</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2011-09-14</esimated_date>
+                        <real_date>2017-08-22</real_date>
+                        <customer_id>400</customer_id>
+                        <facility>
+                           <facility_id>916</facility_id>
+                           <local_facility_name>Local Facility 916 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>01:05:01</spendet_time>
+                              <esitmated_time>05:29:59</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>Dance on Fridge</assumption>
+                                 <symptom_from>2015-06-04</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="1" rate_type="POSITIVE            ">
+                  <rate_description>Pretty Quick</rate_description>
+                  <recommend>YES</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="80" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 80 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="88">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>375</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2011-05-25</esimated_date>
+                        <real_date>2013-10-23</real_date>
+                        <customer_id>67</customer_id>
+                        <facility>
+                           <facility_id>935</facility_id>
+                           <local_facility_name>Local Facility 935 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED HELP</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED HELP</repared>
+                              <spendet_time>11:22:58</spendet_time>
+                              <esitmated_time>00:33:31</esitmated_time>
+                              <symptom>
+                                 <symptom_type>COOL_FREEZEIN</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>Dog</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2013-09-23</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="460">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>899</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2010-10-05</esimated_date>
+                        <real_date>2010-08-06</real_date>
+                        <customer_id>184</customer_id>
+                        <facility>
+                           <facility_id>253</facility_id>
+                           <local_facility_name>Local Facility 253 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>02:17:16</spendet_time>
+                              <esitmated_time>11:02:30</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2010-05-26</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="2" rate_type="NEGATIVE            ">
+                  <rate_description>NOT GOOD</rate_description>
+                  <recommend>YES</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="898" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 898 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="325">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>357</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2012-03-24</esimated_date>
+                        <real_date>2010-09-03</real_date>
+                        <customer_id>366</customer_id>
+                        <facility>
+                           <facility_id>367</facility_id>
+                           <local_facility_name>Local Facility 367 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED HELP</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED HELP</repared>
+                              <spendet_time>07:50:02</spendet_time>
+                              <esitmated_time>12:49:50</esitmated_time>
+                              <symptom>
+                                 <symptom_type>COOL_FREEZEIN</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>Cat</caused_by>
+                                 <assumption>Drop fridge</assumption>
+                                 <symptom_from>2017-09-21</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="2" rate_type="POSITIVE            ">
+                  <rate_description>Pretty Quick</rate_description>
+                  <recommend>MORE NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="706" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 706 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="396">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>975</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2010-12-12</esimated_date>
+                        <real_date>2015-06-26</real_date>
+                        <customer_id>965</customer_id>
+                        <facility>
+                           <facility_id>853</facility_id>
+                           <local_facility_name>Local Facility 853 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED HELP</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED HELP</repared>
+                              <spendet_time>10:43:40</spendet_time>
+                              <esitmated_time>11:36:02</esitmated_time>
+                              <symptom>
+                                 <symptom_type>COOL_FREEZEIN</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>Baby</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2016-12-29</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="1" rate_type="NEGATIVE            ">
+                  <rate_description>Was cool</rate_description>
+                  <recommend>NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="676" facility_type="Mixed                                             ">
+         <local_facility_name>Local Facility 676 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="808">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>480</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2016-02-04</esimated_date>
+                        <real_date>2015-11-18</real_date>
+                        <customer_id>772</customer_id>
+                        <facility>
+                           <facility_id>497</facility_id>
+                           <local_facility_name>Local Facility 497 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>00:07:26</spendet_time>
+                              <esitmated_time>08:40:51</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ELECTRONICAL</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>Baby</caused_by>
+                                 <assumption>Drop fridge</assumption>
+                                 <symptom_from>2011-03-16</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="409">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>304</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2017-10-17</esimated_date>
+                        <real_date>2011-12-19</real_date>
+                        <customer_id>703</customer_id>
+                        <facility>
+                           <facility_id>29</facility_id>
+                           <local_facility_name>Local Facility 29 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>ALL OK</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>ALL OK</repared>
+                              <spendet_time>08:43:15</spendet_time>
+                              <esitmated_time>01:10:49</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>Dance on Fridge</assumption>
+                                 <symptom_from>2012-04-12</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="994">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>777</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2016-09-11</esimated_date>
+                        <real_date>2016-07-11</real_date>
+                        <customer_id>391</customer_id>
+                        <facility>
+                           <facility_id>987</facility_id>
+                           <local_facility_name>Local Facility 987 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED HELP</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED HELP</repared>
+                              <spendet_time>02:09:25</spendet_time>
+                              <esitmated_time>01:46:12</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2016-06-14</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="5" rate_type="POSITIVE            ">
+                  <rate_description>GOOD</rate_description>
+                  <recommend>NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="306" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 306 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="564">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>452</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2015-12-08</esimated_date>
+                        <real_date>2016-07-28</real_date>
+                        <customer_id>111</customer_id>
+                        <facility>
+                           <facility_id>862</facility_id>
+                           <local_facility_name>Local Facility 862 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>09:22:28</spendet_time>
+                              <esitmated_time>06:17:56</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ELECTRONICAL</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>UNKNOWN</caused_by>
+                                 <assumption>Drop fridge</assumption>
+                                 <symptom_from>2017-11-07</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="59">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>741</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2010-10-07</esimated_date>
+                        <real_date>2017-07-03</real_date>
+                        <customer_id>998</customer_id>
+                        <facility>
+                           <facility_id>403</facility_id>
+                           <local_facility_name>Local Facility 403 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>07:22:43</spendet_time>
+                              <esitmated_time>06:08:49</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>Drop fridge</assumption>
+                                 <symptom_from>2016-11-14</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="4" rate_type="NEGATIVE            ">
+                  <rate_description>GOOD</rate_description>
+                  <recommend>MORE YES</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="957" facility_type="Private                                           ">
+         <local_facility_name>Local Facility 957 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="508">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>739</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2011-09-14</esimated_date>
+                        <real_date>2011-09-27</real_date>
+                        <customer_id>22</customer_id>
+                        <facility>
+                           <facility_id>118</facility_id>
+                           <local_facility_name>Local Facility 118 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED HELP</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED HELP</repared>
+                              <spendet_time>05:33:15</spendet_time>
+                              <esitmated_time>01:45:59</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>Baby</caused_by>
+                                 <assumption>Too many beer there</assumption>
+                                 <symptom_from>2014-06-04</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="211">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>908</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2010-01-12</esimated_date>
+                        <real_date>2017-05-06</real_date>
+                        <customer_id>738</customer_id>
+                        <facility>
+                           <facility_id>82</facility_id>
+                           <local_facility_name>Local Facility 82 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>05:53:04</spendet_time>
+                              <esitmated_time>01:52:00</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>Dog</caused_by>
+                                 <assumption>Too many beer there</assumption>
+                                 <symptom_from>2012-05-15</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="1" rate_type="POSITIVE            ">
+                  <rate_description>Was cool</rate_description>
+                  <recommend>MORE NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="339" facility_type="Corporate                                         ">
+         <local_facility_name>Local Facility 339 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="235">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>504</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2010-11-25</esimated_date>
+                        <real_date>2012-01-15</real_date>
+                        <customer_id>582</customer_id>
+                        <facility>
+                           <facility_id>703</facility_id>
+                           <local_facility_name>Local Facility 703 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>ALL OK</status>
+                              <status_type>WARNING</status_type>
+                              <repared>ALL OK</repared>
+                              <spendet_time>11:32:10</spendet_time>
+                              <esitmated_time>05:13:29</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>Drop fridge</assumption>
+                                 <symptom_from>2014-03-07</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="5" rate_type="NEGATIVE            ">
+                  <rate_description>Funny Guy</rate_description>
+                  <recommend>NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="769" facility_type="Mixed                                             ">
+         <local_facility_name>Local Facility 769 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="745">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>771</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2011-07-02</esimated_date>
+                        <real_date>2017-06-07</real_date>
+                        <customer_id>861</customer_id>
+                        <facility>
+                           <facility_id>671</facility_id>
+                           <local_facility_name>Local Facility 671 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>00:44:37</spendet_time>
+                              <esitmated_time>10:34:36</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>Baby</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2011-12-21</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="919">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>531</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2015-08-04</esimated_date>
+                        <real_date>2011-03-25</real_date>
+                        <customer_id>206</customer_id>
+                        <facility>
+                           <facility_id>165</facility_id>
+                           <local_facility_name>Local Facility 165 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>00:47:49</spendet_time>
+                              <esitmated_time>11:05:31</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ICE</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>Dog</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2011-10-30</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="269">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>914</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2017-03-24</esimated_date>
+                        <real_date>2011-06-12</real_date>
+                        <customer_id>822</customer_id>
+                        <facility>
+                           <facility_id>649</facility_id>
+                           <local_facility_name>Local Facility 649 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED HELP</status>
+                              <status_type>WARNING</status_type>
+                              <repared>NEED HELP</repared>
+                              <spendet_time>12:22:31</spendet_time>
+                              <esitmated_time>02:45:42</esitmated_time>
+                              <symptom>
+                                 <symptom_type>COOL_FREEZEIN</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>Too many beer there</assumption>
+                                 <symptom_from>2017-02-21</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="4" rate_type="POSITIVE            ">
+                  <rate_description>Pretty Quick</rate_description>
+                  <recommend>MORE YES</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="406" facility_type="Mixed                                             ">
+         <local_facility_name>Local Facility 406 GMBH</local_facility_name>
+         <facility_status>INACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="650">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>296</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>As quick as possible</special_handling>
+                        <esimated_date>2015-12-20</esimated_date>
+                        <real_date>2011-07-11</real_date>
+                        <customer_id>550</customer_id>
+                        <facility>
+                           <facility_id>210</facility_id>
+                           <local_facility_name>Local Facility 210 GMBH</local_facility_name>
+                           <facility_type>Corporate</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED HELP</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED HELP</repared>
+                              <spendet_time>12:07:53</spendet_time>
+                              <esitmated_time>11:01:01</esitmated_time>
+                              <symptom>
+                                 <symptom_type>FREEZING</symptom_type>
+                                 <symptom_description>Doesnt really work</symptom_description>
+                                 <caused_by>Cat</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2013-10-05</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="483">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>939</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2010-10-24</esimated_date>
+                        <real_date>2014-08-22</real_date>
+                        <customer_id>127</customer_id>
+                        <facility>
+                           <facility_id>64</facility_id>
+                           <local_facility_name>Local Facility 64 GMBH</local_facility_name>
+                           <facility_type>Private</facility_type>
+                           <facility_status>ACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>DEFAULT</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>03:50:09</spendet_time>
+                              <esitmated_time>02:25:43</esitmated_time>
+                              <symptom>
+                                 <symptom_type>OUTESIDE DAMAGE</symptom_type>
+                                 <symptom_description>Dosnt turn on</symptom_description>
+                                 <caused_by>Cat</caused_by>
+                                 <assumption>UNKNOWN</assumption>
+                                 <symptom_from>2012-04-03</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="4" rate_type="NEGATIVE            ">
+                  <rate_description>Liked it</rate_description>
+                  <recommend>NO</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+   <rates_of_particular_facility>
+      <facility_data facility_id="187" facility_type="Private                                           ">
+         <local_facility_name>Local Facility 187 GMBH</local_facility_name>
+         <facility_status>ACTIVE</facility_status>
+         <detailed_data>
+            <appointment appointment_id="946">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>593</appointment_id>
+                        <appointment_type>PRIVATE</appointment_type>
+                        <special_handling>DEFAULT</special_handling>
+                        <esimated_date>2013-11-07</esimated_date>
+                        <real_date>2013-03-25</real_date>
+                        <customer_id>164</customer_id>
+                        <facility>
+                           <facility_id>113</facility_id>
+                           <local_facility_name>Local Facility 113 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TOOLS</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED TOOLS</repared>
+                              <spendet_time>10:37:17</spendet_time>
+                              <esitmated_time>01:48:08</esitmated_time>
+                              <symptom>
+                                 <symptom_type>FREEZING</symptom_type>
+                                 <symptom_description>Doesnt give me a cool vibes</symptom_description>
+                                 <caused_by>Baby</caused_by>
+                                 <assumption>Too high woltage</assumption>
+                                 <symptom_from>2017-04-29</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <appointment appointment_id="408">
+               <appointment_data_to_export>
+                  <appointment_data>
+                     <appointment>
+                        <appointment_id>724</appointment_id>
+                        <appointment_type>CORPORATE</appointment_type>
+                        <special_handling>Quality Inspection</special_handling>
+                        <esimated_date>2017-02-11</esimated_date>
+                        <real_date>2015-03-24</real_date>
+                        <customer_id>581</customer_id>
+                        <facility>
+                           <facility_id>205</facility_id>
+                           <local_facility_name>Local Facility 205 GMBH</local_facility_name>
+                           <facility_type>Mixed</facility_type>
+                           <facility_status>INACTIVE</facility_status>
+                           <repair>
+                              <status>NEED TO TAKE FRIDGE</status>
+                              <status_type>CRITICAL</status_type>
+                              <repared>NEED TO TAKE FRIDGE</repared>
+                              <spendet_time>02:51:21</spendet_time>
+                              <esitmated_time>02:08:17</esitmated_time>
+                              <symptom>
+                                 <symptom_type>ELECTRONICAL</symptom_type>
+                                 <symptom_description>UNKNOWN</symptom_description>
+                                 <caused_by>Wife</caused_by>
+                                 <assumption>Drop fridge</assumption>
+                                 <symptom_from>2010-09-14</symptom_from>
+                              </symptom>
+                           </repair>
+                        </facility>
+                     </appointment>
+                  </appointment_data>
+               </appointment_data_to_export>
+            </appointment>
+            <facility_rate>
+               <appointment rate="3" rate_type="NEGATIVE            ">
+                  <rate_description>GOOD</rate_description>
+                  <recommend>NOT SURE</recommend>
+               </appointment>
+            </facility_rate>
+         </detailed_data>
+      </facility_data>
+   </rates_of_particular_facility>
+</rates_and_facilities>

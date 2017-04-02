@@ -1,0 +1,55 @@
+<person/>
+
+<person xmlns="test"/> - ---- defauly namesapce 
+
+<p:person xmlns:p ="test"/> --- означает одно и то же
+<p: a/>  					--- означает одно и то же
+</person>
+
+
+хочет лист
+
+находим xml файл
+<intrAAA>
+text
+</intrAAA>
+сохрнарить как text.xml
+
+
+xmllint text.xml - команда проверки xml
+
+
+
+<element name="intrAAA"
+ xmlns="http://relaxng.org/ns/structure/1.0">
+<data type="string"/>
+</element>
+
+сохрнарить как text.rng
+
+xmllint --relaxng text.rng text.xml
+
+
+
+trang
+
+
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+
+	<define name="meines">
+		<data type="string"/>
+	</define>
+
+		<define name="anderes">
+			<element ="interAA">
+		<data type="string"/>
+	</element>
+	</define>
+
+	<start>
+		<element name="intrAAA">
+			<ref name="meines"/>
+			<data type="string">
+				</element>
+			</start>
+</grammar>

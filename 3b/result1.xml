@@ -1,0 +1,932 @@
+<customer_data>
+   <customer customer_id="382" age="36">
+      <last_name>Castro</last_name>
+      <first_name>Araceli</first_name>
+      <gender>female</gender>
+      <age>36</age>
+      <title>ms</title>
+      <order_details>
+         <email>araceli-81@example.com</email>
+         <phone>(870) 839 4907</phone>
+         <order_address>
+            <street>Uzfdaeuuzs Street</street>
+            <house>45</house>
+            <flat>74</flat>
+            <gender>female</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1861">
+               <country>Austria</country>
+               <city>Tyrol</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="83" year_of_production="2011-03-27">
+                     <fridge_type>Side-by-side</fridge_type>
+                     <fridge_color>silver</fridge_color>
+                     <prod_country>Indonesia</prod_country>
+                     <fridge_volume>44.3</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="750" age="22">
+      <last_name>Alvarez</last_name>
+      <first_name>Robert</first_name>
+      <gender>male</gender>
+      <age>22</age>
+      <title>mr</title>
+      <order_details>
+         <email>robert-95@example.com</email>
+         <phone>(964) 265 1784</phone>
+         <order_address>
+            <street>Smaplvrbaz Street</street>
+            <house>29</house>
+            <flat>55</flat>
+            <gender>male</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1333">
+               <country>Austria</country>
+               <city>Carinthia</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="919" year_of_production="2011-12-02">
+                     <fridge_type>Compact</fridge_type>
+                     <fridge_color>silver</fridge_color>
+                     <prod_country>Japan</prod_country>
+                     <fridge_volume>44.7</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="902" age="36">
+      <last_name>Ortiz</last_name>
+      <first_name>Howard</first_name>
+      <gender>male</gender>
+      <age>36</age>
+      <title>mr</title>
+      <order_details>
+         <email>howardortiz@example.com</email>
+         <phone>(562) 428 6760</phone>
+         <order_address>
+            <street>Zehhoyhhkb Street</street>
+            <house>45</house>
+            <flat>89</flat>
+            <gender>male</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1319">
+               <country>Austria</country>
+               <city>Burgenland</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="98" year_of_production="2013-05-19">
+                     <fridge_type>Compact</fridge_type>
+                     <fridge_color>white</fridge_color>
+                     <prod_country>Japan</prod_country>
+                     <fridge_volume>43.7</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="40" age="26">
+      <last_name>Castillo</last_name>
+      <first_name>Ignacio</first_name>
+      <gender>male</gender>
+      <age>26</age>
+      <title>mr</title>
+      <order_details>
+         <email>ignacio91@example.com</email>
+         <phone>(296) 789 4455</phone>
+         <order_address>
+            <street>Qtwxjjbswt Street</street>
+            <house>7</house>
+            <flat>88</flat>
+            <gender>male</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1392">
+               <country>Austria</country>
+               <city>Upper Austria</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="749" year_of_production="2015-09-23">
+                     <fridge_type>Built-in</fridge_type>
+                     <fridge_color>silver</fridge_color>
+                     <prod_country>China</prod_country>
+                     <fridge_volume>92.3</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="83" age="23">
+      <last_name>Știrbei</last_name>
+      <first_name>Eusebiu</first_name>
+      <gender>male</gender>
+      <age>23</age>
+      <title>mr</title>
+      <order_details>
+         <email>eusebiu-94@example.com</email>
+         <phone>(198) 741 8721</phone>
+         <order_address>
+            <street>Ayxpqfrvod Street</street>
+            <house>46</house>
+            <flat>36</flat>
+            <gender>male</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1026">
+               <country>Austria</country>
+               <city>Carinthia</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="89" year_of_production="2011-10-15">
+                     <fridge_type>Built-in</fridge_type>
+                     <fridge_color>white</fridge_color>
+                     <prod_country>Indonesia</prod_country>
+                     <fridge_volume>47.7</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="766" age="21">
+      <last_name>Price</last_name>
+      <first_name>Nathan</first_name>
+      <gender>male</gender>
+      <age>21</age>
+      <title>mr</title>
+      <order_details>
+         <email>nathan_price@example.com</email>
+         <phone>(543) 968 1944</phone>
+         <order_address>
+            <street>Gaemqrlgol Street</street>
+            <house>39</house>
+            <flat>28</flat>
+            <gender>male</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1999">
+               <country>Austria</country>
+               <city>Vienna</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="246" year_of_production="2011-12-28">
+                     <fridge_type>Top freezer</fridge_type>
+                     <fridge_color>white</fridge_color>
+                     <prod_country>Germany</prod_country>
+                     <fridge_volume>76.6</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="631" age="31">
+      <last_name>Petrașcu</last_name>
+      <first_name>Speranța</first_name>
+      <gender>female</gender>
+      <age>31</age>
+      <title>mrs</title>
+      <order_details>
+         <email>speranța-86@example.com</email>
+         <phone>(679) 509 5784</phone>
+         <order_address>
+            <street>Kjzwgymgnl Street</street>
+            <house>22</house>
+            <flat>50</flat>
+            <gender>female</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1736">
+               <country>Austria</country>
+               <city>Styria</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="802" year_of_production="2012-10-12">
+                     <fridge_type>Side-by-side</fridge_type>
+                     <fridge_color>pink</fridge_color>
+                     <prod_country>Indonesia</prod_country>
+                     <fridge_volume>62.3</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="143" age="23">
+      <last_name>Domokos</last_name>
+      <first_name>Pálfalvi</first_name>
+      <gender>male</gender>
+      <age>23</age>
+      <title>mr</title>
+      <order_details>
+         <email>pálfalvi_94@example.com</email>
+         <phone>(310) 826 1057</phone>
+         <order_address>
+            <street>Hptfbxbjiu Street</street>
+            <house>37</house>
+            <flat>52</flat>
+            <gender>male</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1343">
+               <country>Austria</country>
+               <city>Upper Austria</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="335" year_of_production="2015-08-14">
+                     <fridge_type>Bottom freezer</fridge_type>
+                     <fridge_color>pink</fridge_color>
+                     <prod_country>Japan</prod_country>
+                     <fridge_volume>80.2</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="244" age="25">
+      <last_name>Bailly</last_name>
+      <first_name>Eva</first_name>
+      <gender>female</gender>
+      <age>25</age>
+      <title>ms</title>
+      <order_details>
+         <email>eva-bailly@example.com</email>
+         <phone>(348) 581 5942</phone>
+         <order_address>
+            <street>Izvuinglnh Street</street>
+            <house>26</house>
+            <flat>66</flat>
+            <gender>female</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1656">
+               <country>Austria</country>
+               <city>Lower Austria EAST</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="250" year_of_production="2017-10-19">
+                     <fridge_type>Compact</fridge_type>
+                     <fridge_color>red</fridge_color>
+                     <prod_country>Japan</prod_country>
+                     <fridge_volume>78.2</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="613" age="33">
+      <last_name>Éva</last_name>
+      <first_name>Nyilas</first_name>
+      <gender>female</gender>
+      <age>33</age>
+      <title>ms</title>
+      <order_details>
+         <email>nyilasÉva@example.com</email>
+         <phone>(258) 355 9083</phone>
+         <order_address>
+            <street>Xtycpmndbr Street</street>
+            <house>38</house>
+            <flat>73</flat>
+            <gender>female</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1530">
+               <country>Austria</country>
+               <city>Upper Austria</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="671" year_of_production="2013-11-05">
+                     <fridge_type>Built-in</fridge_type>
+                     <fridge_color>silver</fridge_color>
+                     <prod_country>Japan</prod_country>
+                     <fridge_volume>9.2</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="643" age="33">
+      <last_name>Cabrera</last_name>
+      <first_name>Sandra</first_name>
+      <gender>female</gender>
+      <age>33</age>
+      <title>ms</title>
+      <order_details>
+         <email>sandra-84@example.com</email>
+         <phone>(860) 271 1544</phone>
+         <order_address>
+            <street>Fiwtmwssbr Street</street>
+            <house>2</house>
+            <flat>63</flat>
+            <gender>female</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1352">
+               <country>Austria</country>
+               <city>Lower Austria WEST</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="112" year_of_production="2017-06-18">
+                     <fridge_type>Bottom freezer</fridge_type>
+                     <fridge_color>silver</fridge_color>
+                     <prod_country>China</prod_country>
+                     <fridge_volume>93.8</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="261" age="22">
+      <last_name>Alvarez</last_name>
+      <first_name>Robert</first_name>
+      <gender>male</gender>
+      <age>22</age>
+      <title>mr</title>
+      <order_details>
+         <email>robert-95@example.com</email>
+         <phone>(964) 265 1784</phone>
+         <order_address>
+            <street>Xfzfglluvc Street</street>
+            <house>4</house>
+            <flat>47</flat>
+            <gender>male</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1457">
+               <country>Austria</country>
+               <city>Tyrol</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="962" year_of_production="2012-10-08">
+                     <fridge_type>Built-in</fridge_type>
+                     <fridge_color>red</fridge_color>
+                     <prod_country>Indonesia</prod_country>
+                     <fridge_volume>83.8</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="325" age="29">
+      <last_name>Belov</last_name>
+      <first_name>Marili</first_name>
+      <gender>female</gender>
+      <age>29</age>
+      <title>ms</title>
+      <order_details>
+         <email>marilibelov@example.com</email>
+         <phone>(114) 576 7888</phone>
+         <order_address>
+            <street>Icfbvwgvyd Street</street>
+            <house>8</house>
+            <flat>65</flat>
+            <gender>female</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1304">
+               <country>Austria</country>
+               <city>Upper Austria</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="363" year_of_production="2015-12-07">
+                     <fridge_type>Side-by-side</fridge_type>
+                     <fridge_color>white</fridge_color>
+                     <prod_country>Vietnam</prod_country>
+                     <fridge_volume>89.4</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="155" age="27">
+      <last_name>Giurescu</last_name>
+      <first_name>Valeria</first_name>
+      <gender>female</gender>
+      <age>27</age>
+      <title>ms</title>
+      <order_details>
+         <email>valeria-90@example.com</email>
+         <phone>(172) 269 8371</phone>
+         <order_address>
+            <street>Dcuobuddvf Street</street>
+            <house>46</house>
+            <flat>71</flat>
+            <gender>female</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1335">
+               <country>Austria</country>
+               <city>Salzburg</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="392" year_of_production="2010-12-26">
+                     <fridge_type>Side-by-side</fridge_type>
+                     <fridge_color>pink</fridge_color>
+                     <prod_country>China</prod_country>
+                     <fridge_volume>45.4</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="808" age="25">
+      <last_name>Vandenberghe</last_name>
+      <first_name>Thibault</first_name>
+      <gender>male</gender>
+      <age>25</age>
+      <title>mr</title>
+      <order_details>
+         <email>thibault92@example.com</email>
+         <phone>(394) 238 5910</phone>
+         <order_address>
+            <street>Ngovfdcffe Street</street>
+            <house>21</house>
+            <flat>65</flat>
+            <gender>male</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1134">
+               <country>Austria</country>
+               <city>Lower Austria WEST</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="70" year_of_production="2013-09-15">
+                     <fridge_type>Side-by-side</fridge_type>
+                     <fridge_color>brown</fridge_color>
+                     <prod_country>Indonesia</prod_country>
+                     <fridge_volume>59.8</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="912" age="23">
+      <last_name>Lorenzo</last_name>
+      <first_name>Lorenzo</first_name>
+      <gender>male</gender>
+      <age>23</age>
+      <title>mr</title>
+      <order_details>
+         <email>lorenzo94@example.com</email>
+         <phone>(444) 547 2658</phone>
+         <order_address>
+            <street>Jlkaiznnbc Street</street>
+            <house>27</house>
+            <flat>17</flat>
+            <gender>male</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1286">
+               <country>Austria</country>
+               <city>Lower Austria EAST</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="401" year_of_production="2015-02-11">
+                     <fridge_type>Top freezer</fridge_type>
+                     <fridge_color>brown</fridge_color>
+                     <prod_country>Indonesia</prod_country>
+                     <fridge_volume>64.7</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="601" age="33">
+      <last_name>Anderson</last_name>
+      <first_name>Samuel</first_name>
+      <gender>male</gender>
+      <age>33</age>
+      <title>mr</title>
+      <order_details>
+         <email>samuel-84@example.com</email>
+         <phone>(186) 226 1361</phone>
+         <order_address>
+            <street>Dgjvlyecqb Street</street>
+            <house>30</house>
+            <flat>86</flat>
+            <gender>male</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1517">
+               <country>Austria</country>
+               <city>Lower Austria EAST</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="357" year_of_production="2017-02-16">
+                     <fridge_type>Compact</fridge_type>
+                     <fridge_color>white</fridge_color>
+                     <prod_country>China</prod_country>
+                     <fridge_volume>71.8</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="965" age="28">
+      <last_name>Harrison</last_name>
+      <first_name>Molly</first_name>
+      <gender>female</gender>
+      <age>28</age>
+      <title>mrs</title>
+      <order_details>
+         <email>molly-89@example.com</email>
+         <phone>(778) 727 6082</phone>
+         <order_address>
+            <street>Gsfluntnmt Street</street>
+            <house>4</house>
+            <flat>5</flat>
+            <gender>female</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1058">
+               <country>Austria</country>
+               <city>Tyrol</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="705" year_of_production="2014-11-30">
+                     <fridge_type>Built-in</fridge_type>
+                     <fridge_color>pink</fridge_color>
+                     <prod_country>Russia</prod_country>
+                     <fridge_volume>43.9</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="715" age="32">
+      <last_name>Almașanu</last_name>
+      <first_name>Cornelia</first_name>
+      <gender>female</gender>
+      <age>32</age>
+      <title>mrs</title>
+      <order_details>
+         <email>cornelia85@example.com</email>
+         <phone>(192) 191 1071</phone>
+         <order_address>
+            <street>Sjniqvpttg Street</street>
+            <house>25</house>
+            <flat>25</flat>
+            <gender>female</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1229">
+               <country>Austria</country>
+               <city>Vienna</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="846" year_of_production="2015-03-03">
+                     <fridge_type>Built-in</fridge_type>
+                     <fridge_color>white</fridge_color>
+                     <prod_country>China</prod_country>
+                     <fridge_volume>26.1</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="987" age="31">
+      <last_name>Herța</last_name>
+      <first_name>Sabrina</first_name>
+      <gender>female</gender>
+      <age>31</age>
+      <title>mrs</title>
+      <order_details>
+         <email>sabrina86@example.com</email>
+         <phone>(580) 542 7917</phone>
+         <order_address>
+            <street>Oaijzhhjhx Street</street>
+            <house>1</house>
+            <flat>15</flat>
+            <gender>female</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1457">
+               <country>Austria</country>
+               <city>Tyrol</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="215" year_of_production="2014-09-05">
+                     <fridge_type>Built-in</fridge_type>
+                     <fridge_color>black</fridge_color>
+                     <prod_country>Vietnam</prod_country>
+                     <fridge_volume>43.9</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="152" age="21">
+      <last_name>Iaru</last_name>
+      <first_name>Loredana</first_name>
+      <gender>female</gender>
+      <age>21</age>
+      <title>ms</title>
+      <order_details>
+         <email>loredana-96@example.com</email>
+         <phone>(872) 995 2225</phone>
+         <order_address>
+            <street>Qizthbssos Street</street>
+            <house>4</house>
+            <flat>21</flat>
+            <gender>female</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1177">
+               <country>Austria</country>
+               <city>Styria</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="528" year_of_production="2017-04-02">
+                     <fridge_type>Bottom freezer</fridge_type>
+                     <fridge_color>red</fridge_color>
+                     <prod_country>Russia</prod_country>
+                     <fridge_volume>37.2</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="264" age="24">
+      <last_name>Frățilă</last_name>
+      <first_name>Grațian</first_name>
+      <gender>male</gender>
+      <age>24</age>
+      <title>mr</title>
+      <order_details>
+         <email>grațian93@example.com</email>
+         <phone>(246) 101 2274</phone>
+         <order_address>
+            <street>Dsvmueemqw Street</street>
+            <house>14</house>
+            <flat>33</flat>
+            <gender>male</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1587">
+               <country>Austria</country>
+               <city>Tyrol</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="23" year_of_production="2016-03-02">
+                     <fridge_type>Compact</fridge_type>
+                     <fridge_color>black</fridge_color>
+                     <prod_country>Germany</prod_country>
+                     <fridge_volume>23.7</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="571" age="34">
+      <last_name>Dorobanțu</last_name>
+      <first_name>Octaviu</first_name>
+      <gender>male</gender>
+      <age>34</age>
+      <title>mr</title>
+      <order_details>
+         <email>octaviu_83@example.com</email>
+         <phone>(169) 688 2122</phone>
+         <order_address>
+            <street>Qiuqfhpawh Street</street>
+            <house>38</house>
+            <flat>90</flat>
+            <gender>male</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1950">
+               <country>Austria</country>
+               <city>Burgenland</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="733" year_of_production="2012-12-14">
+                     <fridge_type>Compact</fridge_type>
+                     <fridge_color>silver</fridge_color>
+                     <prod_country>Germany</prod_country>
+                     <fridge_volume>87.1</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="554" age="33">
+      <last_name>Crăciun</last_name>
+      <first_name>Simion</first_name>
+      <gender>male</gender>
+      <age>33</age>
+      <title>mr</title>
+      <order_details>
+         <email>simion_84@example.com</email>
+         <phone>(976) 252 6344</phone>
+         <order_address>
+            <street>Agstzboarc Street</street>
+            <house>31</house>
+            <flat>36</flat>
+            <gender>male</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1534">
+               <country>Austria</country>
+               <city>Vienna</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="398" year_of_production="2012-09-22">
+                     <fridge_type>Compact</fridge_type>
+                     <fridge_color>white</fridge_color>
+                     <prod_country>Germany</prod_country>
+                     <fridge_volume>23.8</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="162" age="26">
+      <last_name>Captaru</last_name>
+      <first_name>Lucian</first_name>
+      <gender>male</gender>
+      <age>26</age>
+      <title>mr</title>
+      <order_details>
+         <email>lucian_91@example.com</email>
+         <phone>(272) 160 9974</phone>
+         <order_address>
+            <street>Gorunmevuw Street</street>
+            <house>34</house>
+            <flat>22</flat>
+            <gender>male</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1412">
+               <country>Austria</country>
+               <city>Lower Austria EAST</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="480" year_of_production="2014-08-01">
+                     <fridge_type>Side-by-side</fridge_type>
+                     <fridge_color>pink</fridge_color>
+                     <prod_country>China</prod_country>
+                     <fridge_volume>79.9</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="457" age="24">
+      <last_name>Ανδρεάδης</last_name>
+      <first_name>Δεσποινα</first_name>
+      <gender>female</gender>
+      <age>24</age>
+      <title>ms</title>
+      <order_details>
+         <email>Δεσποινα-93@example.com</email>
+         <phone>(432) 669 7254</phone>
+         <order_address>
+            <street>Bspfbvpfjj Street</street>
+            <house>43</house>
+            <flat>37</flat>
+            <gender>female</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1442">
+               <country>Austria</country>
+               <city>Lower Austria EAST</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="841" year_of_production="2012-04-11">
+                     <fridge_type>Bottom freezer</fridge_type>
+                     <fridge_color>silver</fridge_color>
+                     <prod_country>Indonesia</prod_country>
+                     <fridge_volume>33.7</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="175" age="35">
+      <last_name>Lipatti</last_name>
+      <first_name>Stanca</first_name>
+      <gender>female</gender>
+      <age>35</age>
+      <title>ms</title>
+      <order_details>
+         <email>stanca_82@example.com</email>
+         <phone>(421) 306 6464</phone>
+         <order_address>
+            <street>Pccqldzjeu Street</street>
+            <house>3</house>
+            <flat>26</flat>
+            <gender>female</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1248">
+               <country>Austria</country>
+               <city>Tyrol</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="973" year_of_production="2016-07-13">
+                     <fridge_type>Built-in</fridge_type>
+                     <fridge_color>white</fridge_color>
+                     <prod_country>Indonesia</prod_country>
+                     <fridge_volume>97.7</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="3" age="32">
+      <last_name>Cruz</last_name>
+      <first_name>Erika de la</first_name>
+      <gender>female</gender>
+      <age>32</age>
+      <title>ms</title>
+      <order_details>
+         <email>erika de la_85@example.com</email>
+         <phone>(961) 192 7368</phone>
+         <order_address>
+            <street>Mkzrrcohgj Street</street>
+            <house>6</house>
+            <flat>39</flat>
+            <gender>female</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1752">
+               <country>Austria</country>
+               <city>Upper Austria</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="143" year_of_production="2016-02-23">
+                     <fridge_type>Compact</fridge_type>
+                     <fridge_color>brown</fridge_color>
+                     <prod_country>Germany</prod_country>
+                     <fridge_volume>23.4</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="120" age="26">
+      <last_name>은경</last_name>
+      <first_name>현</first_name>
+      <gender>female</gender>
+      <age>26</age>
+      <title>ms</title>
+      <order_details>
+         <email>현은경@example.com</email>
+         <phone>(706) 575 3116</phone>
+         <order_address>
+            <street>Ndbfmcgbcf Street</street>
+            <house>18</house>
+            <flat>36</flat>
+            <gender>female</gender>
+            <porch>0</porch>
+            <detailed_order_data potal_code="1550">
+               <country>Austria</country>
+               <city>Lower Austria EAST</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="874" year_of_production="2016-10-03">
+                     <fridge_type>Built-in</fridge_type>
+                     <fridge_color>white</fridge_color>
+                     <prod_country>Indonesia</prod_country>
+                     <fridge_volume>89.3</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+   <customer customer_id="630" age="31">
+      <last_name>Khan</last_name>
+      <first_name>Niamh</first_name>
+      <gender>female</gender>
+      <age>31</age>
+      <title>ms</title>
+      <order_details>
+         <email>niamh_khan@example.com</email>
+         <phone>(699) 364 5194</phone>
+         <order_address>
+            <street>Njqodxtgvs Street</street>
+            <house>11</house>
+            <flat>73</flat>
+            <gender>female</gender>
+            <porch>1</porch>
+            <detailed_order_data potal_code="1967">
+               <country>Austria</country>
+               <city>Vienna</city>
+               <continent>Europe</continent>
+               <customer_fridges_on_current_address>
+                  <fridge fridge_id="820" year_of_production="2015-09-30">
+                     <fridge_type>Built-in</fridge_type>
+                     <fridge_color>silver</fridge_color>
+                     <prod_country>China</prod_country>
+                     <fridge_volume>82</fridge_volume>
+                  </fridge>
+               </customer_fridges_on_current_address>
+            </detailed_order_data>
+         </order_address>
+      </order_details>
+   </customer>
+</customer_data>

@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appointment_data>
+   <appointment appointment_id="644">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="466" age="34">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>466</customer_id>
+                        <fridge_id>778</fridge_id>
+                        <first_name>Paridhi</first_name>
+                        <last_name>Malhotra</last_name>
+                        <gender>female</gender>
+                        <age>34</age>
+                        <title>ms</title>
+                        <phone>(360) 210 7424</phone>
+                        <email>paridhi-83@example.com</email>
+                        <customer_address>
+                           <street>Nyyldxodlg Street</street>
+                           <hause>47</hause>
+                           <flat>95</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1816</postal_code>
+                              <country>Austria</country>
+                              <city>Tyrol</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="644">
+            <real_date>2015-07-10</real_date>
+            <estimated_date>2017-04-19</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="COOL_FREEZEIN       ">
+               <symptom_description>Doesnt give me a cool vibes</symptom_description>
+               <caused_by>Cat</caused_by>
+               <assumption>UNKNOWN</assumption>
+               <symptom_from>2011-09-28</symptom_from>
+               <status status="NEED TO TAKE FRIDGE " status_type="WARNING             ">
+                  <repared>NEED TO TAKE FRIDGE</repared>
+                  <spendet_time>03:42:27</spendet_time>
+                  <estimated_time>04:14:09</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="917">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="742" age="24">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>742</customer_id>
+                        <fridge_id>365</fridge_id>
+                        <first_name />
+                        <last_name>José Alfredo Acosta</last_name>
+                        <gender>male</gender>
+                        <age>24</age>
+                        <title>mr</title>
+                        <phone>(306) 263 1439</phone>
+                        <email>93@example.com</email>
+                        <customer_address>
+                           <street>Hrbkpzsdjy Street</street>
+                           <hause>21</hause>
+                           <flat>16</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1842</postal_code>
+                              <country>Austria</country>
+                              <city>Upper Austria</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="917">
+            <real_date>2015-06-18</real_date>
+            <estimated_date>2015-11-27</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="FREEZING            ">
+               <symptom_description>UNKNOWN</symptom_description>
+               <caused_by>Dog</caused_by>
+               <assumption>Drop fridge</assumption>
+               <symptom_from>2016-02-07</symptom_from>
+               <status status="NEED HELP           " status_type="WARNING             ">
+                  <repared>NEED HELP</repared>
+                  <spendet_time>12:09:21</spendet_time>
+                  <estimated_time>06:11:58</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="454">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="176" age="35">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>176</customer_id>
+                        <fridge_id>149</fridge_id>
+                        <first_name>Nikita</first_name>
+                        <last_name>Dowling</last_name>
+                        <gender>female</gender>
+                        <age>35</age>
+                        <title>ms</title>
+                        <phone>(173) 933 4652</phone>
+                        <email>nikita-82@example.com</email>
+                        <customer_address>
+                           <street>Pjcrcjrymt Street</street>
+                           <hause>16</hause>
+                           <flat>26</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1287</postal_code>
+                              <country>Austria</country>
+                              <city>Burgenland</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="454">
+            <real_date>2016-02-23</real_date>
+            <estimated_date>2010-03-14</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="ELECTRONICAL        ">
+               <symptom_description>UNKNOWN</symptom_description>
+               <caused_by>Cat</caused_by>
+               <assumption>Drop fridge</assumption>
+               <symptom_from>2017-01-11</symptom_from>
+               <status status="ALL OK              " status_type="WARNING             ">
+                  <repared>ALL OK</repared>
+                  <spendet_time>10:10:32</spendet_time>
+                  <estimated_time>04:52:36</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="393">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="42" age="22">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>42</customer_id>
+                        <fridge_id>142</fridge_id>
+                        <first_name>Amália</first_name>
+                        <last_name>Kollár</last_name>
+                        <gender>female</gender>
+                        <age>22</age>
+                        <title>ms</title>
+                        <phone>(252) 115 5653</phone>
+                        <email>amália95@example.com</email>
+                        <customer_address>
+                           <street>Efjuzfsiot Street</street>
+                           <hause>23</hause>
+                           <flat>4</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1975</postal_code>
+                              <country>Austria</country>
+                              <city>Lower Austria EAST</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="393">
+            <real_date>2011-12-16</real_date>
+            <estimated_date>2014-01-27</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="FREEZING            ">
+               <symptom_description>UNKNOWN</symptom_description>
+               <caused_by>Cat</caused_by>
+               <assumption>Dance on Fridge</assumption>
+               <symptom_from>2014-07-25</symptom_from>
+               <status status="ALL OK              " status_type="WARNING             ">
+                  <repared>ALL OK</repared>
+                  <spendet_time>08:38:52</spendet_time>
+                  <estimated_time>11:22:24</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="494">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="574" age="29">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>574</customer_id>
+                        <fridge_id>23</fridge_id>
+                        <first_name>Teodora</first_name>
+                        <last_name>Șerbu</last_name>
+                        <gender>female</gender>
+                        <age>29</age>
+                        <title>mrs</title>
+                        <phone>(787) 170 1371</phone>
+                        <email>teodora-88@example.com</email>
+                        <customer_address>
+                           <street>Rmeewbkuxw Street</street>
+                           <hause>9</hause>
+                           <flat>15</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1240</postal_code>
+                              <country>Austria</country>
+                              <city>Lower Austria WEST</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="494">
+            <real_date>2010-03-07</real_date>
+            <estimated_date>2016-01-04</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="COOL_FREEZEIN       ">
+               <symptom_description>Dosnt turn on</symptom_description>
+               <caused_by>UNKNOWN</caused_by>
+               <assumption>Drop fridge</assumption>
+               <symptom_from>2017-01-03</symptom_from>
+               <status status="NEED HELP           " status_type="WARNING             ">
+                  <repared>NEED HELP</repared>
+                  <spendet_time>00:12:49</spendet_time>
+                  <estimated_time>04:12:07</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="973">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="639" age="32">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>639</customer_id>
+                        <fridge_id>572</fridge_id>
+                        <first_name>마</first_name>
+                        <last_name>유진</last_name>
+                        <gender>female</gender>
+                        <age>32</age>
+                        <title>mrs</title>
+                        <phone>(915) 990 4887</phone>
+                        <email>마_유진@example.com</email>
+                        <customer_address>
+                           <street>Kdeaqumsol Street</street>
+                           <hause>22</hause>
+                           <flat>97</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1517</postal_code>
+                              <country>Austria</country>
+                              <city>Lower Austria EAST</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="973">
+            <real_date>2014-01-26</real_date>
+            <estimated_date>2016-11-04</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="COOL_FREEZEIN       ">
+               <symptom_description>UNKNOWN</symptom_description>
+               <caused_by>Baby</caused_by>
+               <assumption>Drop fridge</assumption>
+               <symptom_from>2017-01-28</symptom_from>
+               <status status="ALL OK              " status_type="CRITICAL            ">
+                  <repared>ALL OK</repared>
+                  <spendet_time>03:16:57</spendet_time>
+                  <estimated_time>03:08:30</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="11">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="550" age="32">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>550</customer_id>
+                        <fridge_id>921</fridge_id>
+                        <first_name>Cornelia</first_name>
+                        <last_name>Almașanu</last_name>
+                        <gender>female</gender>
+                        <age>32</age>
+                        <title>mrs</title>
+                        <phone>(192) 191 1071</phone>
+                        <email>cornelia85@example.com</email>
+                        <customer_address>
+                           <street>Bhgthiextp Street</street>
+                           <hause>23</hause>
+                           <flat>41</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1182</postal_code>
+                              <country>Austria</country>
+                              <city>Carinthia</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="11">
+            <real_date>2017-03-27</real_date>
+            <estimated_date>2011-05-07</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="OUTESIDE DAMAGE     ">
+               <symptom_description>Doesnt give me a cool vibes</symptom_description>
+               <caused_by>Cat</caused_by>
+               <assumption>Too many beer there</assumption>
+               <symptom_from>2012-09-11</symptom_from>
+               <status status="ALL OK              " status_type="WARNING             ">
+                  <repared>ALL OK</repared>
+                  <spendet_time>11:23:10</spendet_time>
+                  <estimated_time>02:08:31</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="492">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="172" age="35">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>172</customer_id>
+                        <fridge_id>640</fridge_id>
+                        <first_name>Caitlyn</first_name>
+                        <last_name>Russ</last_name>
+                        <gender>female</gender>
+                        <age>35</age>
+                        <title>ms</title>
+                        <phone>(681) 783 4891</phone>
+                        <email>caitlynruss@example.com</email>
+                        <customer_address>
+                           <street>Xducmtoydw Street</street>
+                           <hause>30</hause>
+                           <flat>99</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1469</postal_code>
+                              <country>Austria</country>
+                              <city>Upper Austria</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="492">
+            <real_date>2015-08-04</real_date>
+            <estimated_date>2011-01-23</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="FREEZING            ">
+               <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+               <caused_by>Wife</caused_by>
+               <assumption>UNKNOWN</assumption>
+               <symptom_from>2014-09-27</symptom_from>
+               <status status="ALL OK              " status_type="CRITICAL            ">
+                  <repared>ALL OK</repared>
+                  <spendet_time>04:41:49</spendet_time>
+                  <estimated_time>09:41:33</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="574">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="852" age="26">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>852</customer_id>
+                        <fridge_id>634</fridge_id>
+                        <first_name>Λέων</first_name>
+                        <last_name>Ρέντης</last_name>
+                        <gender>male</gender>
+                        <age>26</age>
+                        <title>mr</title>
+                        <phone>(182) 420 6307</phone>
+                        <email>Λέων91@example.com</email>
+                        <customer_address>
+                           <street>Vyvyzyaarj Street</street>
+                           <hause>21</hause>
+                           <flat>60</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1319</postal_code>
+                              <country>Austria</country>
+                              <city>Burgenland</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="574">
+            <real_date>2014-01-02</real_date>
+            <estimated_date>2011-09-20</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="COOL_FREEZEIN       ">
+               <symptom_description>UNKNOWN</symptom_description>
+               <caused_by>Cat</caused_by>
+               <assumption>Dance on Fridge</assumption>
+               <symptom_from>2016-04-14</symptom_from>
+               <status status="NEED HELP           " status_type="WARNING             ">
+                  <repared>NEED HELP</repared>
+                  <spendet_time>05:00:05</spendet_time>
+                  <estimated_time>02:20:55</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="84">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="486" age="36">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>486</customer_id>
+                        <fridge_id>126</fridge_id>
+                        <first_name>Elisa</first_name>
+                        <last_name>Krämer</last_name>
+                        <gender>female</gender>
+                        <age>36</age>
+                        <title>mrs</title>
+                        <phone>(469) 907 3637</phone>
+                        <email>elisa81@example.com</email>
+                        <customer_address>
+                           <street>Pcdpljflpf Street</street>
+                           <hause>40</hause>
+                           <flat>81</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1255</postal_code>
+                              <country>Austria</country>
+                              <city>Upper Austria</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="84">
+            <real_date>2014-09-15</real_date>
+            <estimated_date>2010-01-14</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="COOL_FREEZEIN       ">
+               <symptom_description>UNKNOWN</symptom_description>
+               <caused_by>Dog</caused_by>
+               <assumption>Too many beer there</assumption>
+               <symptom_from>2012-10-02</symptom_from>
+               <status status="NEED HELP           " status_type="WARNING             ">
+                  <repared>NEED HELP</repared>
+                  <spendet_time>12:59:18</spendet_time>
+                  <estimated_time>09:02:22</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="169">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="656" age="36">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>656</customer_id>
+                        <fridge_id>143</fridge_id>
+                        <first_name>Hứa</first_name>
+                        <last_name>Kim</last_name>
+                        <gender>female</gender>
+                        <age>36</age>
+                        <title>mrs</title>
+                        <phone>(643) 297 1036</phone>
+                        <email>hứa.kim@example.com</email>
+                        <customer_address>
+                           <street>Ijlifcictz Street</street>
+                           <hause>29</hause>
+                           <flat>18</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1715</postal_code>
+                              <country>Austria</country>
+                              <city>Salzburg</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="169">
+            <real_date>2012-09-22</real_date>
+            <estimated_date>2012-07-10</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="COOL_FREEZEIN       ">
+               <symptom_description>Doesnt give me a cool vibes</symptom_description>
+               <caused_by>UNKNOWN</caused_by>
+               <assumption>Too high woltage</assumption>
+               <symptom_from>2011-05-20</symptom_from>
+               <status status="NEED TO TAKE FRIDGE " status_type="WARNING             ">
+                  <repared>NEED TO TAKE FRIDGE</repared>
+                  <spendet_time>06:13:58</spendet_time>
+                  <estimated_time>06:00:56</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="511">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="39" age="33">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>39</customer_id>
+                        <fridge_id>962</fridge_id>
+                        <first_name>Nyilas</first_name>
+                        <last_name>Éva</last_name>
+                        <gender>female</gender>
+                        <age>33</age>
+                        <title>ms</title>
+                        <phone>(258) 355 9083</phone>
+                        <email>nyilasÉva@example.com</email>
+                        <customer_address>
+                           <street>Gklagszqfz Street</street>
+                           <hause>35</hause>
+                           <flat>34</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1501</postal_code>
+                              <country>Austria</country>
+                              <city>Vienna</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="511">
+            <real_date>2011-09-05</real_date>
+            <estimated_date>2016-12-29</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="ELECTRONICAL        ">
+               <symptom_description>Dosnt turn on</symptom_description>
+               <caused_by>Dog</caused_by>
+               <assumption>Dance on Fridge</assumption>
+               <symptom_from>2015-04-21</symptom_from>
+               <status status="NEED TO TAKE FRIDGE " status_type="DEFAULT             ">
+                  <repared>NEED TO TAKE FRIDGE</repared>
+                  <spendet_time>01:10:41</spendet_time>
+                  <estimated_time>06:24:55</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="260">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="755" age="34">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>755</customer_id>
+                        <fridge_id>558</fridge_id>
+                        <first_name>後藤</first_name>
+                        <last_name>健太郎</last_name>
+                        <gender>male</gender>
+                        <age>34</age>
+                        <title>mr</title>
+                        <phone>(596) 209 8872</phone>
+                        <email>後藤83@example.com</email>
+                        <customer_address>
+                           <street>Uhkmizvisk Street</street>
+                           <hause>43</hause>
+                           <flat>11</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1559</postal_code>
+                              <country>Austria</country>
+                              <city>Styria</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="260">
+            <real_date>2010-06-26</real_date>
+            <estimated_date>2014-04-02</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="ICE                 ">
+               <symptom_description>Dosnt turn on</symptom_description>
+               <caused_by>Wife</caused_by>
+               <assumption>Drop fridge</assumption>
+               <symptom_from>2011-08-04</symptom_from>
+               <status status="NEED TO TAKE FRIDGE " status_type="CRITICAL            ">
+                  <repared>NEED TO TAKE FRIDGE</repared>
+                  <spendet_time>09:53:33</spendet_time>
+                  <estimated_time>10:06:52</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="483">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="939" age="26">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>939</customer_id>
+                        <fridge_id>597</fridge_id>
+                        <first_name>Niculina</first_name>
+                        <last_name>Bodescu</last_name>
+                        <gender>female</gender>
+                        <age>26</age>
+                        <title>ms</title>
+                        <phone>(381) 775 1063</phone>
+                        <email>niculina_91@example.com</email>
+                        <customer_address>
+                           <street>Ysgbsaylzk Street</street>
+                           <hause>49</hause>
+                           <flat>23</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1127</postal_code>
+                              <country>Austria</country>
+                              <city>Vienna</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="483">
+            <real_date>2013-09-11</real_date>
+            <estimated_date>2013-05-26</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="ICE                 ">
+               <symptom_description>Doesnt really work</symptom_description>
+               <caused_by>Dog</caused_by>
+               <assumption>Drop fridge</assumption>
+               <symptom_from>2016-06-13</symptom_from>
+               <status status="NEED TOOLS          " status_type="CRITICAL            ">
+                  <repared>NEED TOOLS</repared>
+                  <spendet_time>00:39:38</spendet_time>
+                  <estimated_time>03:42:14</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="754">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="36" age="28">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>36</customer_id>
+                        <fridge_id>306</fridge_id>
+                        <first_name>孔</first_name>
+                        <last_name>全</last_name>
+                        <gender>male</gender>
+                        <age>28</age>
+                        <title>mr</title>
+                        <phone>(875) 734 8270</phone>
+                        <email>孔全@example.com</email>
+                        <customer_address>
+                           <street>Wtanvsdnjz Street</street>
+                           <hause>32</hause>
+                           <flat>81</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1029</postal_code>
+                              <country>Austria</country>
+                              <city>Lower Austria EAST</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="754">
+            <real_date>2013-11-16</real_date>
+            <estimated_date>2011-01-22</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="ELECTRONICAL        ">
+               <symptom_description>Doesnt give me a cool vibes</symptom_description>
+               <caused_by>Dog</caused_by>
+               <assumption>UNKNOWN</assumption>
+               <symptom_from>2011-08-18</symptom_from>
+               <status status="ALL OK              " status_type="DEFAULT             ">
+                  <repared>ALL OK</repared>
+                  <spendet_time>03:15:09</spendet_time>
+                  <estimated_time>11:20:26</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="344">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="492" age="30">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>492</customer_id>
+                        <fridge_id>764</fridge_id>
+                        <first_name>Incze</first_name>
+                        <last_name>Viktor</last_name>
+                        <gender>male</gender>
+                        <age>30</age>
+                        <title>mr</title>
+                        <phone>(430) 492 3484</phone>
+                        <email>incze_viktor@example.com</email>
+                        <customer_address>
+                           <street>Sutzhzrwrj Street</street>
+                           <hause>49</hause>
+                           <flat>54</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1764</postal_code>
+                              <country>Austria</country>
+                              <city>Burgenland</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="344">
+            <real_date>2013-04-18</real_date>
+            <estimated_date>2012-03-01</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="COOL_FREEZEIN       ">
+               <symptom_description>Doesnt really work</symptom_description>
+               <caused_by>Dog</caused_by>
+               <assumption>Too many beer there</assumption>
+               <symptom_from>2012-12-20</symptom_from>
+               <status status="ALL OK              " status_type="CRITICAL            ">
+                  <repared>ALL OK</repared>
+                  <spendet_time>06:44:05</spendet_time>
+                  <estimated_time>11:11:21</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="145">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="835" age="35">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>835</customer_id>
+                        <fridge_id>439</fridge_id>
+                        <first_name>Emilia</first_name>
+                        <last_name>Moțoc</last_name>
+                        <gender>female</gender>
+                        <age>35</age>
+                        <title>mrs</title>
+                        <phone>(388) 814 2899</phone>
+                        <email>emilia82@example.com</email>
+                        <customer_address>
+                           <street>Ljoqwkyuid Street</street>
+                           <hause>11</hause>
+                           <flat>20</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1596</postal_code>
+                              <country>Austria</country>
+                              <city>Upper Austria</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="145">
+            <real_date>2014-01-11</real_date>
+            <estimated_date>2017-07-23</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="ICE                 ">
+               <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+               <caused_by>UNKNOWN</caused_by>
+               <assumption>Too many beer there</assumption>
+               <symptom_from>2017-11-01</symptom_from>
+               <status status="ALL OK              " status_type="CRITICAL            ">
+                  <repared>ALL OK</repared>
+                  <spendet_time>11:30:49</spendet_time>
+                  <estimated_time>07:36:34</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="512">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="918" age="25">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>918</customer_id>
+                        <fridge_id>514</fridge_id>
+                        <first_name>Kanalas</first_name>
+                        <last_name>Tímea</last_name>
+                        <gender>female</gender>
+                        <age>25</age>
+                        <title>ms</title>
+                        <phone>(649) 279 5507</phone>
+                        <email>kanalas-92@example.com</email>
+                        <customer_address>
+                           <street>Razvsnsqkp Street</street>
+                           <hause>50</hause>
+                           <flat>25</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1492</postal_code>
+                              <country>Austria</country>
+                              <city>Burgenland</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="512">
+            <real_date>2016-11-23</real_date>
+            <estimated_date>2014-12-19</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="COOL_FREEZEIN       ">
+               <symptom_description>Dosnt turn on</symptom_description>
+               <caused_by>Dog</caused_by>
+               <assumption>Too high woltage</assumption>
+               <symptom_from>2012-12-04</symptom_from>
+               <status status="NEED TOOLS          " status_type="DEFAULT             ">
+                  <repared>NEED TOOLS</repared>
+                  <spendet_time>07:16:03</spendet_time>
+                  <estimated_time>12:27:05</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="510">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="267" age="32">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>267</customer_id>
+                        <fridge_id>944</fridge_id>
+                        <first_name>Teresa</first_name>
+                        <last_name>Colín</last_name>
+                        <gender>female</gender>
+                        <age>32</age>
+                        <title>ms</title>
+                        <phone>(935) 145 9640</phone>
+                        <email>teresa-85@example.com</email>
+                        <customer_address>
+                           <street>Flsptiwxvy Street</street>
+                           <hause>6</hause>
+                           <flat>14</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1419</postal_code>
+                              <country>Austria</country>
+                              <city>Tyrol</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="510">
+            <real_date>2013-11-01</real_date>
+            <estimated_date>2014-11-08</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="COOL_FREEZEIN       ">
+               <symptom_description>Doesnt give me a cool vibes</symptom_description>
+               <caused_by>UNKNOWN</caused_by>
+               <assumption>Too high woltage</assumption>
+               <symptom_from>2016-09-21</symptom_from>
+               <status status="NEED TOOLS          " status_type="WARNING             ">
+                  <repared>NEED TOOLS</repared>
+                  <spendet_time>09:36:11</spendet_time>
+                  <estimated_time>10:57:07</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="434">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="597" age="32">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>597</customer_id>
+                        <fridge_id>914</fridge_id>
+                        <first_name>Adam</first_name>
+                        <last_name>Badea</last_name>
+                        <gender>male</gender>
+                        <age>32</age>
+                        <title>mr</title>
+                        <phone>(213) 802 2899</phone>
+                        <email>adam.badea@example.com</email>
+                        <customer_address>
+                           <street>Qlendfxkyu Street</street>
+                           <hause>12</hause>
+                           <flat>74</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1719</postal_code>
+                              <country>Austria</country>
+                              <city>Burgenland</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="434">
+            <real_date>2016-03-27</real_date>
+            <estimated_date>2017-02-04</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="ICE                 ">
+               <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+               <caused_by>Wife</caused_by>
+               <assumption>Drop fridge</assumption>
+               <symptom_from>2010-07-07</symptom_from>
+               <status status="NEED TO TAKE FRIDGE " status_type="DEFAULT             ">
+                  <repared>NEED TO TAKE FRIDGE</repared>
+                  <spendet_time>03:28:19</spendet_time>
+                  <estimated_time>07:40:59</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="309">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="356" age="25">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>356</customer_id>
+                        <fridge_id>291</fridge_id>
+                        <first_name>Agripina</first_name>
+                        <last_name>Cazan</last_name>
+                        <gender>female</gender>
+                        <age>25</age>
+                        <title>ms</title>
+                        <phone>(249) 460 9256</phone>
+                        <email>agripina_92@example.com</email>
+                        <customer_address>
+                           <street>Uembmsakqx Street</street>
+                           <hause>5</hause>
+                           <flat>41</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1139</postal_code>
+                              <country>Austria</country>
+                              <city>Carinthia</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="309">
+            <real_date>2014-10-24</real_date>
+            <estimated_date>2012-06-24</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="ELECTRONICAL        ">
+               <symptom_description>Dosnt turn on</symptom_description>
+               <caused_by>UNKNOWN</caused_by>
+               <assumption>Too high woltage</assumption>
+               <symptom_from>2014-10-03</symptom_from>
+               <status status="NEED HELP           " status_type="CRITICAL            ">
+                  <repared>NEED HELP</repared>
+                  <spendet_time>06:27:54</spendet_time>
+                  <estimated_time>04:32:52</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="326">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="438" age="34">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>438</customer_id>
+                        <fridge_id>241</fridge_id>
+                        <first_name>Daróczi</first_name>
+                        <last_name>Aladár</last_name>
+                        <gender>male</gender>
+                        <age>34</age>
+                        <title>mr</title>
+                        <phone>(219) 319 9432</phone>
+                        <email>daróczi83@example.com</email>
+                        <customer_address>
+                           <street>Lgyvtiztwd Street</street>
+                           <hause>42</hause>
+                           <flat>81</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1111</postal_code>
+                              <country>Austria</country>
+                              <city>Lower Austria EAST</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="326">
+            <real_date>2014-06-15</real_date>
+            <estimated_date>2012-12-05</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="OUTESIDE DAMAGE     ">
+               <symptom_description>Doesnt give me a cool vibes</symptom_description>
+               <caused_by>Wife</caused_by>
+               <assumption>Too many beer there</assumption>
+               <symptom_from>2015-06-20</symptom_from>
+               <status status="ALL OK              " status_type="DEFAULT             ">
+                  <repared>ALL OK</repared>
+                  <spendet_time>06:00:57</spendet_time>
+                  <estimated_time>02:44:42</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="134">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="124" age="31">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>124</customer_id>
+                        <fridge_id>180</fridge_id>
+                        <first_name>Sabrina</first_name>
+                        <last_name>Herța</last_name>
+                        <gender>female</gender>
+                        <age>31</age>
+                        <title>mrs</title>
+                        <phone>(580) 542 7917</phone>
+                        <email>sabrina86@example.com</email>
+                        <customer_address>
+                           <street>Ishqxhlgim Street</street>
+                           <hause>25</hause>
+                           <flat>5</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1821</postal_code>
+                              <country>Austria</country>
+                              <city>Carinthia</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="134">
+            <real_date>2010-07-06</real_date>
+            <estimated_date>2010-04-20</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="COOL_FREEZEIN       ">
+               <symptom_description>Dosnt turn on</symptom_description>
+               <caused_by>UNKNOWN</caused_by>
+               <assumption>UNKNOWN</assumption>
+               <symptom_from>2012-07-06</symptom_from>
+               <status status="NEED HELP           " status_type="WARNING             ">
+                  <repared>NEED HELP</repared>
+                  <spendet_time>12:36:50</spendet_time>
+                  <estimated_time>02:08:44</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="296">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="350" age="35">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>350</customer_id>
+                        <fridge_id>575</fridge_id>
+                        <first_name>Emilia</first_name>
+                        <last_name>Moțoc</last_name>
+                        <gender>female</gender>
+                        <age>35</age>
+                        <title>mrs</title>
+                        <phone>(388) 814 2899</phone>
+                        <email>emilia82@example.com</email>
+                        <customer_address>
+                           <street>Dmwxqfnqgb Street</street>
+                           <hause>40</hause>
+                           <flat>51</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1790</postal_code>
+                              <country>Austria</country>
+                              <city>Burgenland</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="296">
+            <real_date>2011-07-11</real_date>
+            <estimated_date>2015-12-20</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="FREEZING            ">
+               <symptom_description>Doesnt really work</symptom_description>
+               <caused_by>Cat</caused_by>
+               <assumption>Too high woltage</assumption>
+               <symptom_from>2013-10-05</symptom_from>
+               <status status="NEED HELP           " status_type="DEFAULT             ">
+                  <repared>NEED HELP</repared>
+                  <spendet_time>12:07:53</spendet_time>
+                  <estimated_time>11:01:01</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="780">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="111" age="35">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>111</customer_id>
+                        <fridge_id>42</fridge_id>
+                        <first_name>Θεαγένης</first_name>
+                        <last_name>Δαμασκηνός</last_name>
+                        <gender>male</gender>
+                        <age>35</age>
+                        <title>mr</title>
+                        <phone>(429) 261 3665</phone>
+                        <email>Θεαγένης82@example.com</email>
+                        <customer_address>
+                           <street>Mwzggnndnm Street</street>
+                           <hause>27</hause>
+                           <flat>24</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1494</postal_code>
+                              <country>Austria</country>
+                              <city>Salzburg</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="780">
+            <real_date>2011-05-16</real_date>
+            <estimated_date>2015-05-02</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="ICE                 ">
+               <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
+               <caused_by>UNKNOWN</caused_by>
+               <assumption>Too many beer there</assumption>
+               <symptom_from>2013-01-19</symptom_from>
+               <status status="ALL OK              " status_type="DEFAULT             ">
+                  <repared>ALL OK</repared>
+                  <spendet_time>08:24:57</spendet_time>
+                  <estimated_time>02:13:24</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="508">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="739" age="26">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>739</customer_id>
+                        <fridge_id>273</fridge_id>
+                        <first_name>Lachlan</first_name>
+                        <last_name>Wells</last_name>
+                        <gender>male</gender>
+                        <age>26</age>
+                        <title>mr</title>
+                        <phone>(639) 175 9192</phone>
+                        <email>lachlan91@example.com</email>
+                        <customer_address>
+                           <street>Zfvgitkkbu Street</street>
+                           <hause>41</hause>
+                           <flat>97</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1691</postal_code>
+                              <country>Austria</country>
+                              <city>Styria</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="508">
+            <real_date>2014-06-14</real_date>
+            <estimated_date>2015-04-13</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="FREEZING            ">
+               <symptom_description>Dosnt turn on</symptom_description>
+               <caused_by>Wife</caused_by>
+               <assumption>Too many beer there</assumption>
+               <symptom_from>2017-10-17</symptom_from>
+               <status status="NEED TO TAKE FRIDGE " status_type="CRITICAL            ">
+                  <repared>NEED TO TAKE FRIDGE</repared>
+                  <spendet_time>12:15:23</spendet_time>
+                  <estimated_time>06:39:49</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="311">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="729" age="30">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>729</customer_id>
+                        <fridge_id>480</fridge_id>
+                        <first_name>Alfréd</first_name>
+                        <last_name>Lojka</last_name>
+                        <gender>male</gender>
+                        <age>30</age>
+                        <title>mr</title>
+                        <phone>(879) 602 4662</phone>
+                        <email>alfréd87@example.com</email>
+                        <customer_address>
+                           <street>Mxylxlstvq Street</street>
+                           <hause>50</hause>
+                           <flat>85</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1852</postal_code>
+                              <country>Austria</country>
+                              <city>Lower Austria WEST</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="311">
+            <real_date>2013-01-15</real_date>
+            <estimated_date>2014-02-28</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="COOL_FREEZEIN       ">
+               <symptom_description>Dosnt turn on</symptom_description>
+               <caused_by>Dog</caused_by>
+               <assumption>Drop fridge</assumption>
+               <symptom_from>2015-02-05</symptom_from>
+               <status status="NEED TO TAKE FRIDGE " status_type="WARNING             ">
+                  <repared>NEED TO TAKE FRIDGE</repared>
+                  <spendet_time>08:39:57</spendet_time>
+                  <estimated_time>12:27:34</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="540">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="607" age="27">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>607</customer_id>
+                        <fridge_id>430</fridge_id>
+                        <first_name>Carol</first_name>
+                        <last_name>Ungheanu</last_name>
+                        <gender>male</gender>
+                        <age>27</age>
+                        <title>mr</title>
+                        <phone>(126) 431 8668</phone>
+                        <email>carol90@example.com</email>
+                        <customer_address>
+                           <street>Klbrcbloju Street</street>
+                           <hause>20</hause>
+                           <flat>5</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1928</postal_code>
+                              <country>Austria</country>
+                              <city>Lower Austria EAST</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="540">
+            <real_date>2012-06-07</real_date>
+            <estimated_date>2016-02-15</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="ELECTRONICAL        ">
+               <symptom_description>Dosnt turn on</symptom_description>
+               <caused_by>Cat</caused_by>
+               <assumption>UNKNOWN</assumption>
+               <symptom_from>2011-03-29</symptom_from>
+               <status status="NEED TOOLS          " status_type="WARNING             ">
+                  <repared>NEED TOOLS</repared>
+                  <spendet_time>05:03:30</spendet_time>
+                  <estimated_time>11:03:26</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="929">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="516" age="30">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>516</customer_id>
+                        <fridge_id>519</fridge_id>
+                        <first_name>Marin</first_name>
+                        <last_name>Orleanu</last_name>
+                        <gender>male</gender>
+                        <age>30</age>
+                        <title>mr</title>
+                        <phone>(301) 270 5922</phone>
+                        <email>marin87@example.com</email>
+                        <customer_address>
+                           <street>Gcmktuwxgc Street</street>
+                           <hause>28</hause>
+                           <flat>57</flat>
+                           <porch>1</porch>
+                           <postal_code>
+                              <postal_code>1129</postal_code>
+                              <country>Austria</country>
+                              <city>Carinthia</city>
+                              <continent>Europe</continent>
+                              <type>commercial</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="929">
+            <real_date>2017-09-10</real_date>
+            <estimated_date>2012-12-25</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="COOL_FREEZEIN       ">
+               <symptom_description>Doesnt give me a cool vibes</symptom_description>
+               <caused_by>UNKNOWN</caused_by>
+               <assumption>Drop fridge</assumption>
+               <symptom_from>2016-06-23</symptom_from>
+               <status status="NEED HELP           " status_type="CRITICAL            ">
+                  <repared>NEED HELP</repared>
+                  <spendet_time>02:34:09</spendet_time>
+                  <estimated_time>10:31:50</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+   <appointment appointment_id="687">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <appointment_details>
+         <customer_info>
+            <customer_details customer_id="112" age="33">
+               <customer_to_export>
+                  <customer_data>
+                     <customer>
+                        <customer_id>112</customer_id>
+                        <fridge_id>961</fridge_id>
+                        <first_name>Samuel</first_name>
+                        <last_name>Anderson</last_name>
+                        <gender>male</gender>
+                        <age>33</age>
+                        <title>mr</title>
+                        <phone>(186) 226 1361</phone>
+                        <email>samuel-84@example.com</email>
+                        <customer_address>
+                           <street>Mhdlioexbr Street</street>
+                           <hause>44</hause>
+                           <flat>29</flat>
+                           <porch>0</porch>
+                           <postal_code>
+                              <postal_code>1983</postal_code>
+                              <country>Austria</country>
+                              <city>Burgenland</city>
+                              <continent>Europe</continent>
+                              <type>private</type>
+                           </postal_code>
+                        </customer_address>
+                     </customer>
+                  </customer_data>
+               </customer_to_export>
+            </customer_details>
+         </customer_info>
+         <appointment_date appointment_id="687">
+            <real_date>2014-09-26</real_date>
+            <estimated_date>2012-06-14</estimated_date>
+         </appointment_date>
+         <status>
+            <symptom symptom_type="ELECTRONICAL        ">
+               <symptom_description>Dosnt turn on</symptom_description>
+               <caused_by>Baby</caused_by>
+               <assumption>UNKNOWN</assumption>
+               <symptom_from>2011-03-25</symptom_from>
+               <status status="NEED HELP           " status_type="WARNING             ">
+                  <repared>NEED HELP</repared>
+                  <spendet_time>00:16:04</spendet_time>
+                  <estimated_time>04:10:29</estimated_time>
+               </status>
+            </symptom>
+         </status>
+      </appointment_details>
+   </appointment>
+</appointment_data>

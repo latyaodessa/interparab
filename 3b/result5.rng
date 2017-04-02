@@ -1,0 +1,188 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+   <start>
+      <element name="rates_and_facilities">
+         <oneOrMore>
+            <element name="rates_of_particular_facility">
+               <element name="facility_data">
+                  <attribute name="facility_id">
+                     <ref name="only_numbers_validation" />
+                  </attribute>
+                  <attribute name="facility_type">
+                     <ref name="only_string_validation" />
+                  </attribute>
+                  <element name="local_facility_name">
+                     <list>
+                        <data type="string" />
+                        <data type="string" />
+                        <data type="integer" />
+                        <data type="string" />
+                     </list>
+                  </element>
+                  <element name="facility_status">
+                     <ref name="facility_status_validation" />
+                  </element>
+                  <element name="detailed_data">
+                     <ref name="detailed_data" />
+                  </element>
+               </element>
+            </element>
+         </oneOrMore>
+      </element>
+   </start>
+   <define name="detailed_data">
+      <zeroOrMore>
+         <element name="appointment">
+            <attribute name="appointment_id">
+               <ref name="only_numbers_validation" />
+            </attribute>
+            <element name="appointment_data_to_export">
+               <element name="appointment_data">
+                  <element name="appointment">
+                     <element name="appointment_id">
+                        <ref name="only_numbers_validation" />
+                     </element>
+                     <element name="appointment_type">
+                        <ref name="only_string_validation" />
+                     </element>
+                     <element name="special_handling">
+                        <ref name="only_string_validation" />
+                     </element>
+                     <element name="esimated_date">
+                        <ref name="only_string_validation" />
+                     </element>
+                     <element name="real_date">
+                        <ref name="only_string_validation" />
+                     </element>
+                     <element name="customer_id">
+                        <ref name="only_numbers_validation" />
+                     </element>
+                     <optional>
+                     		<ref name="facility" />
+               		  </optional>
+                  </element>
+               </element>
+            </element>
+         </element>
+      </zeroOrMore>
+      <optional>
+      <element name="facility_rate">
+      	<element name="appointment">
+      		<attribute name="rate">
+      			<ref name="only_numbers_validation" />
+      		</attribute>
+			<attribute name="rate_type">
+      			<ref name="only_string_validation" />
+      		</attribute>
+      		<element name="rate_description">
+      			<ref name="only_string_validation" />
+      		</element>
+      		<element name="recommend">
+      			<ref name="only_string_validation" />
+      		</element>
+      	</element>
+      </element>
+      </optional>
+   </define>
+   <define name="facility">
+      <element name="facility">
+         <interleave>
+            <element name="facility_id">
+               <ref name="only_numbers_validation" />
+            </element>
+            <element name="local_facility_name">
+               <list>
+                  <data type="string" />
+                  <data type="string" />
+                  <data type="integer" />
+                  <data type="string" />
+               </list>
+            </element>
+            <element name="facility_type">
+               <ref name="facility_type_validation" />
+            </element>
+            <element name="facility_status">
+               <ref name="facility_status_validation" />
+            </element>
+            <element name="repair">
+               <element name="status">
+                  <ref name="only_string_validation" />
+               </element>
+               <element name="status_type">
+                  <ref name="only_string_validation" />
+               </element>
+               <element name="repared">
+                  <ref name="reapred_validation" />
+               </element>
+               <element name="spendet_time">
+                  <ref name="time_validator" />
+               </element>
+               <element name="esitmated_time">
+                  <ref name="time_validator" />
+               </element>
+               <element name="symptom">
+                  <element name="symptom_type">
+                     <ref name="symptom_validation" />
+                  </element>
+                  <element name="symptom_description">
+                     <ref name="only_string_validation" />
+                  </element>
+                  <element name="caused_by">
+                     <ref name="only_string_validation" />
+                  </element>
+                  <element name="assumption">
+                     <ref name="only_string_validation" />
+                  </element>
+                  <element name="symptom_from">
+                     <ref name="only_string_validation" />
+                  </element>
+               </element>
+            </element>
+         </interleave>
+      </element>
+   </define>
+   <define name="facility_status_validation">
+      <choice>
+         <value>INACTIVE</value>
+         <value>ACTIVE</value>
+      </choice>
+   </define>
+   <define name="only_numbers_validation">
+      <data type="string">
+         <param name="pattern">[0-9]*</param>
+      </data>
+   </define>
+   <define name="only_string_validation">
+      <data type="string">
+         <param name="pattern">.*</param>
+      </data>
+   </define>
+   <define name="facility_type_validation">
+      <choice>
+         <value>Corporate</value>
+         <value>Private</value>
+         <value>Mixed</value>
+      </choice>
+   </define>
+   <define name="time_validator">
+      <data type="string">
+         <param name="pattern">[0-9][0-9]:[0-9][0-9]:[0-9][0-9]</param>
+      </data>
+   </define>
+   <define name="reapred_validation">
+      <choice>
+         <value>NEED TO TAKE FRIDGE</value>
+         <value>ALL OK</value>
+         <value>NEED TOOLS</value>
+         <value>NEED HELP</value>
+      </choice>
+   </define>
+   <define name="symptom_validation">
+      <choice>
+         <value>ELECTRONICAL</value>
+         <value>FREEZING</value>
+         <value>COOL_FREEZEIN</value>
+         <value>ICE</value>
+         <value>OUTESIDE DAMAGE</value>
+      </choice>
+   </define>
+</grammar>
