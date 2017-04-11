@@ -1,0 +1,7 @@
+Find all facility ids which had appointments in 2014,2015 or 2016 and repeair status was WARNING or CRITICAL
+
+rules applied:
+At least 5 queries have to return nodes while considering information from descendants that are not children of these nodes to do so. 
+At least 5 queries have to consider information that is stored in attributes. 
+At least 5 queries have to deal with text and text related functions. 
+At least 5 queries have to return nodes while considering information from ancestors of these nodes to do so. 

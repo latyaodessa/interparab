@@ -1,0 +1,1 @@
+//facility[facility_id/text() >100 and facility_id/text()<300 and facility_status/text()="INACTIVE"]/ancestor:: rates_of_particular_facility//facility_rate

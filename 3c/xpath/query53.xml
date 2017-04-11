@@ -1,0 +1,1 @@
+//rates_of_particular_facility//real_date[contains(text(),"2014") or contains(text(),"2015") or contains(text(),"2016")]/following-sibling::facility//status_type[contains(text(),"WARNING") or contains(text(),"CRITICAL")]/ancestor:: facility_data/@ facility_id

@@ -1,0 +1,6 @@
+Find all corporate appointments where were problems with icing (Freezing, Ice etc.) of fridge
+
+rules applied:
+At least 5 queries have to return nodes while considering information from ancestors of these nodes to do so. 
+At least 5 queries have to deal with text and text related functions. 
+At least 5 queries have to consider information that is stored in attributes. 
