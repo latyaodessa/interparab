@@ -28,12 +28,18 @@ SELECT xmlroot(xmlelement(name "local_facility_data",
                                                                     c.title as title
                                                                 ),
                                                               xmlelement(name "customer_address", xmlattributes(ca.street as street),
+                                                                          (case when lf.facility_type = 'Private' then 
                                                                               xmlforest(
                                                                                     ca.street as street,
                                                                                     ca.hause as house,
-                                                                                    ca.flat as flat,
-                                                                                    ca.porch as porch                                                                              
-                                                                                        )
+                                                                                    ca.flat as flat
+                                                                                       ) 
+                                                                             else  xmlforest(
+                                                                                    ca.street as street,
+                                                                                   ca.hause as house,
+                                                                                   ca.porch as porch   
+                                                                                        ) 
+                                                                             end)
                                                                           )
                                                            )
                                              )

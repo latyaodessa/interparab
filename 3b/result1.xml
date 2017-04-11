@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <customer_data>
    <customer customer_id="382" age="36">
       <last_name>Castro</last_name>
@@ -6,7 +7,6 @@
       <age>36</age>
       <title>ms</title>
       <order_details>
-         <email>araceli-81@example.com</email>
          <phone>(870) 839 4907</phone>
          <order_address>
             <street>Uzfdaeuuzs Street</street>
@@ -37,7 +37,6 @@
       <age>22</age>
       <title>mr</title>
       <order_details>
-         <email>robert-95@example.com</email>
          <phone>(964) 265 1784</phone>
          <order_address>
             <street>Smaplvrbaz Street</street>
@@ -68,7 +67,6 @@
       <age>36</age>
       <title>mr</title>
       <order_details>
-         <email>howardortiz@example.com</email>
          <phone>(562) 428 6760</phone>
          <order_address>
             <street>Zehhoyhhkb Street</street>
@@ -99,7 +97,6 @@
       <age>26</age>
       <title>mr</title>
       <order_details>
-         <email>ignacio91@example.com</email>
          <phone>(296) 789 4455</phone>
          <order_address>
             <street>Qtwxjjbswt Street</street>
@@ -130,7 +127,6 @@
       <age>23</age>
       <title>mr</title>
       <order_details>
-         <email>eusebiu-94@example.com</email>
          <phone>(198) 741 8721</phone>
          <order_address>
             <street>Ayxpqfrvod Street</street>
@@ -161,7 +157,6 @@
       <age>21</age>
       <title>mr</title>
       <order_details>
-         <email>nathan_price@example.com</email>
          <phone>(543) 968 1944</phone>
          <order_address>
             <street>Gaemqrlgol Street</street>
@@ -192,7 +187,6 @@
       <age>31</age>
       <title>mrs</title>
       <order_details>
-         <email>speranța-86@example.com</email>
          <phone>(679) 509 5784</phone>
          <order_address>
             <street>Kjzwgymgnl Street</street>
@@ -223,7 +217,6 @@
       <age>23</age>
       <title>mr</title>
       <order_details>
-         <email>pálfalvi_94@example.com</email>
          <phone>(310) 826 1057</phone>
          <order_address>
             <street>Hptfbxbjiu Street</street>
@@ -254,7 +247,6 @@
       <age>25</age>
       <title>ms</title>
       <order_details>
-         <email>eva-bailly@example.com</email>
          <phone>(348) 581 5942</phone>
          <order_address>
             <street>Izvuinglnh Street</street>
@@ -285,7 +277,6 @@
       <age>33</age>
       <title>ms</title>
       <order_details>
-         <email>nyilasÉva@example.com</email>
          <phone>(258) 355 9083</phone>
          <order_address>
             <street>Xtycpmndbr Street</street>
@@ -316,7 +307,6 @@
       <age>33</age>
       <title>ms</title>
       <order_details>
-         <email>sandra-84@example.com</email>
          <phone>(860) 271 1544</phone>
          <order_address>
             <street>Fiwtmwssbr Street</street>
@@ -347,7 +337,6 @@
       <age>22</age>
       <title>mr</title>
       <order_details>
-         <email>robert-95@example.com</email>
          <phone>(964) 265 1784</phone>
          <order_address>
             <street>Xfzfglluvc Street</street>
@@ -378,7 +367,6 @@
       <age>29</age>
       <title>ms</title>
       <order_details>
-         <email>marilibelov@example.com</email>
          <phone>(114) 576 7888</phone>
          <order_address>
             <street>Icfbvwgvyd Street</street>
@@ -409,7 +397,6 @@
       <age>27</age>
       <title>ms</title>
       <order_details>
-         <email>valeria-90@example.com</email>
          <phone>(172) 269 8371</phone>
          <order_address>
             <street>Dcuobuddvf Street</street>
@@ -440,7 +427,6 @@
       <age>25</age>
       <title>mr</title>
       <order_details>
-         <email>thibault92@example.com</email>
          <phone>(394) 238 5910</phone>
          <order_address>
             <street>Ngovfdcffe Street</street>
@@ -471,7 +457,6 @@
       <age>23</age>
       <title>mr</title>
       <order_details>
-         <email>lorenzo94@example.com</email>
          <phone>(444) 547 2658</phone>
          <order_address>
             <street>Jlkaiznnbc Street</street>
@@ -502,7 +487,6 @@
       <age>33</age>
       <title>mr</title>
       <order_details>
-         <email>samuel-84@example.com</email>
          <phone>(186) 226 1361</phone>
          <order_address>
             <street>Dgjvlyecqb Street</street>
@@ -534,7 +518,6 @@
       <title>mrs</title>
       <order_details>
          <email>molly-89@example.com</email>
-         <phone>(778) 727 6082</phone>
          <order_address>
             <street>Gsfluntnmt Street</street>
             <house>4</house>
@@ -564,7 +547,6 @@
       <age>32</age>
       <title>mrs</title>
       <order_details>
-         <email>cornelia85@example.com</email>
          <phone>(192) 191 1071</phone>
          <order_address>
             <street>Sjniqvpttg Street</street>
@@ -595,7 +577,6 @@
       <age>31</age>
       <title>mrs</title>
       <order_details>
-         <email>sabrina86@example.com</email>
          <phone>(580) 542 7917</phone>
          <order_address>
             <street>Oaijzhhjhx Street</street>
@@ -626,7 +607,6 @@
       <age>21</age>
       <title>ms</title>
       <order_details>
-         <email>loredana-96@example.com</email>
          <phone>(872) 995 2225</phone>
          <order_address>
             <street>Qizthbssos Street</street>
@@ -657,7 +637,6 @@
       <age>24</age>
       <title>mr</title>
       <order_details>
-         <email>grațian93@example.com</email>
          <phone>(246) 101 2274</phone>
          <order_address>
             <street>Dsvmueemqw Street</street>
@@ -688,7 +667,6 @@
       <age>34</age>
       <title>mr</title>
       <order_details>
-         <email>octaviu_83@example.com</email>
          <phone>(169) 688 2122</phone>
          <order_address>
             <street>Qiuqfhpawh Street</street>
@@ -719,7 +697,6 @@
       <age>33</age>
       <title>mr</title>
       <order_details>
-         <email>simion_84@example.com</email>
          <phone>(976) 252 6344</phone>
          <order_address>
             <street>Agstzboarc Street</street>
@@ -750,7 +727,6 @@
       <age>26</age>
       <title>mr</title>
       <order_details>
-         <email>lucian_91@example.com</email>
          <phone>(272) 160 9974</phone>
          <order_address>
             <street>Gorunmevuw Street</street>
@@ -781,7 +757,6 @@
       <age>24</age>
       <title>ms</title>
       <order_details>
-         <email>Δεσποινα-93@example.com</email>
          <phone>(432) 669 7254</phone>
          <order_address>
             <street>Bspfbvpfjj Street</street>
@@ -812,7 +787,6 @@
       <age>35</age>
       <title>ms</title>
       <order_details>
-         <email>stanca_82@example.com</email>
          <phone>(421) 306 6464</phone>
          <order_address>
             <street>Pccqldzjeu Street</street>
@@ -843,7 +817,6 @@
       <age>32</age>
       <title>ms</title>
       <order_details>
-         <email>erika de la_85@example.com</email>
          <phone>(961) 192 7368</phone>
          <order_address>
             <street>Mkzrrcohgj Street</street>
@@ -875,7 +848,6 @@
       <title>ms</title>
       <order_details>
          <email>현은경@example.com</email>
-         <phone>(706) 575 3116</phone>
          <order_address>
             <street>Ndbfmcgbcf Street</street>
             <house>18</house>
@@ -905,7 +877,6 @@
       <age>31</age>
       <title>ms</title>
       <order_details>
-         <email>niamh_khan@example.com</email>
          <phone>(699) 364 5194</phone>
          <order_address>
             <street>Njqodxtgvs Street</street>

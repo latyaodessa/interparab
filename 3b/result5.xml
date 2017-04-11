@@ -3,7 +3,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="610" facility_type="Corporate                                         ">
          <local_facility_name>Local Facility 610 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Corporate</facility_type>
          <detailed_data>
             <appointment appointment_id="30">
                <appointment_data_to_export>
@@ -201,7 +201,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="622" facility_type="Mixed                                             ">
          <local_facility_name>Local Facility 622 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Mixed</facility_type>
          <detailed_data>
             <appointment appointment_id="530">
                <appointment_data_to_export>
@@ -317,7 +317,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="773" facility_type="Private                                           ">
          <local_facility_name>Local Facility 773 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Private</facility_type>
          <detailed_data>
             <appointment appointment_id="431">
                <appointment_data_to_export>
@@ -515,7 +515,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="533" facility_type="Corporate                                         ">
          <local_facility_name>Local Facility 533 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Corporate</facility_type>
          <detailed_data>
             <appointment appointment_id="823">
                <appointment_data_to_export>
@@ -597,7 +597,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="203" facility_type="Mixed                                             ">
          <local_facility_name>Local Facility 203 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Mixed</facility_type>
          <detailed_data>
             <appointment appointment_id="836">
                <appointment_data_to_export>
@@ -727,7 +727,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="455" facility_type="Private                                           ">
          <local_facility_name>Local Facility 455 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Private</facility_type>
          <detailed_data>
             <appointment appointment_id="356">
                <appointment_data_to_export>
@@ -1041,7 +1041,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="823" facility_type="Corporate                                         ">
          <local_facility_name>Local Facility 823 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Corporate</facility_type>
          <detailed_data>
             <appointment appointment_id="426">
                <appointment_data_to_export>
@@ -1089,7 +1089,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="88" facility_type="Corporate                                         ">
          <local_facility_name>Local Facility 88 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Corporate</facility_type>
          <detailed_data>
             <appointment appointment_id="653">
                <appointment_data_to_export>
@@ -1219,7 +1219,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="969" facility_type="Corporate                                         ">
          <local_facility_name>Local Facility 969 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Corporate</facility_type>
          <detailed_data>
             <appointment appointment_id="310">
                <appointment_data_to_export>
@@ -1479,7 +1479,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="453" facility_type="Mixed                                             ">
          <local_facility_name>Local Facility 453 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Mixed</facility_type>
          <detailed_data>
             <appointment appointment_id="15">
                <appointment_data_to_export>
@@ -1739,7 +1739,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="706" facility_type="Corporate                                         ">
          <local_facility_name>Local Facility 706 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Corporate</facility_type>
          <detailed_data>
             <appointment appointment_id="396">
                <appointment_data_to_export>
@@ -1787,7 +1787,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="676" facility_type="Mixed                                             ">
          <local_facility_name>Local Facility 676 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Mixed</facility_type>
          <detailed_data>
             <appointment appointment_id="808">
                <appointment_data_to_export>
@@ -1903,7 +1903,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="306" facility_type="Corporate                                         ">
          <local_facility_name>Local Facility 306 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Corporate</facility_type>
          <detailed_data>
             <appointment appointment_id="564">
                <appointment_data_to_export>
@@ -2313,7 +2313,7 @@
    <rates_of_particular_facility>
       <facility_data facility_id="187" facility_type="Private                                           ">
          <local_facility_name>Local Facility 187 GMBH</local_facility_name>
-         <facility_status>ACTIVE</facility_status>
+         <facility_type>Private</facility_type>
          <detailed_data>
             <appointment appointment_id="946">
                <appointment_data_to_export>

@@ -25,12 +25,19 @@ SELECT xmlroot(xmlelement(name "appointment_data",
                                               ),
                                     xmlelement(name "status",
                                               xmlelement(name "symptom", xmlattributes(ap.symptom_type as symptom_type),
+                                                         (case when ap.assumption = 'UNKNOWN'
+                                                          then
                                                         xmlforest(
                                                               ap.symptom_description as symptom_description,
                                                               ap.caused_by as caused_by,
+                                                              ap.symptom_from as symptom_from
+                                                            ) else 
+                                                         xmlforest(
+                                                              ap.symptom_description as symptom_description,
                                                               ap.assumption as assumption,
                                                               ap.symptom_from as symptom_from
-                                                            ),
+                                                            ) 
+                                                         end),
                                                          xmlelement(name "status", xmlattributes(ap.status as status, ap.status_type as status_type),
                                                                    xmlforest(
                                                                           ap.repared as repared,

@@ -9,10 +9,14 @@ select xmlroot(xmlelement(name "customer_data",
                         c.title as title
                      ),
                                                 xmlelement(name "order_details",
+                                                           (case when char_length(c.email)<21 then 
                    xmlforest(
-                               c.email as email,
+                               c.email as email
+                             ) else 
+                              xmlforest(
                                c.phone as phone
-                             ),
+                             ) 
+                                                            end),
                            xmlelement(name "order_address",
                                            xmlforest(
                                             c.street as street,

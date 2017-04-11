@@ -20,12 +20,7 @@
       </element>
       <element name="rate_details">
          <element name="status">
-            <attribute name="status">
-               <ref name="only_string_validation" />
-            </attribute>
-            <attribute name="status_type">
-               <ref name="only_string_validation" />
-            </attribute>
+            <ref name="rate_attribute_choice"/>
             <attribute name="rate">
                <ref name="only_numbers_validation" />
             </attribute>
@@ -183,6 +178,16 @@
          <value>mrs</value>
          <value>ms</value>
          <value>mr</value>
+      </choice>
+   </define>
+   <define name="rate_attribute_choice">
+      <choice>
+              <attribute name="status">
+               <ref name="only_string_validation" />
+            </attribute>
+            <attribute name="status_type">
+               <ref name="only_string_validation" />
+            </attribute>
       </choice>
    </define>
 </grammar>

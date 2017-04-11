@@ -18,9 +18,14 @@
                         <data type="string" />
                      </list>
                   </element>
+                  <choice>
                   <element name="facility_status">
                      <ref name="facility_status_validation" />
                   </element>
+                  <element name="facility_type">
+                     <ref name="facility_type_validation" />
+                  </element>
+               </choice>
                   <element name="detailed_data">
                      <ref name="detailed_data" />
                   </element>
@@ -57,30 +62,30 @@
                         <ref name="only_numbers_validation" />
                      </element>
                      <optional>
-                     		<ref name="facility" />
-               		  </optional>
+                        <ref name="facility" />
+                     </optional>
                   </element>
                </element>
             </element>
          </element>
       </zeroOrMore>
       <optional>
-      <element name="facility_rate">
-      	<element name="appointment">
-      		<attribute name="rate">
-      			<ref name="only_numbers_validation" />
-      		</attribute>
-			<attribute name="rate_type">
-      			<ref name="only_string_validation" />
-      		</attribute>
-      		<element name="rate_description">
-      			<ref name="only_string_validation" />
-      		</element>
-      		<element name="recommend">
-      			<ref name="only_string_validation" />
-      		</element>
-      	</element>
-      </element>
+         <element name="facility_rate">
+            <element name="appointment">
+               <attribute name="rate">
+                  <ref name="only_numbers_validation" />
+               </attribute>
+               <attribute name="rate_type">
+                  <ref name="only_string_validation" />
+               </attribute>
+               <element name="rate_description">
+                  <ref name="only_string_validation" />
+               </element>
+               <element name="recommend">
+                  <ref name="only_string_validation" />
+               </element>
+            </element>
+         </element>
       </optional>
    </define>
    <define name="facility">

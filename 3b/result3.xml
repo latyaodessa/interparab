@@ -44,7 +44,6 @@
             <symptom symptom_type="COOL_FREEZEIN       ">
                <symptom_description>Doesnt give me a cool vibes</symptom_description>
                <caused_by>Cat</caused_by>
-               <assumption>UNKNOWN</assumption>
                <symptom_from>2011-09-28</symptom_from>
                <status status="NEED TO TAKE FRIDGE " status_type="WARNING             ">
                   <repared>NEED TO TAKE FRIDGE</repared>
@@ -98,7 +97,6 @@
          <status>
             <symptom symptom_type="FREEZING            ">
                <symptom_description>UNKNOWN</symptom_description>
-               <caused_by>Dog</caused_by>
                <assumption>Drop fridge</assumption>
                <symptom_from>2016-02-07</symptom_from>
                <status status="NEED HELP           " status_type="WARNING             ">
@@ -153,7 +151,6 @@
          <status>
             <symptom symptom_type="ELECTRONICAL        ">
                <symptom_description>UNKNOWN</symptom_description>
-               <caused_by>Cat</caused_by>
                <assumption>Drop fridge</assumption>
                <symptom_from>2017-01-11</symptom_from>
                <status status="ALL OK              " status_type="WARNING             ">
@@ -208,7 +205,6 @@
          <status>
             <symptom symptom_type="FREEZING            ">
                <symptom_description>UNKNOWN</symptom_description>
-               <caused_by>Cat</caused_by>
                <assumption>Dance on Fridge</assumption>
                <symptom_from>2014-07-25</symptom_from>
                <status status="ALL OK              " status_type="WARNING             ">
@@ -263,7 +259,6 @@
          <status>
             <symptom symptom_type="COOL_FREEZEIN       ">
                <symptom_description>Dosnt turn on</symptom_description>
-               <caused_by>UNKNOWN</caused_by>
                <assumption>Drop fridge</assumption>
                <symptom_from>2017-01-03</symptom_from>
                <status status="NEED HELP           " status_type="WARNING             ">
@@ -318,7 +313,6 @@
          <status>
             <symptom symptom_type="COOL_FREEZEIN       ">
                <symptom_description>UNKNOWN</symptom_description>
-               <caused_by>Baby</caused_by>
                <assumption>Drop fridge</assumption>
                <symptom_from>2017-01-28</symptom_from>
                <status status="ALL OK              " status_type="CRITICAL            ">
@@ -373,7 +367,6 @@
          <status>
             <symptom symptom_type="OUTESIDE DAMAGE     ">
                <symptom_description>Doesnt give me a cool vibes</symptom_description>
-               <caused_by>Cat</caused_by>
                <assumption>Too many beer there</assumption>
                <symptom_from>2012-09-11</symptom_from>
                <status status="ALL OK              " status_type="WARNING             ">
@@ -429,7 +422,6 @@
             <symptom symptom_type="FREEZING            ">
                <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
                <caused_by>Wife</caused_by>
-               <assumption>UNKNOWN</assumption>
                <symptom_from>2014-09-27</symptom_from>
                <status status="ALL OK              " status_type="CRITICAL            ">
                   <repared>ALL OK</repared>
@@ -483,7 +475,6 @@
          <status>
             <symptom symptom_type="COOL_FREEZEIN       ">
                <symptom_description>UNKNOWN</symptom_description>
-               <caused_by>Cat</caused_by>
                <assumption>Dance on Fridge</assumption>
                <symptom_from>2016-04-14</symptom_from>
                <status status="NEED HELP           " status_type="WARNING             ">
@@ -538,7 +529,6 @@
          <status>
             <symptom symptom_type="COOL_FREEZEIN       ">
                <symptom_description>UNKNOWN</symptom_description>
-               <caused_by>Dog</caused_by>
                <assumption>Too many beer there</assumption>
                <symptom_from>2012-10-02</symptom_from>
                <status status="NEED HELP           " status_type="WARNING             ">
@@ -593,7 +583,6 @@
          <status>
             <symptom symptom_type="COOL_FREEZEIN       ">
                <symptom_description>Doesnt give me a cool vibes</symptom_description>
-               <caused_by>UNKNOWN</caused_by>
                <assumption>Too high woltage</assumption>
                <symptom_from>2011-05-20</symptom_from>
                <status status="NEED TO TAKE FRIDGE " status_type="WARNING             ">
@@ -648,7 +637,6 @@
          <status>
             <symptom symptom_type="ELECTRONICAL        ">
                <symptom_description>Dosnt turn on</symptom_description>
-               <caused_by>Dog</caused_by>
                <assumption>Dance on Fridge</assumption>
                <symptom_from>2015-04-21</symptom_from>
                <status status="NEED TO TAKE FRIDGE " status_type="DEFAULT             ">
@@ -703,7 +691,6 @@
          <status>
             <symptom symptom_type="ICE                 ">
                <symptom_description>Dosnt turn on</symptom_description>
-               <caused_by>Wife</caused_by>
                <assumption>Drop fridge</assumption>
                <symptom_from>2011-08-04</symptom_from>
                <status status="NEED TO TAKE FRIDGE " status_type="CRITICAL            ">
@@ -758,7 +745,6 @@
          <status>
             <symptom symptom_type="ICE                 ">
                <symptom_description>Doesnt really work</symptom_description>
-               <caused_by>Dog</caused_by>
                <assumption>Drop fridge</assumption>
                <symptom_from>2016-06-13</symptom_from>
                <status status="NEED TOOLS          " status_type="CRITICAL            ">
@@ -814,7 +800,6 @@
             <symptom symptom_type="ELECTRONICAL        ">
                <symptom_description>Doesnt give me a cool vibes</symptom_description>
                <caused_by>Dog</caused_by>
-               <assumption>UNKNOWN</assumption>
                <symptom_from>2011-08-18</symptom_from>
                <status status="ALL OK              " status_type="DEFAULT             ">
                   <repared>ALL OK</repared>
@@ -868,7 +853,6 @@
          <status>
             <symptom symptom_type="COOL_FREEZEIN       ">
                <symptom_description>Doesnt really work</symptom_description>
-               <caused_by>Dog</caused_by>
                <assumption>Too many beer there</assumption>
                <symptom_from>2012-12-20</symptom_from>
                <status status="ALL OK              " status_type="CRITICAL            ">
@@ -923,7 +907,6 @@
          <status>
             <symptom symptom_type="ICE                 ">
                <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
-               <caused_by>UNKNOWN</caused_by>
                <assumption>Too many beer there</assumption>
                <symptom_from>2017-11-01</symptom_from>
                <status status="ALL OK              " status_type="CRITICAL            ">
@@ -978,7 +961,6 @@
          <status>
             <symptom symptom_type="COOL_FREEZEIN       ">
                <symptom_description>Dosnt turn on</symptom_description>
-               <caused_by>Dog</caused_by>
                <assumption>Too high woltage</assumption>
                <symptom_from>2012-12-04</symptom_from>
                <status status="NEED TOOLS          " status_type="DEFAULT             ">
@@ -1033,7 +1015,6 @@
          <status>
             <symptom symptom_type="COOL_FREEZEIN       ">
                <symptom_description>Doesnt give me a cool vibes</symptom_description>
-               <caused_by>UNKNOWN</caused_by>
                <assumption>Too high woltage</assumption>
                <symptom_from>2016-09-21</symptom_from>
                <status status="NEED TOOLS          " status_type="WARNING             ">
@@ -1088,7 +1069,6 @@
          <status>
             <symptom symptom_type="ICE                 ">
                <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
-               <caused_by>Wife</caused_by>
                <assumption>Drop fridge</assumption>
                <symptom_from>2010-07-07</symptom_from>
                <status status="NEED TO TAKE FRIDGE " status_type="DEFAULT             ">
@@ -1143,7 +1123,6 @@
          <status>
             <symptom symptom_type="ELECTRONICAL        ">
                <symptom_description>Dosnt turn on</symptom_description>
-               <caused_by>UNKNOWN</caused_by>
                <assumption>Too high woltage</assumption>
                <symptom_from>2014-10-03</symptom_from>
                <status status="NEED HELP           " status_type="CRITICAL            ">
@@ -1198,7 +1177,6 @@
          <status>
             <symptom symptom_type="OUTESIDE DAMAGE     ">
                <symptom_description>Doesnt give me a cool vibes</symptom_description>
-               <caused_by>Wife</caused_by>
                <assumption>Too many beer there</assumption>
                <symptom_from>2015-06-20</symptom_from>
                <status status="ALL OK              " status_type="DEFAULT             ">
@@ -1254,7 +1232,6 @@
             <symptom symptom_type="COOL_FREEZEIN       ">
                <symptom_description>Dosnt turn on</symptom_description>
                <caused_by>UNKNOWN</caused_by>
-               <assumption>UNKNOWN</assumption>
                <symptom_from>2012-07-06</symptom_from>
                <status status="NEED HELP           " status_type="WARNING             ">
                   <repared>NEED HELP</repared>
@@ -1308,7 +1285,6 @@
          <status>
             <symptom symptom_type="FREEZING            ">
                <symptom_description>Doesnt really work</symptom_description>
-               <caused_by>Cat</caused_by>
                <assumption>Too high woltage</assumption>
                <symptom_from>2013-10-05</symptom_from>
                <status status="NEED HELP           " status_type="DEFAULT             ">
@@ -1363,7 +1339,6 @@
          <status>
             <symptom symptom_type="ICE                 ">
                <symptom_description>FRIDGE IS ON FIREEEE</symptom_description>
-               <caused_by>UNKNOWN</caused_by>
                <assumption>Too many beer there</assumption>
                <symptom_from>2013-01-19</symptom_from>
                <status status="ALL OK              " status_type="DEFAULT             ">
@@ -1418,7 +1393,6 @@
          <status>
             <symptom symptom_type="FREEZING            ">
                <symptom_description>Dosnt turn on</symptom_description>
-               <caused_by>Wife</caused_by>
                <assumption>Too many beer there</assumption>
                <symptom_from>2017-10-17</symptom_from>
                <status status="NEED TO TAKE FRIDGE " status_type="CRITICAL            ">
@@ -1473,7 +1447,6 @@
          <status>
             <symptom symptom_type="COOL_FREEZEIN       ">
                <symptom_description>Dosnt turn on</symptom_description>
-               <caused_by>Dog</caused_by>
                <assumption>Drop fridge</assumption>
                <symptom_from>2015-02-05</symptom_from>
                <status status="NEED TO TAKE FRIDGE " status_type="WARNING             ">
@@ -1529,7 +1502,6 @@
             <symptom symptom_type="ELECTRONICAL        ">
                <symptom_description>Dosnt turn on</symptom_description>
                <caused_by>Cat</caused_by>
-               <assumption>UNKNOWN</assumption>
                <symptom_from>2011-03-29</symptom_from>
                <status status="NEED TOOLS          " status_type="WARNING             ">
                   <repared>NEED TOOLS</repared>
@@ -1583,7 +1555,6 @@
          <status>
             <symptom symptom_type="COOL_FREEZEIN       ">
                <symptom_description>Doesnt give me a cool vibes</symptom_description>
-               <caused_by>UNKNOWN</caused_by>
                <assumption>Drop fridge</assumption>
                <symptom_from>2016-06-23</symptom_from>
                <status status="NEED HELP           " status_type="CRITICAL            ">
@@ -1639,7 +1610,6 @@
             <symptom symptom_type="ELECTRONICAL        ">
                <symptom_description>Dosnt turn on</symptom_description>
                <caused_by>Baby</caused_by>
-               <assumption>UNKNOWN</assumption>
                <symptom_from>2011-03-25</symptom_from>
                <status status="NEED HELP           " status_type="WARNING             ">
                   <repared>NEED HELP</repared>

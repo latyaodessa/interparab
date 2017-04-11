@@ -1,199 +1,177 @@
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
-   
    <start>
-   	      	<element name="customer_data">
-			         <oneOrMore>
-			         	<element name="customer">
- 							<ref name="general_customer_information"/>
-			         	<optional>
-			         			<ref name="order_details"/>
-			         	</optional>
-			        </element>
-        			 </oneOrMore>
-          	</element>
-	 </start>
-
-
-
-
-
-<!-- DEFINES -->
-
-
-	 <define name="general_customer_information">
-	 	<ref name="general_customer_information_attr"/>
-	 			<element name="last_name">
- 						<ref name="only_string_validation"/>
- 			     </element>
- 			     <element name="first_name">
- 						<ref name="only_string_validation"/>
- 			     </element>
- 			      <element name="gender">
- 						<ref name="gender_validation"/>
- 			     </element>
- 			     <element name="age">
- 						<ref name="age_validation"/>
- 			     </element>
- 			      <element name="title">
- 						<ref name="title_validation"/>
- 			     </element>
-	 	</define>
-
-	 	<!-- Attributes validation -->
-				<define name="general_customer_information_attr">
-							<attribute name="customer_id">
-								 <ref name="only_numbers_validation"/>
-							 </attribute>
-							 <attribute name="age">
-							 	<ref name="only_numbers_validation"/>
-							 </attribute>
-				</define>
-
-
-
-	 <define name="order_details">
-	 	<zeroOrMore>
-		 	<element name="order_details">
-			 		<element name="email">
-						<data type="string"/>
-			 		</element>
-			 		<element name="phone">
-			 			<list>
-						<data type="string"/>
-						<data type="integer"/>
-						<data type="integer"/>
-						</list>
-			 		</element>
-		 		<ref name="order_address"/>
-		 	</element>
-	 </zeroOrMore>
-	</define>
-
-	<define name="order_address">
-		<element name="order_address">
-			<interleave>
-					<element name="street">
-						<list>
-							<data type="string"/>
-							<data type="string"/>
-						</list>
-					 </element>
-					 <element name="house">
-						<ref name="only_numbers_validation"/>
-					 </element>
-					 <element name="flat">
-						<ref name="only_numbers_validation"/>
-					 </element>
-					 <element name="gender">
- 						<ref name="gender_validation"/>
- 			     		</element>
- 			   		  <element name="porch">
-						<ref name="only_numbers_validation"/>
-					 </element>
-					 <ref name="detailed_order_data"/>
-			</interleave>
-		 </element>
-	</define>
-
-	<define name="detailed_order_data">
-		<element name="detailed_order_data">
-			<ref name="postal_code_attr"/>
-			<interleave>
-				<element name="country">
-					<ref name="only_string_validation"/>
-				</element>
-				<element name="city">
-					<ref name="only_string_validation"/>
-				</element>
-				<element name="continent">
-					<ref name="only_string_validation"/>
-				</element>
-				<ref name="customer_fridges_on_current_address"/>
-			</interleave>
-		 </element>
-	</define>
-
-	<!-- Attributes validation -->
-
-		<define name="postal_code_attr">
-			 <attribute name="potal_code">
-					 	<ref name="only_numbers_validation"/>
-					 </attribute>
-		</define>
-
-
-		<define name="customer_fridges_on_current_address">
-			<oneOrMore>
-				<element name="customer_fridges_on_current_address">
-					<element name="fridge">
-						<ref name="fridge_attr"/>
-							<element name="fridge_type">
-								<data type="string"/>
-							</element>
-							<element name="fridge_color">
-								<ref name="only_string_validation"/>
-							</element>
-							<element name="prod_country">
-								<ref name="only_string_validation"/>
-							</element>
-							<element name="fridge_volume">
-								<ref name="only_float_numbers_validation"/>
-							</element>
-					</element>
-				 </element>
-		</oneOrMore>
-	</define>
-
-<!-- Attributes validation -->
-			<define name="fridge_attr">
-						 <attribute name="fridge_id">
-								 	<ref name="only_numbers_validation"/>
-						</attribute>
-						<attribute name="year_of_production">
-								 	<data type="string"/>
-						</attribute>
-		</define>
-
-<!-- VALIDATORS -->
-
-
-	<define name="only_float_numbers_validation">
-		<data type="string">
-		 <param name="pattern">[0-9]*\.?[0-9]*</param>
-		</data>
-     </define> 
-	<define name="only_numbers_validation">
-		<data type="string">
-		 <param name="pattern">[0-9]*</param>
-		</data>
-     </define> 
-
-	<define name="only_string_validation">
-		<data type="string">
-		 <param name="pattern">.*</param>
-		</data>
-     </define> 
-
-     	<define name="age_validation">
-		<data type="integer">
-			 <param name="minInclusive">18</param>
-			 <param name="maxExclusive">120</param>
- 		</data>
-     </define> 
-
-	<define name="gender_validation">
-			 <choice>
-					 <value>female</value>
-					 <value>male</value>
-			 </choice>
-     </define> 
-
-          	<define name="title_validation">
-			 <choice>
-			 		<value>mrs</value>
-					 <value>ms</value>
-					 <value>mr</value>
-			 </choice>
-     </define> 
-
+      <element name="customer_data">
+         <oneOrMore>
+            <element name="customer">
+               <ref name="general_customer_information" />
+               <optional>
+                  <ref name="order_details" />
+               </optional>
+            </element>
+         </oneOrMore>
+      </element>
+   </start>
+   <!-- DEFINES -->
+   <define name="general_customer_information">
+      <ref name="general_customer_information_attr" />
+      <element name="last_name">
+         <ref name="only_string_validation" />
+      </element>
+      <element name="first_name">
+         <ref name="only_string_validation" />
+      </element>
+      <element name="gender">
+         <ref name="gender_validation" />
+      </element>
+      <element name="age">
+         <ref name="age_validation" />
+      </element>
+      <element name="title">
+         <ref name="title_validation" />
+      </element>
+   </define>
+   <!-- Attributes validation -->
+   <define name="general_customer_information_attr">
+      <attribute name="customer_id">
+         <ref name="only_numbers_validation" />
+      </attribute>
+      <attribute name="age">
+         <ref name="only_numbers_validation" />
+      </attribute>
+   </define>
+   <define name="order_details">
+      <zeroOrMore>
+         <element name="order_details">
+            <ref name="email_or_phone_element"/>
+            <ref name="order_address" />
+         </element>
+      </zeroOrMore>
+   </define>
+   <define name="order_address">
+      <element name="order_address">
+         <interleave>
+            <element name="street">
+               <list>
+                  <data type="string" />
+                  <data type="string" />
+               </list>
+            </element>
+            <element name="house">
+               <ref name="only_numbers_validation" />
+            </element>
+            <element name="flat">
+               <ref name="only_numbers_validation" />
+            </element>
+            <element name="gender">
+               <ref name="gender_validation" />
+            </element>
+            <element name="porch">
+               <ref name="only_numbers_validation" />
+            </element>
+            <ref name="detailed_order_data" />
+         </interleave>
+      </element>
+   </define>
+   <define name="detailed_order_data">
+      <element name="detailed_order_data">
+         <ref name="postal_code_attr" />
+         <interleave>
+            <element name="country">
+               <ref name="only_string_validation" />
+            </element>
+            <element name="city">
+               <ref name="only_string_validation" />
+            </element>
+            <element name="continent">
+               <ref name="only_string_validation" />
+            </element>
+            <ref name="customer_fridges_on_current_address" />
+         </interleave>
+      </element>
+   </define>
+   <!-- Attributes validation -->
+   <define name="postal_code_attr">
+      <attribute name="potal_code">
+         <ref name="only_numbers_validation" />
+      </attribute>
+   </define>
+   <define name="customer_fridges_on_current_address">
+      <oneOrMore>
+         <element name="customer_fridges_on_current_address">
+            <element name="fridge">
+               <ref name="fridge_attr" />
+               <element name="fridge_type">
+                  <data type="string" />
+               </element>
+               <element name="fridge_color">
+                  <ref name="only_string_validation" />
+               </element>
+               <element name="prod_country">
+                  <ref name="only_string_validation" />
+               </element>
+               <element name="fridge_volume">
+                  <ref name="only_float_numbers_validation" />
+               </element>
+            </element>
+         </element>
+      </oneOrMore>
+   </define>
+   <!-- Attributes validation -->
+   <define name="fridge_attr">
+      <attribute name="fridge_id">
+         <ref name="only_numbers_validation" />
+      </attribute>
+      <attribute name="year_of_production">
+         <data type="string" />
+      </attribute>
+   </define>
+   <!-- VALIDATORS -->
+   <define name="only_float_numbers_validation">
+      <data type="string">
+         <param name="pattern">[0-9]*\.?[0-9]*</param>
+      </data>
+   </define>
+   <define name="only_numbers_validation">
+      <data type="string">
+         <param name="pattern">[0-9]*</param>
+      </data>
+   </define>
+   <define name="only_string_validation">
+      <data type="string">
+         <param name="pattern">.*</param>
+      </data>
+   </define>
+   <define name="age_validation">
+      <data type="integer">
+         <param name="minInclusive">18</param>
+         <param name="maxExclusive">120</param>
+      </data>
+   </define>
+   <define name="gender_validation">
+      <choice>
+         <value>female</value>
+         <value>male</value>
+      </choice>
+   </define>
+   <define name="title_validation">
+      <choice>
+         <value>mrs</value>
+         <value>ms</value>
+         <value>mr</value>
+      </choice>
+   </define>
+      <define name="email_or_phone_element">
+      <choice>
+          <element name="email">
+               <data type="string" />
+            </element>
+            <element name="phone">
+               <list>
+                  <data type="string" />
+                  <data type="integer" />
+                  <data type="integer" />
+               </list>
+            </element>
+      </choice>
+   </define>
 </grammar>

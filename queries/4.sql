@@ -6,13 +6,23 @@ SELECT xmlroot(xmlelement(name "rate_data",
                               ap.special_handling AS special_handling
                             ),
                   xmlelement(name "rate_details",
-                             xmlelement(name "status", xmlattributes(ap.status AS status,ap.status_type AS status_type, ap.rate AS rate, ap.rate_type AS rate_type),
+                               (CASE WHEN ap.rate<3 THEN 
+                             xmlelement(name "status", xmlattributes(ap.status AS status, ap.rate AS rate, ap.rate_type AS rate_type),
                                          xmlforest(
                                                ap.repared AS repared,
                                                ap.spendet_time AS spendet_time,
                                                ap.esitmated_time AS estimated_time
                                               )
-                                       ),
+                                       )
+                                    ELSE 
+                                    xmlelement(name "status", xmlattributes(ap.status_type AS status_type, ap.rate AS rate, ap.rate_type AS rate_type),
+                                         xmlforest(
+                                               ap.repared AS repared,
+                                               ap.spendet_time AS spendet_time,
+                                               ap.esitmated_time AS estimated_time
+                                              )
+                                       )
+                                    end),
                              xmlforest(
                                  ap.rate_description AS rate_description,
                                  ap.recommend AS recommend
@@ -36,4 +46,6 @@ FROM (SELECT DISTINCT ap.appointment_id, ap.appointment_type, ap.special_handlin
   JOIN facility_rate fr ON ap.appointment_id = fr.appointment_id 
     JOIN repair_status rep ON ap.appointment_id = rep.appointment_id
     LIMIT 30) AS ap;
+ 
+ 
  

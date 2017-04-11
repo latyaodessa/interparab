@@ -1,159 +1,148 @@
 <grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
-   
    <start>
-   	      	<element name="local_facility_data">
-			         <oneOrMore>
-			         	<ref name="local_facility_data"/>
-        			 </oneOrMore>
-          	</element>
-	 </start>
-
-
-	<!-- Attributes validation -->
-
-		<define name="local_facility_attr">
-			 <attribute name="facility_id">
-					 	<ref name="only_numbers_validation"/>
-					 </attribute>
-			 <attribute name="facility_status">
-					 	<ref name="only_string_validation"/>
-			</attribute>
-		</define>
-		<define name="postal_code_attr">
-			 <attribute name="potal_code">
-					 	<ref name="only_numbers_validation"/>
-					 </attribute>
-		</define>
-
-		<define name="customer_data_attr">
-			 		<attribute name="customer_id">
-					 	<ref name="only_numbers_validation"/>
-					 </attribute>
-					 <attribute name="age">
-					 	<ref name="only_numbers_validation"/>
-					 </attribute>
-		</define>
-
-
-		<define name="customer_address_attr">
-			 <attribute name="street">
-					 	<ref name="only_string_validation"/>
-			</attribute>
-		</define>
-
-		<!-- DEFINES -->
-		<define name="local_facility_data">
-			         	<element name="local_facility">
- 							<ref name="local_facility_attr"/>
- 							<ref name="local_facility_name"/>
- 							<element name="facility_type">
- 								<ref name="only_string_validation"/>
- 							</element>
- 							<element name="provide_service">
- 							<ref name="provide_service_in"/>
- 							</element>
-			       		 </element>
-		</define>
-
-		<define name="provide_service_in">
-			<element name="provide_service_in">
-				<element name="postal_code">
-				<ref name="postal_code_attr"/>
-				<interleave>
-					<element name="country">
-						<ref name="only_string_validation"/>
- 					</element>
- 					<element name="city">
-						<ref name="only_string_validation"/>
- 					</element>
- 					<element name="continent">
-						<ref name="only_string_validation"/>
- 					</element>
-				</interleave>
-			</element>
-				<element name="provide_service_for">
-					<element name="customer_data">
-						<ref name="customer_data_attr"/>
-							<interleave>
-								<element name="last_name">
-				 						<ref name="only_string_validation"/>
-				 			   	</element>
-				 			     <element name="first_name">
-				 						<ref name="only_string_validation"/>
-				 			     </element>
-				 			      <element name="gender">
-				 						<ref name="gender_validation"/>
-				 			     </element>
-				 			      <element name="title">
-				 						<ref name="title_validation"/>
-				 			     </element>
-				 			 </interleave>
-				 			 	<ref name="customer_address"/>
-						</element>
-				</element>
-		</element>
-		</define>
-
-		<define name="customer_address">
-				<element name="customer_address">
-					<ref name="customer_address_attr"/>
-						<element name="street">
-						<list>
-							<data type="string"/>
-							<data type="string"/>
-						</list>
-					 </element>
-					 <element name="house">
-						<ref name="only_numbers_validation"/>
-					 </element>
-					 <element name="flat">
-						<ref name="only_numbers_validation"/>
-					 </element>
- 			   		  <element name="porch">
-						<ref name="only_numbers_validation"/>
-					 </element>
-				</element>
-		</define>
-
-		<define name="local_facility_name">
-					<element name="local_facility_name">
-						<list>
-							<data type="string"/>
-							<data type="string"/>
-							<data type="integer"/>
-							<data type="string"/>
-						</list>
-					</element>
-		</define>
-
-<!-- VALIDATORS -->
-
-	<define name="only_numbers_validation">
-		<data type="string">
-		 <param name="pattern">[0-9]*</param>
-		</data>
-     </define> 
-
-	<define name="only_string_validation">
-		<data type="string">
-		 <param name="pattern">.*</param>
-		</data>
-     </define> 
-
-     	<define name="gender_validation">
-			 <choice>
-					 <value>female</value>
-					 <value>male</value>
-			 </choice>
-     </define> 
-
-          	<define name="title_validation">
-			 <choice>
-			 		<value>mrs</value>
-					 <value>ms</value>
-					 <value>mr</value>
-			 </choice>
-     </define> 
-
-
+      <element name="local_facility_data">
+         <oneOrMore>
+            <ref name="local_facility_data" />
+         </oneOrMore>
+      </element>
+   </start>
+   <!-- Attributes validation -->
+   <define name="local_facility_attr">
+      <attribute name="facility_id">
+         <ref name="only_numbers_validation" />
+      </attribute>
+      <attribute name="facility_status">
+         <ref name="only_string_validation" />
+      </attribute>
+   </define>
+   <define name="postal_code_attr">
+      <attribute name="potal_code">
+         <ref name="only_numbers_validation" />
+      </attribute>
+   </define>
+   <define name="customer_data_attr">
+      <attribute name="customer_id">
+         <ref name="only_numbers_validation" />
+      </attribute>
+      <attribute name="age">
+         <ref name="only_numbers_validation" />
+      </attribute>
+   </define>
+   <define name="customer_address_attr">
+      <attribute name="street">
+         <ref name="only_string_validation" />
+      </attribute>
+   </define>
+   <!-- DEFINES -->
+   <define name="local_facility_data">
+      <element name="local_facility">
+         <ref name="local_facility_attr" />
+         <ref name="local_facility_name" />
+         <element name="facility_type">
+            <ref name="only_string_validation" />
+         </element>
+         <element name="provide_service">
+            <ref name="provide_service_in" />
+         </element>
+      </element>
+   </define>
+   <define name="provide_service_in">
+      <element name="provide_service_in">
+         <element name="postal_code">
+            <ref name="postal_code_attr" />
+            <interleave>
+               <element name="country">
+                  <ref name="only_string_validation" />
+               </element>
+               <element name="city">
+                  <ref name="only_string_validation" />
+               </element>
+               <element name="continent">
+                  <ref name="only_string_validation" />
+               </element>
+            </interleave>
+         </element>
+         <optional>
+         <element name="provide_service_for">
+            <element name="customer_data">
+               <ref name="customer_data_attr" />
+               <interleave>
+                  <element name="last_name">
+                     <ref name="only_string_validation" />
+                  </element>
+                  <element name="first_name">
+                     <ref name="only_string_validation" />
+                  </element>
+                  <element name="gender">
+                     <ref name="gender_validation" />
+                  </element>
+                  <element name="title">
+                     <ref name="title_validation" />
+                  </element>
+               </interleave>
+               <ref name="customer_address" />
+            </element>
+         </element>
+      </optional>
+      </element>
+   </define>
+   <define name="customer_address">
+      <element name="customer_address">
+         <ref name="customer_address_attr" />
+         <element name="street">
+            <list>
+               <data type="string" />
+               <data type="string" />
+            </list>
+         </element>
+         <element name="house">
+            <ref name="only_numbers_validation" />
+         </element>
+         <ref name="private_customer_address_element"/>
+      </element>
+   </define>
+   <define name="local_facility_name">
+      <element name="local_facility_name">
+         <list>
+            <data type="string" />
+            <data type="string" />
+            <data type="integer" />
+            <data type="string" />
+         </list>
+      </element>
+   </define>
+   <!-- VALIDATORS -->
+   <define name="only_numbers_validation">
+      <data type="string">
+         <param name="pattern">[0-9]*</param>
+      </data>
+   </define>
+   <define name="only_string_validation">
+      <data type="string">
+         <param name="pattern">.*</param>
+      </data>
+   </define>
+   <define name="gender_validation">
+      <choice>
+         <value>female</value>
+         <value>male</value>
+      </choice>
+   </define>
+   <define name="title_validation">
+      <choice>
+         <value>mrs</value>
+         <value>ms</value>
+         <value>mr</value>
+      </choice>
+   </define>
+         <define name="private_customer_address_element">
+      <choice>
+         <element name="flat">
+            <ref name="only_numbers_validation" />
+         </element>
+         <element name="porch">
+            <ref name="only_numbers_validation" />
+         </element>
+      </choice>
+   </define>
 </grammar>

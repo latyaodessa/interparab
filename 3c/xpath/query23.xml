@@ -1,0 +1,1 @@
+concat(count(//local_facility//provide_service_for/ancestor::local_facility[contains(@ facility_status,"ACTIVE")])," Active Local Facilities ", "Provide Services For ",count(//local_facility//provide_service_for/ancestor::local_facility[contains(@facility_status,"ACTIVE")]//customer_data))

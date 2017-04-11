@@ -1,0 +1,1 @@
+concat('Number of oldest customers: ',count(//customer/@age[not(. < ../../customer/@age)][1]),' Age ',number(//customer/@age[not(. < ../../customer/@age)][1]))

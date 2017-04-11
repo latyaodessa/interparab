@@ -1,0 +1,49 @@
+xpath - min max via rellation
+
+/*/.
+/.. - back 
+
+/*/@* - match all attributes
+
+/somthing//till_sonmething 
+
+/order[@id=1]//name  - search for attribute 
+
+/order[@id] - check if attribute exist
+
+/order[@id ='1' or @id='4'] - from to
+
+
+//name[../../@id='1'] - variation of search
+
+/order[customer/name/firstname/text()='Sarah'] - search variation  of some particular order
+
+/order[customer/name/firstname//text()='Sarah'] - search variation  of some particular order everywhere mecause //
+
+
+/order[contains(customer/name/firstname/text(),'Sar')]  - contains example
+
+
+text() != name() - name of element/attribute
+
+JOIN
+OR
+/order[@id='1'] | /order[@id='1']//name - mathed order and name
+
+where order items <= 2
+
+/order[order(count(orderitems/item)<2)]
+
+count(//orderitems/item) - result NUMBER of item (sum) - there are 3 types stirngs, numbers and boolean
+
+count(//order[@id='1']/@state) - result counting of state attributes
+
+string(//order[@id='1']/@state) - result same but string
+
+number(//order[@id='1']/@state) - result same but number
+
+boolean(//order[@id='1']/@state) - result true
+
+
+
+

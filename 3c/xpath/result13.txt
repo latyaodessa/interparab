@@ -1,0 +1,7 @@
+Show number of oldest customers and age
+
+rules applied:
+At least 1 query has to find the maximum or minimum of something (beware, the maximum aggregate function is not part of XPATH 1.0)  
+At least 5 queries have to use aggregate functions. 
+At least 5 queries have to consider information that is stored in attributes. 
+At least 2 queries have to union result sets. 
