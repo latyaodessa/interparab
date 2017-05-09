@@ -1,0 +1,77 @@
+<catastrophes>
+  <natural_disaster>
+    <bot id="258">
+      <name>Bender258</name>
+      <timesresettotal>1</timesresettotal>
+      <owner>
+        <userdata>
+          <User>
+            <Name>
+              <LastName>XandiFlasche</LastName>
+            </Name>
+          </User>
+        </userdata>
+      </owner>
+    </bot>
+  </natural_disaster>
+  <natural_disaster>
+    <bot id="77">
+      <name>BroBot77</name>
+      <timesresettotal>1</timesresettotal>
+      <owner>
+        <userdata>
+          <User>
+            <Name>
+              <LastName>CatMeister</LastName>
+            </Name>
+          </User>
+        </userdata>
+      </owner>
+    </bot>
+  </natural_disaster>
+  <natural_disaster>
+    <bot id="62">
+      <name>Bender62</name>
+      <timesresettotal>1</timesresettotal>
+      <owner>
+        <userdata>
+          <User>
+            <Name>
+              <LastName>CatFlasche</LastName>
+            </Name>
+          </User>
+        </userdata>
+      </owner>
+    </bot>
+  </natural_disaster>
+  <natural_disaster>
+    <bot id="273">
+      <name>BroBot273</name>
+      <timesresettotal>1</timesresettotal>
+      <owner>
+        <userdata>
+          <User>
+            <Name>
+              <LastName>XandiMeister</LastName>
+            </Name>
+          </User>
+        </userdata>
+      </owner>
+    </bot>
+  </natural_disaster>
+  <natural_disaster>
+    <bot id="242">
+      <name>Proto242</name>
+      <timesresettotal>2</timesresettotal>
+      <owner>
+        <userdata>
+          <User>
+            <Name>
+              <LastName>YbbsMurphy</LastName>
+            </Name>
+          </User>
+        </userdata>
+      </owner>
+    </bot>
+  </natural_disaster>
+</catastrophes>

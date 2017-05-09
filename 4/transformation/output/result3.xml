@@ -1,0 +1,102 @@
+<users>
+  <user id="609@notsoserioes.com">
+    <friends>
+      <friend id="Bambus8@goggles.com"/>
+    </friends>
+    <messages>
+      <message>
+        <sender>Bambus8@goggles.com</sender>
+        <receiver>@notsoserioes.com</receiver>
+        <content>Ein glaenzendes Material, eher wertlos</content>
+      </message>
+    </messages>
+    <bots>
+      <bot id="84">
+        <name>Bambus8</name>
+      </bot>
+    </bots>
+    <materials_wanted>
+      <name>Kann von Anfaengern abgebaut werden</name>
+    </materials_wanted>
+  </user>
+  <user id="790@notsoserioes.com">
+    <friends>
+      <friend id="Bambus8@goggles.com"/>
+    </friends>
+    <messages>
+      <message>
+        <sender>Bambus8@goggles.com</sender>
+        <receiver>@notsoserioes.com</receiver>
+        <content>Ein glaenzendes Material, eher wertlos</content>
+      </message>
+    </messages>
+    <bots>
+      <bot id="84">
+        <name>Bambus8</name>
+      </bot>
+    </bots>
+    <materials_wanted>
+      <name>Kann von Anfaengern abgebaut werden</name>
+    </materials_wanted>
+  </user>
+  <user id="805@notsoserioes.com">
+    <friends>
+      <friend id="Bambus8@goggles.com"/>
+    </friends>
+    <messages>
+      <message>
+        <sender>Bambus8@goggles.com</sender>
+        <receiver>@notsoserioes.com</receiver>
+        <content>Ein glaenzendes Material, eher wertlos</content>
+      </message>
+    </messages>
+    <bots>
+      <bot id="84">
+        <name>Bambus8</name>
+      </bot>
+    </bots>
+    <materials_wanted>
+      <name>Kann von Anfaengern abgebaut werden</name>
+    </materials_wanted>
+  </user>
+  <user id="594@notsoserioes.com">
+    <friends>
+      <friend id="Bambus8@goggles.com"/>
+    </friends>
+    <messages>
+      <message>
+        <sender>Bambus8@goggles.com</sender>
+        <receiver>@notsoserioes.com</receiver>
+        <content>Ein glaenzendes Material, eher wertlos</content>
+      </message>
+    </messages>
+    <bots>
+      <bot id="84">
+        <name>Bambus8</name>
+      </bot>
+    </bots>
+    <materials_wanted>
+      <name>Kann von Anfaengern abgebaut werden</name>
+    </materials_wanted>
+  </user>
+  <user id="625@notsoserioes.com">
+    <friends>
+      <friend id="Bambus8@goggles.com"/>
+    </friends>
+    <messages>
+      <message>
+        <sender>Bambus8@goggles.com</sender>
+        <receiver>@notsoserioes.com</receiver>
+        <content>Ein glaenzendes Material, eher wertlos</content>
+      </message>
+    </messages>
+    <bots>
+      <bot id="84">
+        <name>Bambus8</name>
+      </bot>
+    </bots>
+    <materials_wanted>
+      <name>Kann von Anfaengern abgebaut werden</name>
+    </materials_wanted>
+  </user>
+</users>

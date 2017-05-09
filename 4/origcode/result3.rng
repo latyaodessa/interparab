@@ -1,0 +1,78 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<start>
+		<element name="users">
+			<zeroOrMore>
+				<element name="user">
+					<attribute name="id">
+						<text/>
+					</attribute>
+					<element name="friends">
+						<zeroOrMore>
+							<element name="friend">
+								<ref name="friendattr"/>
+								<choice>
+									<element name="password">
+										<text/>
+									</element>
+									<optional>
+									<element name="password">
+										<data type="integer"/>
+									</element>
+									</optional>
+								</choice>
+							</element>
+						</zeroOrMore>
+					</element>
+					<element name="messages">
+						<zeroOrMore>
+							<element name="message">
+								<ref name="msgspecs"/>
+							</element>
+						</zeroOrMore>
+					</element>
+					<element name="bots">
+						<zeroOrMore>
+							<element name="bot">
+								<ref name="botattr"/>
+								<element name="name">
+									<text/>
+								</element>
+							</element>
+						</zeroOrMore>
+					</element>
+					<element name="materials_wanted">
+						<ref name="mats"/>
+					</element>
+				</element>
+			</zeroOrMore>
+		</element>
+	</start>
+	<define name="msgspecs">
+		<element name="sender">
+			<text/>
+		</element>
+		<element name="receiver">
+			<text/>
+		</element>
+		<element name="content">
+			<text/>
+		</element>
+	</define>
+	<define name="friendattr">
+		<attribute name="id">
+			<text/>
+		</attribute>
+	</define>
+	<define name="botattr">
+		<attribute name="id">
+			<data type="integer"/>
+		</attribute>
+	</define>
+	<define name="mats">
+		<zeroOrMore>
+			<element name="name">
+				<text/>
+			</element>
+		</zeroOrMore>
+	</define>
+</grammar>

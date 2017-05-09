@@ -1,0 +1,78 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+
+	<define name="playerinfo">
+		<element name="player">
+			<attribute name="UserID">
+				<data type="nonNegativeInteger"/>
+			</attribute>
+			<element name="Username">
+				<text/>
+			</element>
+		</element>
+	</define>
+
+	<define name="transferinformation">
+		<element name="transfer">
+			<attribute name="TransferID">
+				<data type="nonNegativeInteger"/>
+			</attribute>
+			<attribute name="Urgency">
+				<choice>
+					<value>Dringend</value>
+					<value>Unglaublich Dringend</value>
+					<value>Normal</value>
+				</choice>
+			</attribute>
+			<element name="Message">
+				<element name="message">
+					<element name="header">
+						<element name="type">
+							<text/>
+						</element>
+						<element name="subject">
+							<text/>
+						</element>
+					</element>
+					<element name="body">
+						<element name="text">
+							<text/>
+						</element>
+					</element>
+				</element>
+			</element>
+		</element>
+	</define>
+
+	<define name="resourceinfo">
+		<element name="resource">
+			<attribute name="ResourceID">
+				<data type="nonNegativeInteger"/>
+			</attribute>
+		</element>	
+	</define>
+
+	<define name="storageinfo">
+		<element name="storage">
+			<attribute name="StorageID">
+				<data type="nonNegativeInteger"/>
+			</attribute>
+		</element>	
+	</define>
+
+	<start>
+		<element name="transferinfo">
+			<element name="infos">
+				<zeroOrMore>
+					<interleave>
+						<element name="info">
+							<ref name="playerinfo"/>
+							<ref name="transferinformation"/>
+							<ref name="resourceinfo"/>
+							<ref name="storageinfo"/>
+						</element>
+					</interleave>
+				</zeroOrMore>
+			</element>		
+		</element>
+	</start>
+</grammar>

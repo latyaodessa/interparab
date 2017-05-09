@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transferinfo>
+   <infos>
+      <info>
+         <player UserID="7">
+            <Username>ArminMutter</Username>
+         </player>
+         <transfer TransferID="0" Urgency="Dringend">
+            <Message>
+               <message>
+                  <header>
+                     <type>Message</type>
+                     <subject>Gold</subject>
+                  </header>
+                  <body>
+                     <text>ich brauche 50</text>
+                  </body>
+               </message>
+            </Message>
+         </transfer>
+         <resource ResourceID="0" />
+         <storage StorageID="607" />
+      </info>
+      <info>
+         <player UserID="7">
+            <Username>ArminMutter</Username>
+         </player>
+         <transfer TransferID="0" Urgency="Dringend">
+            <Message>
+               <message>
+                  <header>
+                     <type>Message</type>
+                     <subject>Gold</subject>
+                  </header>
+                  <body>
+                     <text>ich brauche 50</text>
+                  </body>
+               </message>
+            </Message>
+         </transfer>
+         <resource ResourceID="0" />
+         <storage StorageID="307" />
+      </info>
+   </infos>
+</transferinfo>

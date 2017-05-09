@@ -1,0 +1,78 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<start>
+		<element name="farmingbots">
+			<zeroOrMore>
+				<element name="bot">
+					<attribute name="id">
+						<data type="integer"/>
+					</attribute>
+					<element name="name">
+						<text/>
+					</element>
+					<element name="customdesign">
+						<element name="Appearance">
+							<ref name="looks"/>
+						</element>
+					</element>
+					<element name="owner">
+						<ref name="ownerattr"/>
+						<ref name="ownerspecs"/>
+					</element> 
+					<optional>
+					<element name="resets">
+						<ref name="resetspecs"/>
+					</element>
+					</optional>
+				</element>
+			</zeroOrMore>
+		</element>
+	</start>
+	<define name="looks">
+		<element name="measurements">
+		<optional>
+			<element name="Size">
+				<list>
+					<data type="integer"/>
+					<data type="integer"/>
+				</list>
+			</element>
+		</optional>
+			<element name="Weight">
+				<data type="float"/>
+			</element>
+		</element>
+	</define>
+	<define name="ownerattr">
+		<optional>
+			<attribute name="email">
+					<text/>
+			</attribute>
+		</optional>
+	</define>
+	<define name="ownerspecs">
+	<optional>
+		<element name="regdate">
+			<text/>
+		</element>
+	</optional>
+		<element name="materials_wanted">
+			<zeroOrMore>
+				<element name="name">
+					<text/>
+				</element>
+			</zeroOrMore>
+		</element> 
+	</define>
+	<define name="resetspecs">
+		<zeroOrMore>
+			<element name="natural_disaster">
+				<attribute name="id">
+					<data type="integer"/>
+				</attribute>
+				<element name="type">
+					<text/>
+				</element>
+			</element>
+		</zeroOrMore>
+	</define>
+</grammar>

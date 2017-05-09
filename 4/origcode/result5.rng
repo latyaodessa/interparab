@@ -1,0 +1,80 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<start>
+		<element name="farmingbots">
+			<zeroOrMore>
+				<element name="bot">
+					<ref name="botattr"/>
+					<element name="resets">
+						<ref name="disasters"/>
+					</element>
+					<element name="materials">
+						<zeroOrMore>
+							<element name="material">
+								<attribute name="id">
+									<data type="integer"/>
+								</attribute>
+								<ref name="materialspecs"/>
+								<element name="tools_needed">
+									<zeroOrMore>
+										<element name="tool">
+											<attribute name="id">
+												<data type="integer"/>
+											</attribute>
+											<ref name="toolspecs"/>
+										</element>
+									</zeroOrMore>
+								</element>
+							</element>
+						</zeroOrMore>
+					</element>
+				</element>
+			</zeroOrMore>
+		</element>
+	</start>
+	<define name="toolspecs">
+		<element name="name">
+			<text/>
+		</element>
+		<optional>
+		<element name="type">
+			<choice>
+				<value>Gather</value>
+				<value>Grow</value>
+				<value>Collect</value>
+				<value>Maintain</value>
+			</choice>
+		</element>
+		</optional>
+	</define>
+	<define name="materialspecs">
+		<element name="name">
+			<text/>
+		</element>
+		<optional>
+		<element name="type">
+			<choice>
+				<value>Decoration</value>
+				<value>Vegetable</value>
+				<value>Fruit</value>
+				<value>Spices</value>
+			</choice>
+		</element>
+		</optional>
+	</define>
+	<define name="botattr">
+		<attribute name="botnumber">
+			<data type="integer"/>
+		</attribute>
+	</define>
+		<define name="disasters">
+			<zeroOrMore>
+			<optional>
+				<element name="natural_disaster">
+					<element name="type">
+						<text/>
+					</element>
+				</element>
+			</optional>
+			</zeroOrMore>
+	</define>
+</grammar>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collectioninfo>
+   <infos>
+      <info>
+         <farmingbot FarmingBotID="84" />
+         <botsetting BotSettingID="84" />
+         <resource ResourceID="144">
+            <Resourcename>Bambus8</Resourcename>
+            <Description>
+               <description>
+                  <mainDescription>
+                     <name>Bambus8</name>
+                     <text>Ein glaenzendes Material, eher wertlos</text>
+                  </mainDescription>
+                  <additionalInfo>Kann von Anfaengern abgebaut werden</additionalInfo>
+               </description>
+            </Description>
+            <transfer TransferID="1177" UserID="783" />
+         </resource>
+      </info>
+      <info>
+         <farmingbot FarmingBotID="326" />
+         <botsetting BotSettingID="326" />
+         <resource ResourceID="172">
+            <Resourcename>Bronze10</Resourcename>
+            <Description>
+               <description>
+                  <mainDescription>
+                     <name>Bronze10</name>
+                     <text>Schwerer als es aussieht, eher wertlos</text>
+                  </mainDescription>
+                  <additionalInfo>Kann von Anfaengern abgebaut werden</additionalInfo>
+               </description>
+            </Description>
+            <transfer TransferID="1735" UserID="541" />
+         </resource>
+      </info>
+   </infos>
+</collectioninfo>

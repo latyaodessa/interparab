@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<farmingbotinfo>
+   <infos>
+      <info>
+         <farmingbot FarmingBotID="0">
+            <Botname>Chappie0</Botname>
+         </farmingbot>
+         <usedtool UsedToolID="0" NumberOfResourcesFarmed="47" />
+         <tool ToolID="0">
+            <Toolname>Hand0</Toolname>
+         </tool>
+         <botsetting ResourceID="100" />
+      </info>
+      <info>
+         <farmingbot FarmingBotID="0">
+            <Botname>Chappie0</Botname>
+         </farmingbot>
+         <usedtool UsedToolID="0" NumberOfResourcesFarmed="47" />
+         <tool ToolID="0">
+            <Toolname>Hand0</Toolname>
+         </tool>
+         <botsetting ResourceID="20" />
+      </info>
+      <info>
+         <farmingbot FarmingBotID="0">
+            <Botname>Chappie0</Botname>
+         </farmingbot>
+         <usedtool UsedToolID="0" NumberOfResourcesFarmed="47" />
+         <tool ToolID="0">
+            <Toolname>Hand0</Toolname>
+         </tool>
+         <botsetting ResourceID="4" />
+      </info>
+      <info>
+         <farmingbot FarmingBotID="1">
+            <Botname>RealSteel1</Botname>
+         </farmingbot>
+         <usedtool UsedToolID="1" NumberOfResourcesFarmed="39" />
+         <tool ToolID="1">
+            <Toolname>Axt0</Toolname>
+         </tool>
+         <botsetting ResourceID="68" />
+      </info>
+   </infos>
+</farmingbotinfo>

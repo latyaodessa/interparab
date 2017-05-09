@@ -1,0 +1,85 @@
+http://.../bla.php/a - получим все что внутри a
+http://.../bla.php/a/d/3/e
+					/d/3/g
+
+<a>
+		<c>7</c>
+		<d a="3">
+				</e>
+				</g>
+		</d>
+		<d a="7">
+				</e>
+				</g>
+		</d>
+</a>
+
+SOAP operations:
+C => post
+R => GeT
+D => Delete
+U => PUT/Patch
+
+DELETE
+	.../d/3 DELETE
+
+
+if($rest->url)
+
+<definitions
+  Name="WeatherTime"
+  targetNamepsace="urn:FEDORENKO"
+  xmlns:marlene="http://facebook/marlene.schwarz"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+  xmlns="http://schemas.xmlsoap.org/wsdl/">
+ 
+  <types>
+    <xsd:schema targetNamespace="urn:marlene">
+      <xsd:complexType name="returnType">
+        <xsd:all>
+          <xsd:element name='station' maxoccurs='unbounded'>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="anlage" type="xsd:string"/>
+                <xsd:element name="temperatur" type="xsd:string"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:all>
+      </xsd:complexType>
+    </xsd:schema>
+  </types>
+ 
+  <message name="typeRequest">
+    <part name="type" type="xsd:string"/>
+    <part name="ort" type="xsd:string"/>
+  </message>
+  <message name="getWeatherResponse">
+    <part name="franz" type="marlene:returnType"/>
+  </message>
+ 
+  <portType name="WeatherTimePort">
+    <operation name="getWeather">
+      <input message="marlene:typeRequest"/>
+      <output message="marlene:getWeatherResponse"/>
+    </operation>
+  </portType>
+ 
+  <binding name="WeatherTimeBinding" type="marlene:WeatherTimePort">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="getWeather">
+      <soap:operation soapAction="urn:WeatherTime#getWeather"/>
+      <input><soap:body use="literal" namespace="urn:marlene"/></input>
+      <output><soap:body use="literal" namespace="urn:marlene"/></output>
+    </operation>
+  </binding>
+ 
+  <service name='WeatherTime'>
+    <port name="WeatherTimePort" binding="marlene:WeatherTimeBinding">
+      <soap:address location="http://wwwlab.cs.univie.ac.at/~mangler/soap/server.php"/>
+    </port>
+  </service>
+ 
+</definitions>

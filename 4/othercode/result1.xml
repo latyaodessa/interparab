@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mininginfo>
+   <infos>
+      <info>
+         <player UserID="609">
+            <Username>XandiFlasche</Username>
+         </player>
+         <farmingbot FarmingBotID="258">
+            <Botname>Bender258</Botname>
+         </farmingbot>
+         <botsetting ActualQuantity="13" ResourceID="1" />
+         <Resourcename>Silber0</Resourcename>
+      </info>
+      <info>
+         <player UserID="790">
+            <Username>CatMeister</Username>
+         </player>
+         <farmingbot FarmingBotID="77">
+            <Botname>BroBot77</Botname>
+         </farmingbot>
+         <botsetting ActualQuantity="119" ResourceID="1" />
+         <Resourcename>Silber0</Resourcename>
+      </info>
+      <info>
+         <player UserID="805">
+            <Username>CatFlasche</Username>
+         </player>
+         <farmingbot FarmingBotID="62">
+            <Botname>Bender62</Botname>
+         </farmingbot>
+         <botsetting ActualQuantity="107" ResourceID="1" />
+         <Resourcename>Silber0</Resourcename>
+      </info>
+      <info>
+         <player UserID="594">
+            <Username>XandiMeister</Username>
+         </player>
+         <farmingbot FarmingBotID="273">
+            <Botname>BroBot273</Botname>
+         </farmingbot>
+         <botsetting ActualQuantity="25" ResourceID="1" />
+         <Resourcename>Silber0</Resourcename>
+      </info>
+      <info>
+         <player UserID="625">
+            <Username>YbbsMurphy</Username>
+         </player>
+         <farmingbot FarmingBotID="242">
+            <Botname>Proto242</Botname>
+         </farmingbot>
+         <botsetting ActualQuantity="172" ResourceID="2" />
+         <Resourcename>Bronze0</Resourcename>
+      </info>
+   </infos>
+</mininginfo>

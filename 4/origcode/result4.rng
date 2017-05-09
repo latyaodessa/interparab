@@ -1,0 +1,68 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<start>
+		<element name="farmingbots">
+			<zeroOrMore>
+				<element name="bot">
+					<ref name="botattr"/>
+					<ref name="botspecs"/>
+					<element name="resources">
+						<zeroOrMore>
+							<element name="resource">
+								<ref name="resspecs"/>
+							</element>
+						</zeroOrMore>
+					</element>
+					<element name="owner">
+						<ref name="ownerattr"/>
+						<optional>
+						<element name="password">
+							<text/>
+						</element>
+						</optional>
+					</element>
+				</element>
+			</zeroOrMore>
+		</element>
+	</start>
+	<define name="resspecs">
+		<attribute name="id">
+			<data type="integer"/>
+		</attribute>
+		<element name="name">
+			<text/>
+		</element>
+		<optional>
+		<element name="type">
+			<choice>
+				<value>For Crafting</value>
+				<value>For Growing</value>
+				<value>For Planting</value>
+				<value>Useless</value>
+			</choice>
+		</element>
+		</optional>
+	</define>
+	<define name="ownerattr">
+		<attribute name="id">
+			<text/>
+		</attribute>
+	</define>
+	<define name="botattr">
+		<attribute name="id">
+			<data type="integer"/>
+		</attribute>
+	</define>
+	<define name="botspecs">
+		<interleave>
+			<element name="botnumber">
+				<data type="integer"/>
+			</element>
+			<element name="name">
+				<text/>
+			</element>
+			<element name="toolscraftedtotal">
+				<data type="integer"/>
+			</element>
+		</interleave>
+	</define>
+</grammar>

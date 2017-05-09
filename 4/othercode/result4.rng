@@ -1,0 +1,69 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<define name="farmingbotinfo">
+		<element name="farmingbot">
+			<attribute name="FarmingBotID">
+				<data type="nonNegativeInteger"/>
+			</attribute>
+		</element>
+	</define>
+
+	<define name="botsettinginfo">
+		<element name="botsetting">
+			<attribute name="BotSettingID">
+				<data type="nonNegativeInteger"/>
+			</attribute>
+		</element>
+	</define>
+
+	<define name="resourceinfo">
+		<element name="resource">
+			<attribute name="ResourceID">
+				<data type="nonNegativeInteger"/>
+			</attribute>
+			<element name="Resourcename">
+				<text/>
+			</element>
+			<ref name="descriptioninfo"/>
+			<element name="transfer">
+				<attribute name="TransferID">
+					<data type="nonNegativeInteger"/>
+				</attribute>
+				<attribute name="UserID">
+					<data type="nonNegativeInteger"/>
+				</attribute>
+			</element>
+		</element>
+	</define>
+
+	<define name="descriptioninfo">
+		<element name="Description">
+				<element name="description">
+					<element name="mainDescription">
+						<element name="name">
+							<text/>
+						</element>
+						<element name="text">
+							<text/>
+						</element>
+					</element>
+					<element name="additionalInfo">
+						<text/>
+					</element>
+				</element>
+			</element>
+	</define>	
+
+	<start>
+		<element name="collectioninfo">
+			<element name="infos">
+				<zeroOrMore>
+					<element name="info">
+						<ref name="farmingbotinfo"/>
+						<ref name="botsettinginfo"/>
+						<ref name="resourceinfo"/>
+					</element>
+				</zeroOrMore>
+			</element>		
+		</element>
+	</start>
+</grammar>

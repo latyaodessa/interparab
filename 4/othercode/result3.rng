@@ -1,0 +1,57 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	
+	<define name="farmingbotinfo">
+			<element name="farmingbot">
+				<attribute name="FarmingBotID">
+					<data type="nonNegativeInteger"/>
+				</attribute>
+				<element name="Botname">
+					<text/>
+				</element>
+			</element>
+		</define>
+
+		<define name="usedtoolinfo">
+			<element name="usedtool">
+				<attribute name="UsedToolID">
+					<data type="nonNegativeInteger"/>
+				</attribute>
+				<attribute name="NumberOfResourcesFarmed">
+					<data type="nonNegativeInteger"/>
+				</attribute>
+			</element>
+		</define>
+
+		<define name="toolinfo">
+			<element name="tool">
+				<attribute name="ToolID">
+					<data type="nonNegativeInteger"/>
+				</attribute>
+				<element name="Toolname">
+					<text/>
+				</element>	
+			</element>
+		</define>
+
+		<define name="botsettinginfo">
+			<element name="botsetting">
+				<attribute name="ResourceID">
+					<data type="nonNegativeInteger"/>
+				</attribute>
+			</element>
+		</define>
+	<start>
+		<element name="farmingbotinfo">
+			<element name="infos">
+				<zeroOrMore>
+					<element name="info">
+						<ref name="farmingbotinfo"/>
+						<ref name="usedtoolinfo"/>
+						<ref name="toolinfo"/>
+						<ref name="botsettinginfo"/>
+					</element>
+				</zeroOrMore>
+			</element>		
+		</element>
+	</start>
+</grammar>

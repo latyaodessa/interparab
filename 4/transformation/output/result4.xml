@@ -1,0 +1,57 @@
+<farmingbots>
+  <bot id="258">
+    <botnumber>258</botnumber>
+    <name>Bender258</name>
+    <toolscraftedtotal>1</toolscraftedtotal>
+    <resources>
+      <resource id="1">
+        <name>Silber0</name>
+      </resource>
+    </resources>
+    <owner id="609@goggles.com"/>
+  </bot>
+  <bot id="77">
+    <botnumber>77</botnumber>
+    <name>BroBot77</name>
+    <toolscraftedtotal>1</toolscraftedtotal>
+    <resources>
+      <resource id="1">
+        <name>Silber0</name>
+      </resource>
+    </resources>
+    <owner id="790@goggles.com"/>
+  </bot>
+  <bot id="62">
+    <botnumber>62</botnumber>
+    <name>Bender62</name>
+    <toolscraftedtotal>1</toolscraftedtotal>
+    <resources>
+      <resource id="1">
+        <name>Silber0</name>
+      </resource>
+    </resources>
+    <owner id="805@goggles.com"/>
+  </bot>
+  <bot id="273">
+    <botnumber>273</botnumber>
+    <name>BroBot273</name>
+    <toolscraftedtotal>1</toolscraftedtotal>
+    <resources>
+      <resource id="1">
+        <name>Silber0</name>
+      </resource>
+    </resources>
+    <owner id="594@goggles.com"/>
+  </bot>
+  <bot id="242">
+    <botnumber>242</botnumber>
+    <name>Proto242</name>
+    <toolscraftedtotal>1</toolscraftedtotal>
+    <resources>
+      <resource id="2">
+        <name>Bronze0</name>
+      </resource>
+    </resources>
+    <owner id="625@goggles.com"/>
+  </bot>
+</farmingbots>

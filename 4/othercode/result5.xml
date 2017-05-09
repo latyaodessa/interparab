@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolinfo>
+   <infos>
+      <info>
+         <tool ToolID="1" CreationDate="2017-03-29T11:02:54.69+02:00">
+            <Toolname>Axt0</Toolname>
+         </tool>
+         <toolrequire ResourceID="732">
+            <Resourcename>Silber43</Resourcename>
+         </toolrequire>
+         <farmingbot FarmingBotID="1" DateOfLastDeath="2017-03-23T23:02:51.39+01:00" />
+      </info>
+      <info>
+         <tool ToolID="1" CreationDate="2017-03-29T11:02:54.69+02:00">
+            <Toolname>Axt0</Toolname>
+         </tool>
+         <toolrequire ResourceID="621">
+            <Resourcename>Metall36</Resourcename>
+         </toolrequire>
+         <farmingbot FarmingBotID="1" DateOfLastDeath="2017-03-23T23:02:51.39+01:00" />
+      </info>
+      <info>
+         <tool ToolID="2" CreationDate="2017-03-29T10:02:54.69+02:00">
+            <Toolname>Kettensaeage0</Toolname>
+         </tool>
+         <toolrequire ResourceID="664">
+            <Resourcename>Silber39</Resourcename>
+         </toolrequire>
+         <farmingbot FarmingBotID="2" DateOfLastDeath="2017-03-24T22:02:51.39+01:00" />
+      </info>
+   </infos>
+</toolinfo>

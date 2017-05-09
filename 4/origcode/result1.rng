@@ -1,0 +1,71 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<start>
+		<element name="catastrophes">
+			<zeroOrMore>
+			<element name="natural_disaster">
+			<optional>
+				<attribute name="id">
+					<data type="integer"/>
+				</attribute>
+			</optional>
+				<interleave>
+				<optional>
+					<ref name="disasterspecs"/>
+				</optional>
+					<zeroOrMore>
+						<element name="bot">
+							<attribute name="id">
+								<data type="integer"/>
+							</attribute>
+							<ref name="botspecs"/>
+							<element name="owner">
+							<optional>
+								<ref name="ownerattr"/>
+							</optional>
+								<element name="userdata">
+									<element name="User">
+										<element name="Name">
+											<ref name="bothnames"/>
+										</element>
+									</element>
+								</element>
+							</element>
+						</element>
+					</zeroOrMore>
+				</interleave>
+			</element>
+		</zeroOrMore>
+		</element> 
+	</start>
+	<define name="bothnames">
+	<optional>
+		<element name="FirstName">
+			<text/>
+		</element>
+		</optional>
+		<element name="LastName">
+			<text/>
+		</element>
+	</define>
+	<define name="ownerattr">
+		<attribute name="email">
+			<text/>
+		</attribute>
+	</define>
+	<define name="disasterspecs">
+		<element name="type">
+			<text/>
+		</element> 
+		<element name="dateofnd">
+			<text/>
+		</element> 
+	</define>
+	<define name="botspecs">
+		<element name="name">
+			<text/>
+		</element>
+		<element name="timesresettotal">
+			<data type="integer"/>
+		</element>
+	</define>
+</grammar>
