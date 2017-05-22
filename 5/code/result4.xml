@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rate_data>
+   <rate appointment_id="689">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status_type="DEFAULT             " rate="5" rate_type="POSITIVE            ">
+            <repared>NEED HELP</repared>
+            <spendet_time>02:43:07</spendet_time>
+            <estimated_time>11:50:29</estimated_time>
+         </status>
+         <rate_description>Funny Guy</rate_description>
+         <recommend>YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>189</customer_id>
+                     <fridge_id>64</fridge_id>
+                     <first_name>Robert</first_name>
+                     <last_name>Alvarez</last_name>
+                     <gender>male</gender>
+                     <age>22</age>
+                     <title>mr</title>
+                     <phone>(964) 265 1784</phone>
+                     <email>robert-95@example.com</email>
+                     <customer_address>
+                        <street>Klzzltlnru Street</street>
+                        <hause>11</hause>
+                        <flat>16</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1677</postal_code>
+                           <country>Austria</country>
+                           <city>Styria</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="397">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status="NEED HELP           " rate="2" rate_type="POSITIVE            ">
+            <repared>NEED HELP</repared>
+            <spendet_time>06:44:02</spendet_time>
+            <estimated_time>00:08:33</estimated_time>
+         </status>
+         <rate_description>Liked it</rate_description>
+         <recommend>MORE NO</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>368</customer_id>
+                     <fridge_id>592</fridge_id>
+                     <first_name>Lisa</first_name>
+                     <last_name>Verstraeten</last_name>
+                     <gender>female</gender>
+                     <age>33</age>
+                     <title>mrs</title>
+                     <phone>(134) 573 5571</phone>
+                     <email>lisa84@example.com</email>
+                     <customer_address>
+                        <street>Ozchsxmxol Street</street>
+                        <hause>8</hause>
+                        <flat>28</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1402</postal_code>
+                           <country>Austria</country>
+                           <city>Burgenland</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="527">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <rate_details>
+         <status status_type="DEFAULT             " rate="3" rate_type="POSITIVE            ">
+            <repared>NEED TOOLS</repared>
+            <spendet_time>03:45:49</spendet_time>
+            <estimated_time>02:51:44</estimated_time>
+         </status>
+         <rate_description>NOT GOOD</rate_description>
+         <recommend>NOT SURE</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>415</customer_id>
+                     <fridge_id>610</fridge_id>
+                     <first_name>Инна</first_name>
+                     <last_name>Лазаревa</last_name>
+                     <gender>female</gender>
+                     <age>24</age>
+                     <title>ms</title>
+                     <phone>(532) 298 1617</phone>
+                     <email>Инна-93@example.com</email>
+                     <customer_address>
+                        <street>Qwokwrgbzc Street</street>
+                        <hause>9</hause>
+                        <flat>38</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1923</postal_code>
+                           <country>Austria</country>
+                           <city>Salzburg</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="952">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status="NEED TO TAKE FRIDGE " rate="1" rate_type="POSITIVE            ">
+            <repared>NEED TO TAKE FRIDGE</repared>
+            <spendet_time>02:53:47</spendet_time>
+            <estimated_time>08:55:40</estimated_time>
+         </status>
+         <rate_description>Was cool</rate_description>
+         <recommend>NO</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>497</customer_id>
+                     <fridge_id>484</fridge_id>
+                     <first_name>Carmen</first_name>
+                     <last_name>Bujor</last_name>
+                     <gender>female</gender>
+                     <age>24</age>
+                     <title>ms</title>
+                     <phone>(680) 122 2981</phone>
+                     <email>carmen_bujor@example.com</email>
+                     <customer_address>
+                        <street>Vjlcvepdzd Street</street>
+                        <hause>50</hause>
+                        <flat>50</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1493</postal_code>
+                           <country>Austria</country>
+                           <city>Lower Austria EAST</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="359">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <rate_details>
+         <status status_type="WARNING             " rate="3" rate_type="POSITIVE            ">
+            <repared>NEED TO TAKE FRIDGE</repared>
+            <spendet_time>12:44:57</spendet_time>
+            <estimated_time>02:02:02</estimated_time>
+         </status>
+         <rate_description>Pretty Quick</rate_description>
+         <recommend>NOT SURE</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>850</customer_id>
+                     <fridge_id>737</fridge_id>
+                     <first_name>Rafael</first_name>
+                     <last_name>Fernández</last_name>
+                     <gender>male</gender>
+                     <age>24</age>
+                     <title>mr</title>
+                     <phone>(114) 733 4195</phone>
+                     <email>rafael_93@example.com</email>
+                     <customer_address>
+                        <street>Dbdbatiott Street</street>
+                        <hause>10</hause>
+                        <flat>74</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1509</postal_code>
+                           <country>Austria</country>
+                           <city>Burgenland</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="329">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <rate_details>
+         <status status_type="WARNING             " rate="4" rate_type="NEGATIVE            ">
+            <repared>NEED TOOLS</repared>
+            <spendet_time>03:17:39</spendet_time>
+            <estimated_time>02:55:11</estimated_time>
+         </status>
+         <rate_description>NOT GOOD</rate_description>
+         <recommend>YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>435</customer_id>
+                     <fridge_id>926</fridge_id>
+                     <first_name>Milena</first_name>
+                     <last_name>Simu</last_name>
+                     <gender>female</gender>
+                     <age>36</age>
+                     <title>ms</title>
+                     <phone>(239) 813 5089</phone>
+                     <email>milena_simu@example.com</email>
+                     <customer_address>
+                        <street>Cghwuromnd Street</street>
+                        <hause>9</hause>
+                        <flat>54</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1506</postal_code>
+                           <country>Austria</country>
+                           <city>Burgenland</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="832">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <rate_details>
+         <status status_type="WARNING             " rate="4" rate_type="POSITIVE            ">
+            <repared>ALL OK</repared>
+            <spendet_time>11:04:33</spendet_time>
+            <estimated_time>02:04:47</estimated_time>
+         </status>
+         <rate_description>Was cool</rate_description>
+         <recommend>MORE YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>200</customer_id>
+                     <fridge_id>80</fridge_id>
+                     <first_name>Μένων</first_name>
+                     <last_name>Παπαγεωργίου</last_name>
+                     <gender>male</gender>
+                     <age>22</age>
+                     <title>mr</title>
+                     <phone>(952) 110 7031</phone>
+                     <email>Μένων95@example.com</email>
+                     <customer_address>
+                        <street>Dwoaweeqlf Street</street>
+                        <hause>20</hause>
+                        <flat>42</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1354</postal_code>
+                           <country>Austria</country>
+                           <city>Salzburg</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="147">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status="NEED TOOLS          " rate="2" rate_type="NEGATIVE            ">
+            <repared>NEED TOOLS</repared>
+            <spendet_time>04:29:56</spendet_time>
+            <estimated_time>07:41:16</estimated_time>
+         </status>
+         <rate_description>NOT GOOD</rate_description>
+         <recommend>MORE YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>714</customer_id>
+                     <fridge_id>132</fridge_id>
+                     <first_name>متین</first_name>
+                     <last_name>خسروجردی</last_name>
+                     <gender>male</gender>
+                     <age>27</age>
+                     <title>mr</title>
+                     <phone>(947) 753 7014</phone>
+                     <email>متین_90@example.com</email>
+                     <customer_address>
+                        <street>Mogoeebfld Street</street>
+                        <hause>15</hause>
+                        <flat>23</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1601</postal_code>
+                           <country>Austria</country>
+                           <city>Upper Austria</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="468">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status="NEED HELP           " rate="2" rate_type="POSITIVE            ">
+            <repared>NEED HELP</repared>
+            <spendet_time>02:00:31</spendet_time>
+            <estimated_time>10:24:03</estimated_time>
+         </status>
+         <rate_description>GOOD</rate_description>
+         <recommend>MORE NO</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>999</customer_id>
+                     <fridge_id>20</fridge_id>
+                     <first_name>Bogdan</first_name>
+                     <last_name>Davidovici</last_name>
+                     <gender>male</gender>
+                     <age>29</age>
+                     <title>mr</title>
+                     <phone>(852) 670 2048</phone>
+                     <email>bogdan-88@example.com</email>
+                     <customer_address>
+                        <street>Lkddnzfsue Street</street>
+                        <hause>27</hause>
+                        <flat>62</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1835</postal_code>
+                           <country>Austria</country>
+                           <city>Lower Austria EAST</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="206">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status_type="WARNING             " rate="3" rate_type="NEGATIVE            ">
+            <repared>ALL OK</repared>
+            <spendet_time>10:03:31</spendet_time>
+            <estimated_time>04:53:26</estimated_time>
+         </status>
+         <rate_description>Liked it</rate_description>
+         <recommend>YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>952</customer_id>
+                     <fridge_id>327</fridge_id>
+                     <first_name>Petronela</first_name>
+                     <last_name>Dusík</last_name>
+                     <gender>female</gender>
+                     <age>32</age>
+                     <title>mrs</title>
+                     <phone>(897) 755 5792</phone>
+                     <email>petronela85@example.com</email>
+                     <customer_address>
+                        <street>Ofsxvbhuni Street</street>
+                        <hause>35</hause>
+                        <flat>29</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1607</postal_code>
+                           <country>Austria</country>
+                           <city>Styria</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="406">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status_type="DEFAULT             " rate="5" rate_type="NEGATIVE            ">
+            <repared>NEED TOOLS</repared>
+            <spendet_time>01:09:30</spendet_time>
+            <estimated_time>08:54:46</estimated_time>
+         </status>
+         <rate_description>Pretty Quick</rate_description>
+         <recommend>MORE NO</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>147</customer_id>
+                     <fridge_id>569</fridge_id>
+                     <first_name>Εύμηλος</first_name>
+                     <last_name>Γούσιος</last_name>
+                     <gender>male</gender>
+                     <age>34</age>
+                     <title>mr</title>
+                     <phone>(819) 315 5299</phone>
+                     <email>Εύμηλος83@example.com</email>
+                     <customer_address>
+                        <street>Pvnfjadngg Street</street>
+                        <hause>20</hause>
+                        <flat>74</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1372</postal_code>
+                           <country>Austria</country>
+                           <city>Vienna</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="613">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status_type="CRITICAL            " rate="4" rate_type="POSITIVE            ">
+            <repared>ALL OK</repared>
+            <spendet_time>00:07:31</spendet_time>
+            <estimated_time>01:10:43</estimated_time>
+         </status>
+         <rate_description>GOOD</rate_description>
+         <recommend>YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>905</customer_id>
+                     <fridge_id>518</fridge_id>
+                     <first_name>Carolyn</first_name>
+                     <last_name>Franklin</last_name>
+                     <gender>female</gender>
+                     <age>34</age>
+                     <title>ms</title>
+                     <phone>(842) 591 9441</phone>
+                     <email>carolyn-83@example.com</email>
+                     <customer_address>
+                        <street>Qabptajvkk Street</street>
+                        <hause>4</hause>
+                        <flat>30</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1150</postal_code>
+                           <country>Austria</country>
+                           <city>Burgenland</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="777">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <rate_details>
+         <status status_type="CRITICAL            " rate="4" rate_type="NEGATIVE            ">
+            <repared>NEED HELP</repared>
+            <spendet_time>02:09:25</spendet_time>
+            <estimated_time>01:46:12</estimated_time>
+         </status>
+         <rate_description>NOT GOOD</rate_description>
+         <recommend>MORE NO</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>957</customer_id>
+                     <fridge_id>168</fridge_id>
+                     <first_name>孔</first_name>
+                     <last_name>全</last_name>
+                     <gender>male</gender>
+                     <age>28</age>
+                     <title>mr</title>
+                     <phone>(875) 734 8270</phone>
+                     <email>孔全@example.com</email>
+                     <customer_address>
+                        <street>Yyelulffnm Street</street>
+                        <hause>1</hause>
+                        <flat>63</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1533</postal_code>
+                           <country>Austria</country>
+                           <city>Salzburg</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="450">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <rate_details>
+         <status status_type="CRITICAL            " rate="3" rate_type="POSITIVE            ">
+            <repared>ALL OK</repared>
+            <spendet_time>00:02:13</spendet_time>
+            <estimated_time>00:32:04</estimated_time>
+         </status>
+         <rate_description>Liked it</rate_description>
+         <recommend>NO</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>141</customer_id>
+                     <fridge_id>877</fridge_id>
+                     <first_name>Beniamin</first_name>
+                     <last_name>Sadoveanu</last_name>
+                     <gender>male</gender>
+                     <age>23</age>
+                     <title>mr</title>
+                     <phone>(767) 784 2872</phone>
+                     <email>beniamin_94@example.com</email>
+                     <customer_address>
+                        <street>Yldwhksekw Street</street>
+                        <hause>8</hause>
+                        <flat>3</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1407</postal_code>
+                           <country>Austria</country>
+                           <city>Vienna</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="373">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status="NEED HELP           " rate="1" rate_type="NEGATIVE            ">
+            <repared>NEED HELP</repared>
+            <spendet_time>05:01:17</spendet_time>
+            <estimated_time>04:17:37</estimated_time>
+         </status>
+         <rate_description>NOT GOOD</rate_description>
+         <recommend>NOT SURE</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>182</customer_id>
+                     <fridge_id>643</fridge_id>
+                     <first_name>Κλείτωρ</first_name>
+                     <last_name>Ζαΐμης</last_name>
+                     <gender>male</gender>
+                     <age>26</age>
+                     <title>mr</title>
+                     <phone>(154) 276 6306</phone>
+                     <email>Κλείτωρ_91@example.com</email>
+                     <customer_address>
+                        <street>Lxcgzqfyny Street</street>
+                        <hause>45</hause>
+                        <flat>13</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1628</postal_code>
+                           <country>Austria</country>
+                           <city>Vienna</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="726">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status_type="CRITICAL            " rate="5" rate_type="POSITIVE            ">
+            <repared>ALL OK</repared>
+            <spendet_time>03:10:25</spendet_time>
+            <estimated_time>12:59:17</estimated_time>
+         </status>
+         <rate_description>OMG SO BAD FUUUU</rate_description>
+         <recommend>MORE YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>429</customer_id>
+                     <fridge_id>976</fridge_id>
+                     <first_name>Augustín</first_name>
+                     <last_name>Straka</last_name>
+                     <gender>male</gender>
+                     <age>26</age>
+                     <title>mr</title>
+                     <phone>(773) 826 3298</phone>
+                     <email>augustín-91@example.com</email>
+                     <customer_address>
+                        <street>Xgjzwtpzad Street</street>
+                        <hause>32</hause>
+                        <flat>42</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1862</postal_code>
+                           <country>Austria</country>
+                           <city>Lower Austria WEST</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="332">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <rate_details>
+         <status status="NEED HELP           " rate="1" rate_type="NEGATIVE            ">
+            <repared>NEED HELP</repared>
+            <spendet_time>11:17:54</spendet_time>
+            <estimated_time>05:36:53</estimated_time>
+         </status>
+         <rate_description>Funny Guy</rate_description>
+         <recommend>YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>217</customer_id>
+                     <fridge_id>197</fridge_id>
+                     <first_name>Alexander</first_name>
+                     <last_name>Oliver</last_name>
+                     <gender>male</gender>
+                     <age>27</age>
+                     <title>mr</title>
+                     <phone>(410) 640 6229</phone>
+                     <email>alexander-90@example.com</email>
+                     <customer_address>
+                        <street>Oxirpdtqsn Street</street>
+                        <hause>24</hause>
+                        <flat>86</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1956</postal_code>
+                           <country>Austria</country>
+                           <city>Upper Austria</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="93">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status_type="WARNING             " rate="3" rate_type="POSITIVE            ">
+            <repared>NEED TOOLS</repared>
+            <spendet_time>09:05:53</spendet_time>
+            <estimated_time>02:56:09</estimated_time>
+         </status>
+         <rate_description>GOOD</rate_description>
+         <recommend>NO</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>210</customer_id>
+                     <fridge_id>234</fridge_id>
+                     <first_name>Furkan</first_name>
+                     <last_name>Kocaman</last_name>
+                     <gender>male</gender>
+                     <age>35</age>
+                     <title>mr</title>
+                     <phone>(777) 629 6704</phone>
+                     <email>furkan82@example.com</email>
+                     <customer_address>
+                        <street>Jkmqflagcx Street</street>
+                        <hause>4</hause>
+                        <flat>63</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1125</postal_code>
+                           <country>Austria</country>
+                           <city>Upper Austria</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="779">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status="NEED TOOLS          " rate="2" rate_type="NEGATIVE            ">
+            <repared>NEED TOOLS</repared>
+            <spendet_time>06:38:56</spendet_time>
+            <estimated_time>07:11:20</estimated_time>
+         </status>
+         <rate_description>Liked it</rate_description>
+         <recommend>MORE NO</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>240</customer_id>
+                     <fridge_id>138</fridge_id>
+                     <first_name>Max</first_name>
+                     <last_name>Polley</last_name>
+                     <gender>male</gender>
+                     <age>34</age>
+                     <title>mr</title>
+                     <phone>(881) 447 4398</phone>
+                     <email>max-polley@example.com</email>
+                     <customer_address>
+                        <street>Yvhqbavfae Street</street>
+                        <hause>36</hause>
+                        <flat>61</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1532</postal_code>
+                           <country>Austria</country>
+                           <city>Salzburg</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="881">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <rate_details>
+         <status status="NEED TOOLS          " rate="2" rate_type="NEGATIVE            ">
+            <repared>NEED TOOLS</repared>
+            <spendet_time>12:57:17</spendet_time>
+            <estimated_time>06:49:02</estimated_time>
+         </status>
+         <rate_description>Funny Guy</rate_description>
+         <recommend>MORE YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>856</customer_id>
+                     <fridge_id>609</fridge_id>
+                     <first_name>Felix</first_name>
+                     <last_name>Arghezi</last_name>
+                     <gender>male</gender>
+                     <age>23</age>
+                     <title>mr</title>
+                     <phone>(454) 173 4540</phone>
+                     <email>felix_94@example.com</email>
+                     <customer_address>
+                        <street>Fwrbntteqj Street</street>
+                        <hause>24</hause>
+                        <flat>78</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1926</postal_code>
+                           <country>Austria</country>
+                           <city>Vienna</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="235">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <rate_details>
+         <status status_type="DEFAULT             " rate="5" rate_type="NEGATIVE            ">
+            <repared>NEED TO TAKE FRIDGE</repared>
+            <spendet_time>04:12:42</spendet_time>
+            <estimated_time>10:50:42</estimated_time>
+         </status>
+         <rate_description>Funny Guy</rate_description>
+         <recommend>NO</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>504</customer_id>
+                     <fridge_id>214</fridge_id>
+                     <first_name>Felicia</first_name>
+                     <last_name>Cernat</last_name>
+                     <gender>female</gender>
+                     <age>30</age>
+                     <title>mrs</title>
+                     <phone>(786) 336 1005</phone>
+                     <email>felicia_87@example.com</email>
+                     <customer_address>
+                        <street>Wbzecsmhsd Street</street>
+                        <hause>24</hause>
+                        <flat>75</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1258</postal_code>
+                           <country>Austria</country>
+                           <city>Vienna</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="992">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <rate_details>
+         <status status_type="CRITICAL            " rate="5" rate_type="POSITIVE            ">
+            <repared>ALL OK</repared>
+            <spendet_time>09:11:40</spendet_time>
+            <estimated_time>00:38:00</estimated_time>
+         </status>
+         <rate_description>NOT GOOD</rate_description>
+         <recommend>MORE YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>99</customer_id>
+                     <fridge_id>37</fridge_id>
+                     <first_name>Annika</first_name>
+                     <last_name>Bauer</last_name>
+                     <gender>female</gender>
+                     <age>26</age>
+                     <title>ms</title>
+                     <phone>(337) 837 1912</phone>
+                     <email>annikabauer@example.com</email>
+                     <customer_address>
+                        <street>Dvjlgitkox Street</street>
+                        <hause>12</hause>
+                        <flat>68</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1951</postal_code>
+                           <country>Austria</country>
+                           <city>Vienna</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="931">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <rate_details>
+         <status status_type="WARNING             " rate="3" rate_type="NEGATIVE            ">
+            <repared>NEED TOOLS</repared>
+            <spendet_time>02:50:14</spendet_time>
+            <estimated_time>02:58:04</estimated_time>
+         </status>
+         <rate_description>GOOD</rate_description>
+         <recommend>NOT SURE</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>333</customer_id>
+                     <fridge_id>264</fridge_id>
+                     <first_name>Klaudia</first_name>
+                     <last_name>Krupa</last_name>
+                     <gender>female</gender>
+                     <age>26</age>
+                     <title>ms</title>
+                     <phone>(387) 170 4821</phone>
+                     <email>klaudia_91@example.com</email>
+                     <customer_address>
+                        <street>Lpkpsgtjoz Street</street>
+                        <hause>23</hause>
+                        <flat>43</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1147</postal_code>
+                           <country>Austria</country>
+                           <city>Styria</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="926">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status_type="WARNING             " rate="3" rate_type="NEGATIVE            ">
+            <repared>NEED TOOLS</repared>
+            <spendet_time>03:29:34</spendet_time>
+            <estimated_time>06:25:57</estimated_time>
+         </status>
+         <rate_description>Was cool</rate_description>
+         <recommend>MORE YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>584</customer_id>
+                     <fridge_id>740</fridge_id>
+                     <first_name>선</first_name>
+                     <last_name>지혜</last_name>
+                     <gender>female</gender>
+                     <age>35</age>
+                     <title>mrs</title>
+                     <phone>(827) 953 7419</phone>
+                     <email>선지혜@example.com</email>
+                     <customer_address>
+                        <street>Soykgsnvsb Street</street>
+                        <hause>3</hause>
+                        <flat>50</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1945</postal_code>
+                           <country>Austria</country>
+                           <city>Tyrol</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="867">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <rate_details>
+         <status status="ALL OK              " rate="1" rate_type="NEGATIVE            ">
+            <repared>ALL OK</repared>
+            <spendet_time>11:33:21</spendet_time>
+            <estimated_time>00:45:56</estimated_time>
+         </status>
+         <rate_description>NOT GOOD</rate_description>
+         <recommend>NOT SURE</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>678</customer_id>
+                     <fridge_id>772</fridge_id>
+                     <first_name>Θεόπομπος</first_name>
+                     <last_name>Αυγερινός</last_name>
+                     <gender>male</gender>
+                     <age>24</age>
+                     <title>mr</title>
+                     <phone>(155) 521 6671</phone>
+                     <email>Θεόπομπος-93@example.com</email>
+                     <customer_address>
+                        <street>Bqxailhaqn Street</street>
+                        <hause>15</hause>
+                        <flat>33</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1157</postal_code>
+                           <country>Austria</country>
+                           <city>Salzburg</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="41">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <rate_details>
+         <status status_type="DEFAULT             " rate="4" rate_type="NEGATIVE            ">
+            <repared>NEED HELP</repared>
+            <spendet_time>07:45:58</spendet_time>
+            <estimated_time>01:44:33</estimated_time>
+         </status>
+         <rate_description>Liked it</rate_description>
+         <recommend>MORE YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>52</customer_id>
+                     <fridge_id>837</fridge_id>
+                     <first_name>Caitlyn</first_name>
+                     <last_name>Russ</last_name>
+                     <gender>female</gender>
+                     <age>35</age>
+                     <title>ms</title>
+                     <phone>(681) 783 4891</phone>
+                     <email>caitlynruss@example.com</email>
+                     <customer_address>
+                        <street>Kosxmxjroz Street</street>
+                        <hause>39</hause>
+                        <flat>53</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1627</postal_code>
+                           <country>Austria</country>
+                           <city>Vienna</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="24">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <rate_details>
+         <status status="ALL OK              " rate="2" rate_type="POSITIVE            ">
+            <repared>ALL OK</repared>
+            <spendet_time>12:40:34</spendet_time>
+            <estimated_time>08:34:16</estimated_time>
+         </status>
+         <rate_description>Funny Guy</rate_description>
+         <recommend>MORE NO</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>139</customer_id>
+                     <fridge_id>707</fridge_id>
+                     <first_name>Zlatica</first_name>
+                     <last_name>Adam</last_name>
+                     <gender>female</gender>
+                     <age>35</age>
+                     <title>ms</title>
+                     <phone>(532) 562 7204</phone>
+                     <email>zlatica-adam@example.com</email>
+                     <customer_address>
+                        <street>Xvgwwaewtm Street</street>
+                        <hause>39</hause>
+                        <flat>61</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1740</postal_code>
+                           <country>Austria</country>
+                           <city>Vienna</city>
+                           <continent>Europe</continent>
+                           <type>commercial</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="412">
+      <appointment_type>CORPORATE</appointment_type>
+      <special_handling>As quick as possible</special_handling>
+      <rate_details>
+         <status status="NEED TOOLS          " rate="2" rate_type="NEGATIVE            ">
+            <repared>NEED TOOLS</repared>
+            <spendet_time>06:13:09</spendet_time>
+            <estimated_time>09:57:05</estimated_time>
+         </status>
+         <rate_description>Funny Guy</rate_description>
+         <recommend>NO</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>854</customer_id>
+                     <fridge_id>765</fridge_id>
+                     <first_name>Socorro</first_name>
+                     <last_name>Villegas</last_name>
+                     <gender>female</gender>
+                     <age>28</age>
+                     <title>mrs</title>
+                     <phone>(572) 461 9134</phone>
+                     <email>socorro_89@example.com</email>
+                     <customer_address>
+                        <street>Wrbrqxpqvq Street</street>
+                        <hause>27</hause>
+                        <flat>65</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1745</postal_code>
+                           <country>Austria</country>
+                           <city>Vienna</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="242">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>Quality Inspection</special_handling>
+      <rate_details>
+         <status status_type="DEFAULT             " rate="5" rate_type="NEGATIVE            ">
+            <repared>ALL OK</repared>
+            <spendet_time>12:54:08</spendet_time>
+            <estimated_time>10:46:42</estimated_time>
+         </status>
+         <rate_description>Was cool</rate_description>
+         <recommend>MORE YES</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>468</customer_id>
+                     <fridge_id>637</fridge_id>
+                     <first_name>Kazimír</first_name>
+                     <last_name>Magál</last_name>
+                     <gender>male</gender>
+                     <age>23</age>
+                     <title>mr</title>
+                     <phone>(521) 201 7687</phone>
+                     <email>kazimír94@example.com</email>
+                     <customer_address>
+                        <street>Kyzywxjavy Street</street>
+                        <hause>13</hause>
+                        <flat>17</flat>
+                        <porch>0</porch>
+                        <postal_code>
+                           <postal_code>1154</postal_code>
+                           <country>Austria</country>
+                           <city>Lower Austria EAST</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+   <rate appointment_id="92">
+      <appointment_type>PRIVATE</appointment_type>
+      <special_handling>DEFAULT</special_handling>
+      <rate_details>
+         <status status_type="DEFAULT             " rate="4" rate_type="POSITIVE            ">
+            <repared>NEED TO TAKE FRIDGE</repared>
+            <spendet_time>02:38:28</spendet_time>
+            <estimated_time>00:09:53</estimated_time>
+         </status>
+         <rate_description>OMG SO BAD FUUUU</rate_description>
+         <recommend>MORE NO</recommend>
+         <customer_data>
+            <customer_to_export>
+               <customer_data>
+                  <customer>
+                     <customer_id>779</customer_id>
+                     <fridge_id>810</fridge_id>
+                     <first_name>Nathan</first_name>
+                     <last_name>Price</last_name>
+                     <gender>male</gender>
+                     <age>21</age>
+                     <title>mr</title>
+                     <phone>(543) 968 1944</phone>
+                     <email>nathan_price@example.com</email>
+                     <customer_address>
+                        <street>Hyvtycsvaw Street</street>
+                        <hause>11</hause>
+                        <flat>7</flat>
+                        <porch>1</porch>
+                        <postal_code>
+                           <postal_code>1689</postal_code>
+                           <country>Austria</country>
+                           <city>Lower Austria EAST</city>
+                           <continent>Europe</continent>
+                           <type>private</type>
+                        </postal_code>
+                     </customer_address>
+                  </customer>
+               </customer_data>
+            </customer_to_export>
+         </customer_data>
+      </rate_details>
+   </rate>
+</rate_data>

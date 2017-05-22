@@ -1,0 +1,1 @@
+count(//order_address/detailed_order_data/customer_fridges_on_current_address/fridge[prod_country/text()="Indonesia"]/ancestor::customer[@age>18])

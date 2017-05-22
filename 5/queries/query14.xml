@@ -1,0 +1,1 @@
+//fridge[contains(@year_of_production,"2011") and number(fridge_volume)<50]/ancestor::customer[*/preceding-sibling::gender/text()="female"]

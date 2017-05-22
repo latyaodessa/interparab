@@ -1,0 +1,1 @@
+//symptom[contains(@symptom_type,"COOL_FREEZEIN") or contains(@symptom_type,"FREEZEIN") or contains(@symptom_type,"ICE")]/ancestor::appointment[appointment_type/text()="CORPORATE"]

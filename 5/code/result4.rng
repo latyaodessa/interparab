@@ -1,0 +1,193 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+   <start>
+      <element name="rate_data">
+         <oneOrMore>
+            <element name="rate">
+               <ref name="rate" />
+            </element>
+         </oneOrMore>
+      </element>
+   </start>
+   <define name="rate">
+      <attribute name="appointment_id">
+         <ref name="only_numbers_validation" />
+      </attribute>
+      <element name="appointment_type">
+         <ref name="appointment_type_validation" />
+      </element>
+      <element name="special_handling">
+         <ref name="only_string_validation" />
+      </element>
+      <element name="rate_details">
+         <element name="status">
+            <ref name="rate_attribute_choice"/>
+            <attribute name="rate">
+               <ref name="only_numbers_validation" />
+            </attribute>
+            <attribute name="rate_type">
+               <ref name="only_string_validation" />
+            </attribute>
+            <element name="repared">
+               <ref name="reapred_validation" />
+            </element>
+            <element name="spendet_time">
+               <ref name="time_validator" />
+            </element>
+            <element name="estimated_time">
+               <ref name="time_validator" />
+            </element>
+         </element>
+         <element name="rate_description">
+            <ref name="only_string_validation" />
+         </element>
+         <element name="recommend">
+            <ref name="boolean_validation" />
+         </element>
+         <ref name="customer_data" />
+      </element>
+   </define>
+   <define name="customer_data">
+      <element name="customer_data">
+         <element name="customer_to_export">
+            <element name="customer_data">
+               <element name="customer">
+                  <element name="customer_id">
+                     <ref name="only_numbers_validation" />
+                  </element>
+                  <element name="fridge_id">
+                     <ref name="only_numbers_validation" />
+                  </element>
+                  <element name="first_name">
+                     <ref name="only_string_validation" />
+                  </element>
+                  <element name="last_name">
+                     <ref name="only_string_validation" />
+                  </element>
+                  <element name="gender">
+                     <ref name="gender_validation" />
+                  </element>
+                  <element name="age">
+                     <ref name="only_numbers_validation" />
+                  </element>
+                  <element name="title">
+                     <ref name="title_validation" />
+                  </element>
+                  <element name="phone">
+                     <ref name="only_string_validation" />
+                  </element>
+                  <element name="email">
+                     <ref name="only_string_validation" />
+                  </element>
+                  <optional>
+                     <element name="customer_address">
+                        <ref name="customer_address" />
+                     </element>
+                  </optional>
+               </element>
+            </element>
+         </element>
+      </element>
+   </define>
+   <define name="customer_address">
+      <interleave>
+         <element name="street">
+            <list>
+               <data type="string" />
+               <data type="string" />
+            </list>
+         </element>
+         <element name="hause">
+            <ref name="only_numbers_validation" />
+         </element>
+         <element name="flat">
+            <ref name="only_numbers_validation" />
+         </element>
+         <element name="porch">
+            <ref name="only_numbers_validation" />
+         </element>
+         <element name="postal_code">
+            <interleave>
+               <element name="postal_code">
+                  <ref name="only_numbers_validation" />
+               </element>
+               <element name="country">
+                  <ref name="only_string_validation" />
+               </element>
+               <element name="city">
+                  <ref name="only_string_validation" />
+               </element>
+               <element name="continent">
+                  <ref name="only_string_validation" />
+               </element>
+               <element name="type">
+                  <choice>
+                     <value>private</value>
+                     <value>commercial</value>
+                  </choice>
+               </element>
+            </interleave>
+         </element>
+      </interleave>
+   </define>
+   <define name="only_numbers_validation">
+      <data type="string">
+         <param name="pattern">[0-9]*</param>
+      </data>
+   </define>
+   <define name="appointment_type_validation">
+      <choice>
+         <value>PRIVATE</value>
+         <value>CORPORATE</value>
+      </choice>
+   </define>
+   <define name="boolean_validation">
+      <choice>
+         <value>YES</value>
+         <value>NO</value>
+         <value>NOT SURE</value>
+         <value>MORE YES</value>
+         <value>MORE NO</value>
+      </choice>
+   </define>
+   <define name="only_string_validation">
+      <data type="string">
+         <param name="pattern">.*</param>
+      </data>
+   </define>
+   <define name="time_validator">
+      <data type="string">
+         <param name="pattern">[0-9][0-9]:[0-9][0-9]:[0-9][0-9]</param>
+      </data>
+   </define>
+   <define name="reapred_validation">
+      <choice>
+         <value>NEED TO TAKE FRIDGE</value>
+         <value>ALL OK</value>
+         <value>NEED TOOLS</value>
+         <value>NEED HELP</value>
+      </choice>
+   </define>
+   <define name="gender_validation">
+      <choice>
+         <value>female</value>
+         <value>male</value>
+      </choice>
+   </define>
+   <define name="title_validation">
+      <choice>
+         <value>mrs</value>
+         <value>ms</value>
+         <value>mr</value>
+      </choice>
+   </define>
+   <define name="rate_attribute_choice">
+      <choice>
+              <attribute name="status">
+               <ref name="only_string_validation" />
+            </attribute>
+            <attribute name="status_type">
+               <ref name="only_string_validation" />
+            </attribute>
+      </choice>
+   </define>
+</grammar>

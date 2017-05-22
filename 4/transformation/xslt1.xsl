@@ -1,3 +1,8 @@
+<!-- HOW TO EXECUTE 
+xsltproc xslt1.xsl *.xml 
+* - means it will take ALL xmls from othercode
+assumed all xmls in one folder -->
+
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
   <xsl:template match="/">

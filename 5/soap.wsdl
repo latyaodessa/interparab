@@ -1,0 +1,144 @@
+<definitions
+        Name="FridgeService"
+        targetNamepsace="urn:fridge"
+        xmlns:fridge="http://soap/"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+        xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+        xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+    <types>
+        <xsd:schema targetNamespace="urn:fridge">
+            <!-- ARRAYS -->
+            <xsd:simpleType name="array_string">
+                <xsd:list   itemType="xsd:string"/>
+            </xsd:simpleType>
+            <xsd:simpleType name="array_integer">
+                <xsd:list   itemType="xsd:integer"/>
+            </xsd:simpleType>
+
+            <!-- Complex Types -->
+
+        <xsd:complexType name="facility_range_input">
+        <xsd:all>
+          <xsd:element name='params' maxoccurs='unbounded'>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="city" type="xsd:string"/>
+                <xsd:element name="temperatur" type="xsd:integer"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:all>
+      </xsd:complexType>
+
+
+        </xsd:schema>
+    </types>
+
+    <!--MESSAGES-->
+
+    <!--INPUTS-->
+
+    <message name="addressInput">
+        <part name="postal_code" type="xsd:integer"/>
+        <part name="parameters" type="xsd:string"/>
+    </message>
+      <message name="getFacilitiesInRangeInput">
+        <part name="date" type="xsd:integer"/>
+        <part name="parameters" type="fridge:array_string"/>
+    </message>
+    <message name="getTyrolCustomersInput">
+        <part name="parameters" type="xsd:facility_range_input"/>
+    </message>
+
+<!-- OUTPUTS -->
+
+    <message name="getAddressResponse">
+         <part name="address" type="xsd:string"/>
+    </message>
+     <message name="getFacilitiesInRangeResponse">
+        <part name="facility" type="xsd:string"/>
+    </message>
+    <message name="getTyrolCustomersResponse">
+        <part name="facility" type="xsd:string"/>
+    </message>
+
+
+
+
+
+
+
+
+    <!--PORT TYPES-->
+
+    <portType name="FridgeServicePort">
+
+        <!-- getCustomerAddress -->
+        <operation name="getCustomerAddress">
+            <input message="fridge:addressInput"/>
+            <output message="fridge:getAddressResponse"/>
+        </operation>
+
+        <!-- getFacilitiesInRange -->
+        <operation name="getFacilitiesInRange">
+            <input message="fridge:getFacilitiesInRangeInput"/>
+            <output message="fridge:getFacilitiesInRangeResponse"/>
+        </operation>
+          <!-- getTyrolCustomers -->
+        <operation name="getTyrolCustomers">
+            <input message="fridge:getTyrolCustomersInput"/>
+            <output message="fridge:getTyrolCustomersResponse"/>
+        </operation>
+    </portType>
+
+
+    <!--BINDING -->
+
+
+    <binding name="FridgeServiceBinding" type="fridge:FridgeServicePort">
+        <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+        <!-- getCustomerAddress -->
+        <operation name="getCustomerAddress">
+            <soap:operation soapAction="urn:FridgeService#getCustomerAddress"/>
+            <input>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </input>
+            <output>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </output>
+        </operation>
+        <!-- getFacilitiesInRange -->
+        <operation name="getFacilitiesInRange">
+            <soap:operation soapAction="urn:FridgeService#getFacilitiesInRange"/>
+            <input>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </input>
+            <output>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </output>
+        </operation>
+           <!-- getTyrolCustomers -->
+        <operation name="getTyrolCustomers">
+            <soap:operation soapAction="urn:FridgeService#getTyrolCustomers"/>
+            <input>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </input>
+            <output>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </output>
+        </operation>
+    </binding>
+
+
+    <!--SOAP -->
+
+    <service name='FridgeService'>
+        <port name="FridgeServicePort" binding="fridge:FridgeServiceBinding">
+            <soap:address location="http://iop:4444/server.php"/>
+        </port>
+    </service>
+
+</definitions>

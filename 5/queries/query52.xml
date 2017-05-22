@@ -1,0 +1,1 @@
+count(//facility_data[contains(@facility_type,"Corporate") and @facility_id=610]/descendant::appointment)

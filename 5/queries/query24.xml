@@ -1,0 +1,1 @@
+//provide_service_for/ancestor::local_facility[contains(@ facility_status,"INACTIVE")]/*/text()

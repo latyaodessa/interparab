@@ -1,7 +1,12 @@
+<!-- HOW TO EXECUTE 
+xsltproc xslt2.xsl *.xml 
+* - means it will take ALL xmls from othercode
+assumed all xmls in one folder -->
+
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
-  <xsl:variable name="origcode_result1" select="document('../othercode/result1.xml')"/>
-  <xsl:variable name="origcode_result3" select="document('../othercode/result3.xml')"/>
+  <xsl:variable name="origcode_result1" select="document('result1.xml')"/>
+  <xsl:variable name="origcode_result3" select="document('result3.xml')"/>
   <xsl:variable name="origcode_result1_first" select="$origcode_result1/mininginfo/infos/info[1]"/>
   <xsl:template match="/">
     <xsl:if test="farmingbotinfo/infos">

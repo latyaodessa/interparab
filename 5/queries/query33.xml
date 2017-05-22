@@ -1,0 +1,1 @@
+//appointment[count(//appointment/child::appointment_details)>1]/descendant::customer[age/text()>30]

@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<local_facility_data>
+   <local_facility facility_id="42" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 42 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1386">
+               <country>Austria</country>
+               <city>Carinthia</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="120" age="26">
+                  <last_name>은경</last_name>
+                  <first_name>현</first_name>
+                  <gender>female</gender>
+                  <title>ms</title>
+                  <customer_address street="Ndbfmcgbcf Street                                                                                   ">
+                     <street>Ndbfmcgbcf Street</street>
+                     <house>18</house>
+                     <porch>0</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="50" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 50 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1484">
+               <country>Austria</country>
+               <city>Lower Austria EAST</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="861" age="35">
+                  <last_name>Bratu</last_name>
+                  <first_name>Florian</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Ttmjpcalio Street                                                                                   ">
+                     <street>Ttmjpcalio Street</street>
+                     <house>40</house>
+                     <porch>1</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="144" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 144 GMBH</local_facility_name>
+      <facility_type>Corporate</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1163">
+               <country>Austria</country>
+               <city>Lower Austria WEST</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="43" age="23">
+                  <last_name>Talan</last_name>
+                  <first_name>Levent</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Oamijoicbj Street                                                                                   ">
+                     <street>Oamijoicbj Street</street>
+                     <house>16</house>
+                     <porch>0</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="182" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 182 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1888">
+               <country>Austria</country>
+               <city>Lower Austria WEST</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="910" age="33">
+                  <last_name>Dediu</last_name>
+                  <first_name>Lucrețiu</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Qxoneboqme Street                                                                                   ">
+                     <street>Qxoneboqme Street</street>
+                     <house>45</house>
+                     <porch>1</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="295" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 295 GMBH</local_facility_name>
+      <facility_type>Corporate</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1615">
+               <country>Austria</country>
+               <city>Styria</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="27" age="36">
+                  <last_name>Bercea</last_name>
+                  <first_name>Francisc</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Umrdjeimjt Street                                                                                   ">
+                     <street>Umrdjeimjt Street</street>
+                     <house>28</house>
+                     <porch>1</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="917" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 917 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1827">
+               <country>Austria</country>
+               <city>Vienna</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="102" age="32">
+                  <last_name>Honcescu</last_name>
+                  <first_name>Loredana</first_name>
+                  <gender>female</gender>
+                  <title>ms</title>
+                  <customer_address street="Lkifnbeawc Street                                                                                   ">
+                     <street>Lkifnbeawc Street</street>
+                     <house>32</house>
+                     <porch>0</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="975" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 975 GMBH</local_facility_name>
+      <facility_type>Private</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1772">
+               <country>Austria</country>
+               <city>Salzburg</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="299" age="34">
+                  <last_name>Franklin</last_name>
+                  <first_name>Carolyn</first_name>
+                  <gender>female</gender>
+                  <title>ms</title>
+                  <customer_address street="Fqrssklgzv Street                                                                                   ">
+                     <street>Fqrssklgzv Street</street>
+                     <house>30</house>
+                     <flat>77</flat>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="216" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 216 GMBH</local_facility_name>
+      <facility_type>Corporate</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1534">
+               <country>Austria</country>
+               <city>Vienna</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="365" age="35">
+                  <last_name>Μπουκουβαλαίοι</last_name>
+                  <first_name>Διόδοτος</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Wgafkcnuzp Street                                                                                   ">
+                     <street>Wgafkcnuzp Street</street>
+                     <house>38</house>
+                     <porch>1</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="642" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 642 GMBH</local_facility_name>
+      <facility_type>Private</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1430">
+               <country>Austria</country>
+               <city>Burgenland</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="477" age="33">
+                  <last_name>Aşıcı</last_name>
+                  <first_name>İris</first_name>
+                  <gender>female</gender>
+                  <title>ms</title>
+                  <customer_address street="Sazebiptao Street                                                                                   ">
+                     <street>Sazebiptao Street</street>
+                     <house>36</house>
+                     <flat>10</flat>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="97" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 97 GMBH</local_facility_name>
+      <facility_type>Corporate</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1744">
+               <country>Austria</country>
+               <city>Lower Austria EAST</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="49" age="36">
+                  <last_name>Chelaru</last_name>
+                  <first_name>Adonis</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Rzuwirlklx Street                                                                                   ">
+                     <street>Rzuwirlklx Street</street>
+                     <house>28</house>
+                     <porch>1</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="355" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 355 GMBH</local_facility_name>
+      <facility_type>Private</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1360">
+               <country>Austria</country>
+               <city>Styria</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="834" age="27">
+                  <last_name>Ortega</last_name>
+                  <first_name>Guillermo</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Crtovdgktt Street                                                                                   ">
+                     <street>Crtovdgktt Street</street>
+                     <house>15</house>
+                     <flat>54</flat>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="635" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 635 GMBH</local_facility_name>
+      <facility_type>Corporate</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1893">
+               <country>Austria</country>
+               <city>Styria</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="611" age="22">
+                  <last_name>Schmitt</last_name>
+                  <first_name>Artur</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Ewnlnodprm Street                                                                                   ">
+                     <street>Ewnlnodprm Street</street>
+                     <house>42</house>
+                     <porch>0</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="25" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 25 GMBH</local_facility_name>
+      <facility_type>Private</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1377">
+               <country>Austria</country>
+               <city>Upper Austria</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="964" age="33">
+                  <last_name>Musaj</last_name>
+                  <first_name>Sara</first_name>
+                  <gender>female</gender>
+                  <title>mrs</title>
+                  <customer_address street="Pgbzyqlbpr Street                                                                                   ">
+                     <street>Pgbzyqlbpr Street</street>
+                     <house>42</house>
+                     <flat>89</flat>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="456" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 456 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1004">
+               <country>Austria</country>
+               <city>Vienna</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="87" age="30">
+                  <last_name>Jean</last_name>
+                  <first_name>Loane</first_name>
+                  <gender>female</gender>
+                  <title>ms</title>
+                  <customer_address street="Vhnljkbjeg Street                                                                                   ">
+                     <street>Vhnljkbjeg Street</street>
+                     <house>11</house>
+                     <porch>0</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="983" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 983 GMBH</local_facility_name>
+      <facility_type>Corporate</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1209">
+               <country>Austria</country>
+               <city>Vienna</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="711" age="34">
+                  <last_name>Johansen</last_name>
+                  <first_name>Elin</first_name>
+                  <gender>female</gender>
+                  <title>ms</title>
+                  <customer_address street="Rwpjjvblqy Street                                                                                   ">
+                     <street>Rwpjjvblqy Street</street>
+                     <house>6</house>
+                     <porch>1</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="133" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 133 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1496">
+               <country>Austria</country>
+               <city>Carinthia</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="289" age="28">
+                  <last_name>Αθανασίου</last_name>
+                  <first_name>Κλεισθένης</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Nnkybcpfjl Street                                                                                   ">
+                     <street>Nnkybcpfjl Street</street>
+                     <house>32</house>
+                     <porch>1</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="244" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 244 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1419">
+               <country>Austria</country>
+               <city>Tyrol</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="939" age="26">
+                  <last_name>Bodescu</last_name>
+                  <first_name>Niculina</first_name>
+                  <gender>female</gender>
+                  <title>ms</title>
+                  <customer_address street="Ysgbsaylzk Street                                                                                   ">
+                     <street>Ysgbsaylzk Street</street>
+                     <house>49</house>
+                     <porch>0</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="833" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 833 GMBH</local_facility_name>
+      <facility_type>Corporate</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1711">
+               <country>Austria</country>
+               <city>Salzburg</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="567" age="35">
+                  <last_name>Riško</last_name>
+                  <first_name>Dominika</first_name>
+                  <gender>female</gender>
+                  <title>mrs</title>
+                  <customer_address street="Aybrbhadwq Street                                                                                   ">
+                     <street>Aybrbhadwq Street</street>
+                     <house>1</house>
+                     <porch>0</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="915" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 915 GMBH</local_facility_name>
+      <facility_type>Private</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1117">
+               <country>Austria</country>
+               <city>Salzburg</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="669" age="26">
+                  <last_name>Lăcătuș</last_name>
+                  <first_name>Olimpian</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Dpiulajcsl Street                                                                                   ">
+                     <street>Dpiulajcsl Street</street>
+                     <house>48</house>
+                     <flat>11</flat>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="166" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 166 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1416">
+               <country>Austria</country>
+               <city>Burgenland</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="589" age="35">
+                  <last_name>Tomeček</last_name>
+                  <first_name>Rebeka</first_name>
+                  <gender>female</gender>
+                  <title>mrs</title>
+                  <customer_address street="Vbcnolahiu Street                                                                                   ">
+                     <street>Vbcnolahiu Street</street>
+                     <house>11</house>
+                     <porch>0</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="639" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 639 GMBH</local_facility_name>
+      <facility_type>Private</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1775">
+               <country>Austria</country>
+               <city>Salzburg</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="472" age="29">
+                  <last_name>Αυγερινός</last_name>
+                  <first_name>Ηρωδιανός</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Spnvffkuxx Street                                                                                   ">
+                     <street>Spnvffkuxx Street</street>
+                     <house>26</house>
+                     <flat>23</flat>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="41" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 41 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1332">
+               <country>Austria</country>
+               <city>Salzburg</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="26" age="25">
+                  <last_name>Μήτζου</last_name>
+                  <first_name>Εύηνος</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Hthkhkcwmq Street                                                                                   ">
+                     <street>Hthkhkcwmq Street</street>
+                     <house>18</house>
+                     <porch>0</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="306" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 306 GMBH</local_facility_name>
+      <facility_type>Corporate</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1440">
+               <country>Austria</country>
+               <city>Vienna</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="11" age="27">
+                  <last_name>Marshall</last_name>
+                  <first_name>Tyler</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Rfakjynzrl Street                                                                                   ">
+                     <street>Rfakjynzrl Street</street>
+                     <house>34</house>
+                     <porch>1</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="312" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 312 GMBH</local_facility_name>
+      <facility_type>Corporate</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1728">
+               <country>Austria</country>
+               <city>Upper Austria</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="264" age="24">
+                  <last_name>Frățilă</last_name>
+                  <first_name>Grațian</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Dsvmueemqw Street                                                                                   ">
+                     <street>Dsvmueemqw Street</street>
+                     <house>14</house>
+                     <porch>0</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="494" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 494 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1472">
+               <country>Austria</country>
+               <city>Lower Austria WEST</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="377" age="34">
+                  <last_name>Afrom</last_name>
+                  <first_name>Constantin</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Lzqoqwvmth Street                                                                                   ">
+                     <street>Lzqoqwvmth Street</street>
+                     <house>20</house>
+                     <porch>1</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="30" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 30 GMBH</local_facility_name>
+      <facility_type>Corporate</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1079">
+               <country>Austria</country>
+               <city>Carinthia</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="949" age="24">
+                  <last_name>Bujor</last_name>
+                  <first_name>Carmen</first_name>
+                  <gender>female</gender>
+                  <title>ms</title>
+                  <customer_address street="Jgciwhagjn Street                                                                                   ">
+                     <street>Jgciwhagjn Street</street>
+                     <house>9</house>
+                     <porch>1</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="469" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 469 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1503">
+               <country>Austria</country>
+               <city>Burgenland</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="496" age="33">
+                  <last_name>Crăciun</last_name>
+                  <first_name>Simion</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Svjthgmoxe Street                                                                                   ">
+                     <street>Svjthgmoxe Street</street>
+                     <house>28</house>
+                     <porch>1</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="18" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 18 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1335">
+               <country>Austria</country>
+               <city>Salzburg</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="553" age="31">
+                  <last_name>Filipescu</last_name>
+                  <first_name>Ștefan</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Dcbhusabqm Street                                                                                   ">
+                     <street>Dcbhusabqm Street</street>
+                     <house>15</house>
+                     <porch>1</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="206" facility_status="ACTIVE    ">
+      <local_facility_name>Local Facility 206 GMBH</local_facility_name>
+      <facility_type>Mixed</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1887">
+               <country>Austria</country>
+               <city>Salzburg</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="842" age="26">
+                  <last_name>Henley</last_name>
+                  <first_name>Logan</first_name>
+                  <gender>male</gender>
+                  <title>mr</title>
+                  <customer_address street="Ublfevpbww Street                                                                                   ">
+                     <street>Ublfevpbww Street</street>
+                     <house>50</house>
+                     <porch>0</porch>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+   <local_facility facility_id="366" facility_status="INACTIVE  ">
+      <local_facility_name>Local Facility 366 GMBH</local_facility_name>
+      <facility_type>Private</facility_type>
+      <provide_service>
+         <provide_service_in>
+            <postal_code potal_code="1002">
+               <country>Austria</country>
+               <city>Vienna</city>
+               <continent>Europe</continent>
+            </postal_code>
+            <provide_service_for>
+               <customer_data customer_id="972" age="34">
+                  <last_name>Baconschi</last_name>
+                  <first_name>Gianina</first_name>
+                  <gender>female</gender>
+                  <title>ms</title>
+                  <customer_address street="Rmuejfcanx Street                                                                                   ">
+                     <street>Rmuejfcanx Street</street>
+                     <house>20</house>
+                     <flat>45</flat>
+                  </customer_address>
+               </customer_data>
+            </provide_service_for>
+         </provide_service_in>
+      </provide_service>
+   </local_facility>
+</local_facility_data>
