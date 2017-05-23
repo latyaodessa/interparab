@@ -5,6 +5,7 @@
         xmlns:xsd="http://www.w3.org/2001/XMLSchema"
         xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
         xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+        xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
         xmlns="http://schemas.xmlsoap.org/wsdl/">
 
     <types>
@@ -32,6 +33,27 @@
         </xsd:all>
       </xsd:complexType>
 
+         <xsd:complexType name="string_hash">
+        <xsd:all>
+          <xsd:element name='params' maxoccurs='unbounded'>
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="encrypted1" type="fridge:single_hash"/>
+                <xsd:element name="encrypted2" type="fridge:single_hash"/>
+                 <xsd:element name="encrypted3" type="fridge:single_hash"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:all>
+      </xsd:complexType>
+
+       <xsd:element name="single_hash">
+            <xsd:complexType>
+             <xsd:sequence>
+            <xsd:element name="hash" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+      </xsd:element>
 
         </xsd:schema>
     </types>
@@ -49,7 +71,20 @@
         <part name="parameters" type="fridge:array_string"/>
     </message>
     <message name="getTyrolCustomersInput">
-        <part name="parameters" type="xsd:facility_range_input"/>
+        <part name="parameters" type="fridge:facility_range_input"/>
+        <part name="date" type="xsd:date"/>
+    </message>
+    <message name="getCorporateAppointmentsInput">
+        <part name="parameters" type="fridge:string_hash"/>
+        <part name="status" type="fridge:single_hash"/>
+    </message>
+    <message name="getSypmtomDataInput">
+        <part name="parameters" type="xsd:string"/>
+        <part name="date" type="xsd:date"/>
+    </message>
+       <message name="getFacilitiesFromBlocksInput">
+        <part name="parameters" type="fridge:array_string"/>
+        <part name="type" type="xsd:string"/>
     </message>
 
 <!-- OUTPUTS -->
@@ -62,6 +97,15 @@
     </message>
     <message name="getTyrolCustomersResponse">
         <part name="facility" type="xsd:string"/>
+    </message>
+    <message name="getCorporateAppointmentsResponse">
+        <part name="corporate" type="xsd:string"/>
+    </message>
+       <message name="getSypmtomDataResponse">
+        <part name="corporate" type="xsd:string"/>
+    </message>
+    <message name="getFacilitiesFromBlocksResponse">
+        <part name="corporate" type="xsd:string"/>
     </message>
 
 
@@ -91,6 +135,22 @@
             <input message="fridge:getTyrolCustomersInput"/>
             <output message="fridge:getTyrolCustomersResponse"/>
         </operation>
+         <!-- getCorporateAppointments -->
+        <operation name="getCorporateAppointments">
+            <input message="fridge:getCorporateAppointmentsInput"/>
+            <output message="fridge:getCorporateAppointmentsResponse"/>
+        </operation>
+               <!-- getSypmtomData -->
+        <operation name="getSypmtomData">
+            <input message="fridge:getSypmtomDataInput"/>
+            <output message="fridge:getSypmtomDataResponse"/>
+        </operation>
+           <!-- getFacilitiesFromBlocks -->
+        <operation name="getFacilitiesFromBlocks">
+            <input message="fridge:getFacilitiesFromBlocksInput"/>
+            <output message="fridge:getFacilitiesFromBlocksResponse"/>
+        </operation>
+
     </portType>
 
 
@@ -123,6 +183,36 @@
            <!-- getTyrolCustomers -->
         <operation name="getTyrolCustomers">
             <soap:operation soapAction="urn:FridgeService#getTyrolCustomers"/>
+            <input>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </input>
+            <output>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </output>
+        </operation>
+              <!-- getCorporateAppointments -->
+        <operation name="getCorporateAppointments">
+            <soap:operation soapAction="urn:FridgeService#getCorporateAppointments" />
+            <input>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </input>
+            <output>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </output>
+        </operation>
+             <!-- getSypmtomData -->
+        <operation name="getSypmtomData">
+            <soap:operation soapAction="urn:FridgeService#getSypmtomData" />
+            <input>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </input>
+            <output>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </output>
+        </operation>
+            <!-- getFacilitiesFromBlocks -->
+        <operation name="getFacilitiesFromBlocks">
+            <soap:operation soapAction="urn:FridgeService#getFacilitiesFromBlocks" />
             <input>
                 <soap:body use="literal" namespace="urn:fridge"/>
             </input>

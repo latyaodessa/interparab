@@ -13,7 +13,6 @@
      }
 
 
-/// CHANGE TO DATE
      function getFacilitiesInRange($date, $stays_type){
      $xml = simplexml_load_file("code/result5.xml");
 
@@ -30,8 +29,6 @@
 
       $years_separated = implode(" or ", $years);
       $types_separated = implode(" or ", $stays_type_ar);
-
-      // $xpath = '//rates_of_particular_facility//real_date['. $years_separated .']/following-sibling::facility//status_type['. $types_separated .']/ancestor:: facility_data/@ facility_id';
       
       $xpath = '//rates_of_particular_facility//real_date[contains(text(),"2014") or contains(text(),"2015") or contains(text(),"2016")]/following-sibling::facility//status_type[contains(text(),"WARNING") or contains(text(),"CRITICAL")]/ancestor:: facility_data/@ facility_id';      
      $result = $xml->xpath($xpath);
@@ -53,20 +50,70 @@
      return($xml->asXML());
      }
 
-function getTyrolCustomers($params){
+function getTyrolCustomers($params, $date){
 
               $city = $params->param->city;
               $age = $params->param->age;
+              $year = date('Y',strtotime($date));
 
 
             Header('Content-type: text/xml');
             $xml = simplexml_load_file("code/result3.xml"); 
-            $xpath = '//postal_code/city[text()="'.$city.'"]/ancestor::customer_details[@age>'.$age.']/ancestor::appointment//status//symptom_from[contains(text(),"2011")]/ancestor::appointment';
+            $xpath = '//postal_code/city[text()="'.$city.'"]/ancestor::customer_details[@age>'.$age.']/ancestor::appointment//status//symptom_from[contains(text(),"'.$year.'")]/ancestor::appointment';
             $result = $xml->xpath($xpath);
             return($result[0]->asXML());
      }
 
+
+ function getCorporateAppointments($params, $status){
+            $dec1 = my_simple_crypt($params->param->encrypted1, 'd');
+            $dec2 = my_simple_crypt($params->param->encrypted2, 'd');
+            $dec3 = my_simple_crypt($params->param->encrypted3, 'd');
+
+            $dec_status = my_simple_crypt($status, 'd');
+
+            Header('Content-type: text/xml');
+            $xml = simplexml_load_file("code/result3.xml"); 
+            $xpath = '//symptom[contains(@symptom_type,"'.$dec1.'") or contains(@symptom_type,"'.$dec2.'") or contains(@symptom_type,"'.$dec3 .'")]/ancestor::appointment[appointment_type/text()="'.$dec_status.'"]';
+            $result = $xml->xpath($xpath);
+
+            return json_encode($result);
+    }
+
+     function getSypmtomData($type, $date){
+            $year = date('Y',strtotime($date));
+            Header('Content-type: text/xml');
+            $xml = simplexml_load_file("code/result5.xml"); 
+            $xpath = '//facility_data[facility_type/text()="'.$type.'"]/descendant::symptom/*[../symptom_from[contains(text(),"'.$year.'")]]';
+            $result = $xml->xpath($xpath);
+
+            $xml = new SimpleXMLElement('<symptom/>');
+            array_walk_recursive($result, array ($xml, 'addChild'));
+             
+            return($xml->asXML());
+     }
+
+          function getFacilitiesFromBlocks($blocks, $status){
+
+             $bl = array();
+
+              foreach ($blocks as $key => $value) {
+                array_push($bl, 'contains(text(),"'. $value .'")');
+              }
+
+              $bl_separated = implode(" or ", $bl);
+
+              Header('Content-type: text/xml');
+            $xml = simplexml_load_file("code/result2.xml"); 
+            $xpath = '//provide_service_in//city['.$bl_separated.']/ancestor::*/local_facility[contains(@facility_status,"'.$status.'")]';
+            
+            $result = $xml->xpath($xpath);
+
+            return json_encode($result);
+     }
+
   }
+
 
 
 
@@ -82,14 +129,49 @@ function getTyrolCustomers($params){
     if ($param[1] == 'q32') {
 
       $params = new StdClass;
+      $param1 = new StdClass;
  
-      $params->city = 'Tyrol';
-      $params->age= 18;
+      $param1->city = 'Tyrol';
+      $param1->age= 18;
  
  
+      $params->param = $param1;
 
-        print_r($test->getTyrolCustomers($params));
+        $d = mktime(12,0,0,7,4,2011);
+        
+        $time = date("c", $d);
+
+
+        print_r($test->getTyrolCustomers($params, $time));
      }
+
+      if ($param[1] == 'q34') {
+            $params = new StdClass;
+          $param1 = new StdClass;
+     
+          $param1->encrypted1 = my_simple_crypt( 'COOL_FREEZEIN', 'e' );
+          $param1->encrypted2 = my_simple_crypt( 'FREEZEIN', 'e' );
+          $param1->encrypted3 = my_simple_crypt( 'ICE', 'e' );
+ 
+      $params->param = $param1;
+
+      $satus = my_simple_crypt( 'CORPORATE', 'e' );
+
+
+        print_r($test->getCorporateAppointments($params,$satus));
+     }
+
+     if ($param[1] == 'q54') {
+         $d = mktime(12,0,0,7,4,2017);
+        
+        $time = date("c", $d);
+        print_r($test->getSypmtomData('Corporate',$time));
+     }
+     if ($param[1] == 'q21') {
+       
+        print_r($test->getFacilitiesFromBlocks(['Lower','Upper'],'ACTIVE'));
+     }
+
   }
 
   if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -99,4 +181,25 @@ function getTyrolCustomers($params){
     $server->handle();
     exit;
   }
+
+
+  function my_simple_crypt( $string, $action = 'e' ) {
+    $secret_key = 'my_simple_secret_key';
+    $secret_iv = 'my_simple_secret_iv';
+ 
+    $output = false;
+    $encrypt_method = "AES-256-CBC";
+    $key = hash( 'sha256', $secret_key );
+    $iv = substr( hash( 'sha256', $secret_iv ), 0, 16 );
+ 
+    if( $action == 'e' ) {
+        $output = base64_encode( openssl_encrypt( $string, $encrypt_method, $key, 0, $iv ) );
+    }
+    else if( $action == 'd' ){
+        $output = openssl_decrypt( base64_decode( $string ), $encrypt_method, $key, 0, $iv );
+    }
+ 
+    return $output;
+}
+
 ?>
