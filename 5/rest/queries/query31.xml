@@ -1,0 +1,1 @@
+//appointment/descendant::postal_code/type[text()="commercial"]/ancestor::customer/*[not(self::customer_address) and not(self:: fridge_id) ]

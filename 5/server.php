@@ -3,7 +3,7 @@
    $url = (array_key_exists('PATH_INFO',$_SERVER) ? $_SERVER['PATH_INFO'] : '/');
    $param = explode("/",$url);
 
-  class Nina {
+  class Fridge {
 
      function getCustomerAddress($postal_code, $city){
        Header('Content-type: text/xml');
@@ -72,7 +72,7 @@ function getTyrolCustomers($params, $date){
 
             $dec_status = my_simple_crypt($status, 'd');
 
-            Header('Content-type: text/xml');
+            Header('Content-type: application/json');
             $xml = simplexml_load_file("code/result3.xml"); 
             $xpath = '//symptom[contains(@symptom_type,"'.$dec1.'") or contains(@symptom_type,"'.$dec2.'") or contains(@symptom_type,"'.$dec3 .'")]/ancestor::appointment[appointment_type/text()="'.$dec_status.'"]';
             $result = $xml->xpath($xpath);
@@ -103,7 +103,7 @@ function getTyrolCustomers($params, $date){
 
               $bl_separated = implode(" or ", $bl);
 
-              Header('Content-type: text/xml');
+              Header('Content-type: application/json');
             $xml = simplexml_load_file("code/result2.xml"); 
             $xpath = '//provide_service_in//city['.$bl_separated.']/ancestor::*/local_facility[contains(@facility_status,"'.$status.'")]';
             
@@ -112,13 +112,51 @@ function getTyrolCustomers($params, $date){
             return json_encode($result);
      }
 
+     function getFacilitiesStatusRange($blocks, $status){
+            Header('Content-type: application/json');
+            $xml = simplexml_load_file("code/result5.xml"); 
+            $xpath = '//facility[facility_id/text() >'.$blocks->Array->int[0].' and facility_id/text()<'.$blocks->Array->int[1].' and facility_status/text()="'.$status.'"]/ancestor:: rates_of_particular_facility//facility_rate';
+            $result = $xml->xpath($xpath);
+
+          return json_encode($result);
+     }
+
+     function getCustomersByGenderAndFridge($year, $fridge_volume,$gender){
+
+      Header('Content-type: application/json');
+      $xml = simplexml_load_file("code/result1.xml"); 
+            $xpath = '//fridge[contains(@year_of_production,"'.$year.'") and number(fridge_volume)<'.$fridge_volume.']/ancestor::customer[*/preceding-sibling::gender/text()="'.$gender.'"]';
+            $result = $xml->xpath($xpath);
+             
+          return json_encode($result);
+     }
+
+   function getAmountFridges($country, $age){
+
+      Header('Content-type: application/json');
+      $xml = simplexml_load_file("code/result1.xml"); 
+            $xpath = '//order_address/detailed_order_data/customer_fridges_on_current_address/fridge[prod_country/text()="'.$country.'"]/ancestor::customer[@age>'.$age.']';
+            $result = $xml->xpath($xpath);
+             
+          return json_encode($result);
+     }
+
+     function getCustomersAppointmentsByAge($customer){
+            Header('Content-type: text/xml');
+          $xml = simplexml_load_file("code/result3.xml"); 
+            $xpath = '//appointment[count(//appointment/child::appointment_details)>'.$customer->Array->int[0].']/descendant::customer[age/text()>'.$customer->Array->int[1].']';
+            $result = $xml->xpath($xpath);
+             
+          return $result[0]->asXML();
+               }
+
   }
 
-
+// FOR TESTING 
 
 
   if ($_SERVER['REQUEST_METHOD'] == 'GET') {
-    $test = new Nina;
+    $test = new Fridge;
     header('content-type: text/plain');
     if ($param[1] == 'q11') {
         print_r($test->getCustomerAddress(1861,'Austria'));
@@ -172,16 +210,33 @@ function getTyrolCustomers($params, $date){
         print_r($test->getFacilitiesFromBlocks(['Lower','Upper'],'ACTIVE'));
      }
 
+      if ($param[1] == 'q51') {
+       
+        print_r($test->getFacilitiesStatusRange([100,300],'INACTIVE'));
+     }
+    if ($param[1] == 'q14') {
+       
+        print_r($test->getCustomersByGenderAndFridge(2011,50,'female'));
+     }
+    if ($param[1] == 'q12') {
+
+        print_r($test->getAmountFridges('Indonesia',18));
+     }
+    if ($param[1] == 'q33') {
+      $types[] = array(1,30);
+        print_r($test->getCustomersAppointmentsByAge($types));
+     }
+
   }
 
+// FOR SOAP WSDL
   if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     ini_set("soap.wsdl_cache_enabled","0");
     $server = new SoapServer('soap.wsdl');
-    $server->setClass('Nina');
+    $server->setClass('Fridge');
     $server->handle();
     exit;
   }
-
 
   function my_simple_crypt( $string, $action = 'e' ) {
     $secret_key = 'my_simple_secret_key';

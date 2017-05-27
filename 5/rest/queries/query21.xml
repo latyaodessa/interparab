@@ -1,0 +1,2 @@
+//provide_service_in//city[contains(text(),"Lower") or contains(text(),"Upper")]/ancestor::*/local_facility[contains(@facility_status,"ACTIVE")]
+//provide_service_in//city[contains(text(),"Lower") or contains(text(),"Upper")]/ancestor::*/local_facility[contains(@facility_status,"ACTIVE")]

@@ -1,0 +1,1 @@
+concat(//rate[@ appointment_id= 689]/descendant::customer_address/street/text()," ", //rate[@ appointment_id= 689]/descendant::customer_address/hause/text(), " ", //rate[@ appointment_id= 689]/descendant::customer_address/flat/text())

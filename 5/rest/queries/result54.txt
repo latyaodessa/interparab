@@ -1,0 +1,6 @@
+Find all symptoms data were symptom from 2017 and local facility has corporate type
+
+rules applied:
+At least 5 queries have to return nodes while considering information from descendants that are not children of these nodes to do so. 
+At least 5 queries have to consider information that is stored in attributes. 
+At least 5 queries have to deal with text and text related functions. 

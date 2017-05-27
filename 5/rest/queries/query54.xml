@@ -1,0 +1,1 @@
+//facility_data[facility_type/text()="Corporate"]/descendant::symptom/*[../symptom_from[contains(text(),"2017")]]

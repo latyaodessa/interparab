@@ -1,0 +1,1 @@
+//postal_code/city[text()="Tyrol"]/ancestor::customer_details[@age>18]/ancestor::appointment//status//symptom_from[contains(text(),"2011")]/ancestor::appointment

@@ -1,0 +1,1 @@
+//rate/rate_details/status[@rate=5]/../../descendant::customer_address/*[not(postal_code)]

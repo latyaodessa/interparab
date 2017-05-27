@@ -81,6 +81,21 @@
 
          $result = $client->getFacilitiesFromBlocks($blocks,'ACTIVE');
       }
+      if ($param[1] == 'q51') {
+
+        $range[] = array(100,300);
+         $result = $client->getFacilitiesStatusRange($range,'INACTIVE');
+      }
+      if ($param[1] == 'q14') {
+         $result = $client->getCustomersByGenderAndFridge(2011,50,'female');
+      }
+       if ($param[1] == 'q12') {
+         $result = $client->getAmountFridges('Indonesia',18);
+      }
+      if ($param[1] == 'q33') {
+        $types[] = array(1,30);
+         $result = $client->getCustomersAppointmentsByAge($types);
+      }
 
    header('content-type: text/plain');
 

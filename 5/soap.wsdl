@@ -14,9 +14,11 @@
             <xsd:simpleType name="array_string">
                 <xsd:list   itemType="xsd:string"/>
             </xsd:simpleType>
-            <xsd:simpleType name="array_integer">
+            <xsd:simpleType name="array_int">
                 <xsd:list   itemType="xsd:integer"/>
             </xsd:simpleType>
+
+    
 
             <!-- Complex Types -->
 
@@ -55,6 +57,16 @@
     </xsd:complexType>
       </xsd:element>
 
+      <complexType name="ArrayOfFloat">
+  <complexContent>
+      <restriction base="soapenc:Array">
+          <attribute ref="soapenc:arrayType" 
+                     wsdl:arrayType="xsd:integer[]"/>
+      </restriction>
+  </complexContent>
+</complexType>
+
+
         </xsd:schema>
     </types>
 
@@ -86,7 +98,22 @@
         <part name="parameters" type="fridge:array_string"/>
         <part name="type" type="xsd:string"/>
     </message>
-
+      <message name="getFacilitiesStatusRangeInput">
+        <part name="date" type="fridge:array_int"/>
+        <part name="parameters" type="fridge:array_string"/>
+    </message>
+    <message name="getCustomersByGenderAndFridgeInput">
+       <part name="year" type="xsd:integer"/>
+       <part name="age" type="xsd:integer"/>
+       <part name="gender" type="xsd:string"/>
+    </message>
+     <message name="getAmountFridgesInput">
+       <part name="gender" type="xsd:string"/>
+       <part name="age" type="xsd:integer"/>
+    </message>
+    <message name="getCustomersAppointmentsByAgeInput">
+        <part name="parameters" type="fridge:ArrayOfFloat"/>
+    </message>
 <!-- OUTPUTS -->
 
     <message name="getAddressResponse">
@@ -107,9 +134,18 @@
     <message name="getFacilitiesFromBlocksResponse">
         <part name="corporate" type="xsd:string"/>
     </message>
-
-
-
+   <message name="getFacilitiesStatusRangeResponse">
+        <part name="corporate" type="xsd:string"/>
+    </message>
+       <message name="getCustomersByGenderAndFridgeResponse">
+        <part name="corporate" type="xsd:string"/>
+    </message>
+<message name="getAmountFridgesResponse">
+        <part name="corporate" type="xsd:string"/>
+    </message>
+<message name="getCustomersAppointmentsByAgeResponse">
+        <part name="corporate" type="xsd:string"/>
+    </message>
 
 
 
@@ -150,7 +186,26 @@
             <input message="fridge:getFacilitiesFromBlocksInput"/>
             <output message="fridge:getFacilitiesFromBlocksResponse"/>
         </operation>
-
+        <!-- getFacilitiesStatusRange -->
+        <operation name="getFacilitiesStatusRange">
+            <input message="fridge:getFacilitiesStatusRangeInput"/>
+            <output message="fridge:getFacilitiesStatusRangeResponse"/>
+        </operation>
+       <!-- getCustomersByGenderAndFridge -->
+        <operation name="getCustomersByGenderAndFridge">
+            <input message="fridge:getCustomersByGenderAndFridgeInput"/>
+            <output message="fridge:getCustomersByGenderAndFridgeResponse"/>
+        </operation>
+           <!-- getAmountFridges -->
+        <operation name="getAmountFridges">
+            <input message="fridge:getAmountFridgesInput"/>
+            <output message="fridge:getAmountFridgesResponse"/>
+        </operation>
+         <!-- getCustomersAppointmentsByAge -->
+        <operation name="getCustomersAppointmentsByAge">
+            <input message="fridge:getCustomersAppointmentsByAgeInput"/>
+            <output message="fridge:getCustomersAppointmentsByAgeResponse"/>
+        </operation>
     </portType>
 
 
@@ -220,6 +275,46 @@
                 <soap:body use="literal" namespace="urn:fridge"/>
             </output>
         </operation>
+        <!-- getFacilitiesStatusRange -->
+        <operation name="getFacilitiesStatusRange">
+            <soap:operation soapAction="urn:FridgeService#getFacilitiesStatusRange" />
+            <input>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </input>
+            <output>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </output>
+        </operation>
+                <!-- getCustomersByGenderAndFridge -->
+        <operation name="getCustomersByGenderAndFridge">
+            <soap:operation soapAction="urn:FridgeService#getCustomersByGenderAndFridge" />
+            <input>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </input>
+            <output>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </output>
+        </operation>
+                 <!-- getAmountFridges -->
+        <operation name="getAmountFridges">
+            <soap:operation soapAction="urn:FridgeService#getAmountFridges" />
+            <input>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </input>
+            <output>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </output>
+        </operation>
+                 <!-- getCustomersAppointmentsByAge -->
+        <operation name="getCustomersAppointmentsByAge">
+            <soap:operation soapAction="urn:FridgeService#getCustomersAppointmentsByAge" />
+            <input>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </input>
+            <output>
+                <soap:body use="literal" namespace="urn:fridge"/>
+            </output>
+        </operation>
     </binding>
 
 
@@ -227,7 +322,7 @@
 
     <service name='FridgeService'>
         <port name="FridgeServicePort" binding="fridge:FridgeServiceBinding">
-            <soap:address location="http://iop:4444/server.php"/>
+            <soap:address location="http://wwwlab.cs.univie.ac.at/~a1349252/iop/soap/server.php"/>
         </port>
     </service>
 
