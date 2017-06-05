@@ -1,0 +1,38 @@
+{
+    "fridge_case": {
+        "top_freezer": 33,
+        "bottom_freezer": 33,
+        "side-by-side": 70,
+        "built-in": 20,
+        "compact": 50,
+        "large": 10,
+        "mini": 50
+    },
+    "bulb": {
+        "20W": 30,
+        "40W": 99,
+        "60W": 20,
+        "80W": 20,
+        "100W": 70,
+        "120W": 30,
+        "140W": 50
+    },
+    "shelf": {
+        "10": 40,
+        "20": 40,
+        "30": 50,
+        "40": 50,
+        "50": 10,
+        "60": 10,
+        "70": 10
+    },
+    "icemaker": {
+        "xxl_cubes": 10,
+        "xl_cubes": 40,
+        "l_cubes": 50,
+        "m_cubes": 60,
+        "s_cubes": 20,
+        "xs_cubes": 70,
+        "xxs_cubes": 10
+    }
+}

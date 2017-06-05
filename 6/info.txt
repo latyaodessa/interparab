@@ -1,0 +1,11 @@
+свои собственный эндпункты в процессе добавить
+estset>
+<endpoints>
+<teil1 xmlns="http://riddl.org/ns/common-patterns/properties/1.0">http://solo.wst.univie.ac.at:9301/lager/part1</teil1>
+<teil2 xmlns="http://riddl.org/ns/common-patterns/properties/1.0">http://solo.wst.univie.ac.at:9301/lager/part2</teil2>
+<teil3 xmlns="http://riddl.org/ns/common-patterns/properties/1.0">http://solo.wst.univie.ac.at:9301/lager/part3</teil3>
+<teil4 xmlns="http://riddl.org/ns/common-patterns/properties/1.0">http://solo.wst.univie.ac.at:9301/lager/part4</teil4>
+
+....
+
+
